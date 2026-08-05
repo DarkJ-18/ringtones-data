@@ -1,1 +1,275 @@
-[]
+[
+  {
+    "id": "1",
+    "title": "Peaches Cream",
+    "subtitle": "112",
+    "audioPath": "audios/112-peaches-cream.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "2",
+    "title": "act ii date 8",
+    "subtitle": "4Batz",
+    "audioPath": "audios/4batz-act-ii-date-8.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "3",
+    "title": "Sweet Love",
+    "subtitle": "Anita Baker",
+    "audioPath": "audios/anita-baker-sweet-love.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "4",
+    "title": "Have You Ever",
+    "subtitle": "Brandy",
+    "audioPath": "audios/brandy-have-you-ever.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "5",
+    "title": "U Know Whats Up",
+    "subtitle": "Donell Jones",
+    "audioPath": "audios/donell-jones-u-know-whats-up.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "6",
+    "title": "In My Bed",
+    "subtitle": "Dru Hill",
+    "audioPath": "audios/dru-hill-in-my-bed.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "7",
+    "title": "Reasons",
+    "subtitle": "Earth Wind Fire",
+    "audioPath": "audios/earth-wind-fire-reasons.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "8",
+    "title": "Bood Up",
+    "subtitle": "Ella Mai",
+    "audioPath": "audios/ella-mai-bood-up.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "9",
+    "title": "Trip",
+    "subtitle": "Ella Mai",
+    "audioPath": "audios/ella-mai-trip.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "10",
+    "title": "Dont Let Go (Love)",
+    "subtitle": "En Vogue",
+    "audioPath": "audios/en-vogue-dont-let-go-love.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "11",
+    "title": "When It Comes To You",
+    "subtitle": "Fridayy",
+    "audioPath": "audios/fridayy-when-it-comes-to-you.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "12",
+    "title": "Where the Party At",
+    "subtitle": "Jagged Edge",
+    "audioPath": "audios/jagged-edge-where-the-party-at.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "13",
+    "title": "Pick Up Your Feelings",
+    "subtitle": "Jazmine Sullivan",
+    "audioPath": "audios/jazmine-sullivan-pick-up-your-feelings.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "14",
+    "title": "Sativa",
+    "subtitle": "Jhené Aiko",
+    "audioPath": "audios/jhene-aiko-sativa.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "15",
+    "title": "The Worst",
+    "subtitle": "Jhené Aiko",
+    "audioPath": "audios/jhene-aiko-the-worst.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "16",
+    "title": "I Wanna Know",
+    "subtitle": "Joe",
+    "audioPath": "audios/joe-i-wanna-know.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "17",
+    "title": "After Hours",
+    "subtitle": "Kehlani",
+    "audioPath": "audios/kehlani-after-hours.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "18",
+    "title": "Nights Like This",
+    "subtitle": "Kehlani",
+    "audioPath": "audios/kehlani-nights-like-this.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "19",
+    "title": "EX",
+    "subtitle": "Kiana Ledé",
+    "audioPath": "audios/kiana-lede-ex.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "20",
+    "title": "Snooze",
+    "subtitle": "Leon Thomas",
+    "audioPath": "audios/leon-thomas-snooze.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "21",
+    "title": "You",
+    "subtitle": "Lloyd",
+    "audioPath": "audios/lloyd-you.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "22",
+    "title": "Never Too Much",
+    "subtitle": "Luther Vandross",
+    "audioPath": "audios/luther-vandross-never-too-much.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "23",
+    "title": "Love Like This",
+    "subtitle": "Marquan",
+    "audioPath": "audios/marquan-love-like-this.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "24",
+    "title": "Angel of Mine",
+    "subtitle": "Monica",
+    "audioPath": "audios/monica-angel-of-mine.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "25",
+    "title": "Too Close",
+    "subtitle": "Next",
+    "audioPath": "audios/next-too-close.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "26",
+    "title": "Ice Box",
+    "subtitle": "Omarion",
+    "audioPath": "audios/omarion-ice-box.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "27",
+    "title": "Break from Toronto",
+    "subtitle": "PARTYNEXTDOOR",
+    "audioPath": "audios/partynextdoor-break-from-toronto.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "28",
+    "title": "If Only You Knew",
+    "subtitle": "Patti LaBelle",
+    "audioPath": "audios/patti-labelle-if-only-you-knew.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "29",
+    "title": "The Anonymous Ones",
+    "subtitle": "SZA",
+    "audioPath": "audios/sza-the-anonymous-ones.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "30",
+    "title": "By Your Side",
+    "subtitle": "Sade",
+    "audioPath": "audios/sade-by-your-side.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "31",
+    "title": "Smooth Operator",
+    "subtitle": "Sade",
+    "audioPath": "audios/sade-smooth-operator.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "32",
+    "title": "Cruisin",
+    "subtitle": "Smokey Robinson",
+    "audioPath": "audios/smokey-robinson-cruisin.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "33",
+    "title": "I Want You Around",
+    "subtitle": "Snoh Aalegra",
+    "audioPath": "audios/snoh-aalegra-i-want-you-around.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "34",
+    "title": "Close the Door",
+    "subtitle": "Teddy Pendergrass",
+    "audioPath": "audios/teddy-pendergrass-close-the-door.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "35",
+    "title": "Between the Sheets",
+    "subtitle": "The Isley Brothers",
+    "audioPath": "audios/the-isley-brothers-between-the-sheets.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "36",
+    "title": "Say It",
+    "subtitle": "Tory Lanez",
+    "audioPath": "audios/tory-lanez-say-it.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "37",
+    "title": "The Color Violet",
+    "subtitle": "Tory Lanez",
+    "audioPath": "audios/tory-lanez-the-color-violet.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "38",
+    "title": "Na Na",
+    "subtitle": "Trey Songz",
+    "audioPath": "audios/trey-songz-na-na.mp3",
+    "posterPath": ""
+  },
+  {
+    "id": "39",
+    "title": "On My Mama",
+    "subtitle": "Victoria Monét",
+    "audioPath": "audios/victoria-monet-on-my-mama.mp3",
+    "posterPath": ""
+  }
+]
