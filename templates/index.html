@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Architect Pro | Editor Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css?v=2.0">
+</head>
+<body>
+    <div class="glass-container">
+        <header>
+            <h1>Audio <span class="accent">Architect</span></h1>
+            <p>Sincronización Local a GitHub DB</p>
+        </header>
+
+        <section class="global-config">
+            <h2>Repositorio de Destino</h2>
+            <div class="input-group">
+                <label for="folderName">Nombre de Carpeta/Género en Github (Ej. salsa, bachata)</label>
+                <input type="text" id="folderName" placeholder="salsa" />
+            </div>
+            <div class="git-sync-box">
+                <button id="gitSyncBtn" class="btn btn-github">☁️ Push a GitHub (Git Sync)</button>
+                <small>Usa este botón solo cuando quieras subir tus cambios confirmados al repositorio.</small>
+            </div>
+        </section>
+
+        <section class="tasks-container">
+            <div class="tasks-header">
+                <h2 id="queueTitle">Cola de Tareas (0)</h2>
+                <div class="header-actions">
+                    <button id="guideToggleBtn" class="btn btn-secondary btn-action" title="Ver Guía de Efectos Anti-Copyright">🛡️ Guía Anti-Copyright</button>
+                    <button id="pasteJsonToggleBtn" class="btn btn-secondary btn-action" title="Pegar JSON desde portapapeles">📋 Pegar JSON</button>
+                    <label for="bulkUploadFile" class="btn btn-secondary" title="El archivo debe ser un .json con array de objetos {url, start, duration, speed}">Cargar Bulk (.json)</label>
+                    <input type="file" id="bulkUploadFile" accept=".json" style="display:none;" />
+                    <button id="addUrlBtn" class="btn btn-accent">+ Añadir Canción</button>
+                    <button id="clearTasksBtn" class="btn btn-danger">X Limpiar</button>
+                </div>
+            </div>
+
+            <!-- Bloque Guía Anti-Copyright -->
+            <div id="guideBlock" class="json-example-block" style="display:none; text-align: left; background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(56, 189, 248, 0.2);">
+                <h3 style="margin-top: 0; color: #38bdf8; font-family: 'Outfit', sans-serif;">🛡️ Guía de Modificadores Anti-Copyright</h3>
+                <p style="font-size: 0.9rem; color: #e2e8f0; line-height: 1.6;">
+                    Para evitar la detección automática por Content ID, alteramos la firma digital del audio sin perjudicar su calidad acústica. Recomendaciones:
+                </p>
+                <ul style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.6; padding-left: 20px;">
+                    <li><strong>Tono (Pitch):</strong> Cambia la frecuencia de la voz/instrumental en semitonos. <span style="color: #38bdf8;">Recomendado: +1.0 o -1.0</span>.</li>
+                    <li><strong>Bass Boost (Graves):</strong> Añade ganancia a frecuencias bajas. <span style="color: #38bdf8;">Recomendado: 3 a 5 dB</span>.</li>
+                    <li><strong>Paneo (Estéreo):</strong> Desvía la centralización estéreo. <span style="color: #38bdf8;">Recomendado: -0.2 o 0.2</span>.</li>
+                </ul>
+            </div>
+
+            <!-- Bloque Pegar JSON -->
+            <div id="pasteJsonBlock" class="json-example-block" style="display:none; text-align: left; background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(56, 189, 248, 0.2);">
+                <h3 style="margin-top: 0; color: #38bdf8; font-family: 'Outfit', sans-serif;">📋 Pegar código JSON</h3>
+                <textarea id="pasteJsonInput" style="width: 100%; height: 150px; background: #000; color: #4ade80; font-family: monospace; padding: 10px; border: 1px solid var(--glass-border); border-radius: 5px; margin-bottom: 10px; resize: vertical;" placeholder='[&#10;  {&#10;    "url": "..."&#10;  }&#10;]'></textarea>
+                <button id="loadPastedJsonBtn" class="btn btn-accent" style="width: 100%; padding: 0.8rem;">Cargar Tareas al Tablero</button>
+            </div>
+
+            <div id="tasksList"></div>
+        </section>
+
+        <section class="actions" style="display: flex; gap: 15px;">
+            <button id="startProcessBtn" class="btn btn-primary" style="flex: 3;">Iniciar Procesamiento y Subir a JSON</button>
+            <button id="cancelProcessBtn" class="btn btn-danger" style="flex: 1; display: none; font-size: 1.1rem; padding: 1rem; box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);">🛑 Cancelar</button>
+        </section>
+
+        <section id="failedItemsBox" class="json-example-block" style="display:none; border-color: var(--danger); margin-top: 15px;">
+            <h3 style="color: var(--danger); margin-bottom: 10px; font-family: 'Outfit', sans-serif;">❌ Tareas Fallidas</h3>
+            <p>Puedes copiar este JSON de las canciones que fallaron y volver a cargarlo ("Pegar JSON") para reintentarlas:</p>
+            <textarea id="failedItemsJson" style="width: 100%; height: 150px; background: #111; color: #ff8a8a; font-family: monospace; padding: 10px; border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 5px; margin-bottom: 10px; resize: vertical;" readonly></textarea>
+            <button id="copyFailedBtn" type="button" class="btn btn-danger" style="width: 100%; padding: 0.8rem;">📋 Copiar JSON de Errores</button>
+        </section>
+
+        <section class="console-box" style="margin-top: 15px;">
+            <div class="console-header">
+                <span>System Logs <span id="timerIndicator" style="display:none; font-family: monospace; font-size: 0.85rem; margin-left: 10px; color: #38bdf8;">⏱️ <span id="timerVal">00:00</span></span></span>
+                <span id="statusIndicator" class="status-idle">Idle</span>
+            </div>
+            <div id="consoleOutput" class="console-output">Esperando tareas...</div>
+        </section>
+
+        <section class="progress-section" style="margin-top: 5px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                <span style="font-size: 0.85rem; color: var(--text-muted);">Progreso Total</span>
+                <span id="progressText" style="font-size: 0.85rem; color: var(--accent); font-weight: bold;">0%</span>
+            </div>
+            <div class="progress-track">
+                <div id="globalProgressBar" class="progress-fill"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Template for tasks -->
+    <template id="taskTemplate">
+        <div class="task-card">
+            <button class="remove-task" title="Eliminar">&times;</button>
+            <div class="input-group full-width" style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 8px;">YouTube URL</label>
+                <div style="display: flex !important; gap: 10px; width: 100%;">
+                    <input type="text" class="task-url" placeholder="https://www.youtube.com/watch?v=..." style="flex: 1; min-width: 0;" />
+                    <button type="button" class="btn btn-secondary preview-btn" style="white-space: nowrap; background: #334155; color: #fff; padding: 0 15px;">🎧 Generar Previa</button>
+                </div>
+                <audio class="task-audio" controls style="display:none; width: 100%; margin-top: 10px; height: 40px; border-radius: 8px;"></audio>
+            </div>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <div class="input-group" style="flex: 1;">
+                    <label>Artista (Opcional)</label>
+                    <input type="text" class="task-artist" placeholder="Ej: Chris Brown" />
+                </div>
+                <div class="input-group" style="flex: 1;">
+                    <label>Título (Opcional)</label>
+                    <input type="text" class="task-title" placeholder="Ej: With You" />
+                </div>
+            </div>
+            <div class="params-row">
+                <div class="input-group">
+                    <label>Inicio (mm:ss)</label>
+                    <div class="number-spinner">
+                        <input type="number" class="task-start-m" min="0" value="0" placeholder="00" />
+                        <span>:</span>
+                        <input type="number" class="task-start-s" min="0" max="59" value="0" placeholder="00" />
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Duración (mm:ss)</label>
+                    <div class="number-spinner">
+                        <input type="number" class="task-dur-m" min="0" value="1" placeholder="00" />
+                        <span>:</span>
+                        <input type="number" class="task-dur-s" min="0" max="59" value="0" placeholder="00" />
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Velocidad</label>
+                    <input type="number" class="task-speed" step="0.05" min="0.5" max="2.0" value="1.0" />
+                </div>
+                <div class="input-group">
+                    <label>Fade (In/Out) seg</label>
+                    <div class="number-spinner">
+                        <input type="number" class="task-fade-in" min="0" value="2" title="Fade In (Seg)"/>
+                        <span>/</span>
+                        <input type="number" class="task-fade-out" min="0" value="2" title="Fade Out (Seg)"/>
+                    </div>
+                </div>
+            </div>
+            <div class="params-row anti-copyright" style="margin-top: 15px; background: rgba(0,0,0,0.15); padding: 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                <div style="grid-column: span 3; margin-bottom: 5px; font-size: 0.8rem; color: #a0aec0;">
+                    <strong>🛡️ Modificadores Anti-Copyright</strong> (Valores en 0 no aplican el efecto)
+                </div>
+                <div class="input-group">
+                    <label title="Modifica la agudeza/gravedad de la voz. Recomendado: +1 o -1">Tono <span class="val-pitch" style="color:var(--accent); float:right;">0</span></label>
+                    <input type="range" class="task-pitch slider" step="0.5" min="-12" max="12" value="0" />
+                </div>
+                <div class="input-group">
+                    <label title="Satura frecuencias bajas. Recomendado: 3 a 5 dB">Bass <span class="val-bass" style="color:var(--accent); float:right;">0</span></label>
+                    <input type="range" class="task-bass slider" step="1" min="0" max="15" value="0" />
+                </div>
+                <div class="input-group">
+                    <label title="Desvía el audio Izq/Der. Recomendado: -0.2 o 0.2">Paneo Fijo <span class="val-pan" style="color:var(--accent); float:right;">0</span></label>
+                    <input type="range" class="task-pan slider" step="0.1" min="-1.0" max="1.0" value="0" />
+                </div>
+                <div class="input-group" style="grid-column: span 3; display: flex; align-items: center; gap: 10px; margin-top: 5px; background: rgba(56, 189, 248, 0.1); padding: 8px 12px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">
+                    <label style="margin:0; cursor: pointer; color: #38bdf8; font-weight: bold; display: flex; align-items: center; gap: 10px;">
+                        <input type="checkbox" class="task-pan-dinamico" style="width: 18px; height: 18px; cursor: pointer;">
+                        🎧 Activar Audio 8D (Paneo Dinámico)
+                    </label>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="/static/script.js?v=2.0"></script>
+</body>
+</html>

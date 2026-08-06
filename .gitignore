@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+temp_previews/
+raw_cache/
