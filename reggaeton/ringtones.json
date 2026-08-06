@@ -1,24 +1,24 @@
-[
+﻿[
     {
         "id":  "1",
         "title":  "5 Letras",
         "subtitle":  "Alexis  Fido",
         "audioPath":  "audios/alexis-fido-5-letras.mp3",
-        "posterPath":  "images/contry.png"
+        "posterPath":  ""
     },
     {
         "id":  "2",
         "title":  "China",
         "subtitle":  "Anuel AA",
         "audioPath":  "audios/anuel-aa-china.mp3",
-        "posterPath":  "images/logo for R&B ringtone app.png"
+        "posterPath":  ""
     },
     {
         "id":  "3",
         "title":  "Sigues Con Él",
         "subtitle":  "Arcángel",
         "audioPath":  "audios/arcngel-sigues-con-l.mp3",
-        "posterPath":  "images/musictones.png"
+        "posterPath":  ""
     },
     {
         "id":  "4",
