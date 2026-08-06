@@ -37,8 +37,19 @@ foreach ($f in $files) {
     $oldName = $f.Name
     $basename = $f.BaseName
     
-    # Crear un slug seguro para el archivo
-    $newName = $oldName.ToLower()
+    # Si empieza con numeros y un guion (ej. "0001 - "), guardamos el numero y limpiamos el nombre
+    if ($basename -match '^(\d+)\s*-\s*(.+)$') {
+        $forcedId = [int]$matches[1]
+        $basenameClean = $matches[2]
+        $oldNameClean = $oldName -replace '^\d+\s*-\s*', ''
+    } else {
+        $forcedId = 0
+        $basenameClean = $basename
+        $oldNameClean = $oldName
+    }
+    
+    # Crear un slug seguro para el archivo usando el nombre limpio
+    $newName = $oldNameClean.ToLower()
     $newName = $newName -replace ' - ', '-'
     $newName = $newName -replace ' ', '-'
     
@@ -63,14 +74,14 @@ foreach ($f in $files) {
         $title = $existingEntry.title
         $subtitle = $existingEntry.subtitle
     } else {
-        # Extraer artista y titulo
-        $parts = $basename -split ' - ', 2
+        # Extraer artista y titulo del nombre limpio
+        $parts = $basenameClean -split ' - ', 2
         if ($parts.Length -eq 2) {
             $subtitle = $parts[0].Trim()
             $title = $parts[1].Trim()
         } else {
             $subtitle = "Unknown"
-            $title = $basename.Trim()
+            $title = $basenameClean.Trim()
         }
     }
     
@@ -83,8 +94,15 @@ foreach ($f in $files) {
         }
     }
     
+    # Si el archivo traía un número al inicio (ej. "0001 - "), usamos ese número como ID.
+    # Si no traía número o el número es 0, usamos el ID autoincremental que ya traíamos.
+    $currentId = $id
+    if ($forcedId -gt 0) {
+        $currentId = $forcedId
+    }
+
     $obj = [ordered]@{
-        id = [string]$id
+        id = [string]$currentId
         title = $title
         subtitle = $subtitle
         audioPath = "audios/$newName"

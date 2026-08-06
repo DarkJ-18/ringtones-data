@@ -1,9 +1,275 @@
-[
-  {
-    "id": "1",
-    "title": "Yo No Sé Mañana",
-    "subtitle": "Luis Enrique",
-    "audioPath": "audios/luis-enrique-yo-no-se-manana.mp3", 
-    "posterPath": ""
-  }
+﻿[
+    {
+        "id":  "1",
+        "title":  "Casi Te Envidio",
+        "subtitle":  "Andy Montañez",
+        "audioPath":  "audios/andy-montaez-casi-te-envidio.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "2",
+        "title":  "La Boda de Ella",
+        "subtitle":  "Bobby Valentín",
+        "audioPath":  "audios/bobby-valentn-la-boda-de-ella.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "3",
+        "title":  "La Vida Es Un Carnaval",
+        "subtitle":  "Celia Cruz",
+        "audioPath":  "audios/celia-cruz-la-vida-es-un-carnaval.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "4",
+        "title":  "Anacaona",
+        "subtitle":  "Cheo Feliciano",
+        "audioPath":  "audios/cheo-feliciano-anacaona.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "5",
+        "title":  "La Quiero A Morir",
+        "subtitle":  "DLG",
+        "audioPath":  "audios/dlg-la-quiero-a-morir.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "6",
+        "title":  "Lluvia",
+        "subtitle":  "Eddie Santiago",
+        "audioPath":  "audios/eddie-santiago-lluvia.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "7",
+        "title":  "Me Liberé",
+        "subtitle":  "El Gran Combo de Puerto Rico",
+        "audioPath":  "audios/el-gran-combo-de-puerto-rico-me-liber.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "8",
+        "title":  "Un Verano en Nueva York",
+        "subtitle":  "El Gran Combo de Puerto Rico",
+        "audioPath":  "audios/el-gran-combo-de-puerto-rico-un-verano-en-nueva-york.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "9",
+        "title":  "Desnúdate Mujer",
+        "subtitle":  "Frankie Ruiz",
+        "audioPath":  "audios/frankie-ruiz-desndate-mujer.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "10",
+        "title":  "Tú Con Él",
+        "subtitle":  "Frankie Ruiz",
+        "audioPath":  "audios/frankie-ruiz-t-con-l.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "11",
+        "title":  "El Preso",
+        "subtitle":  "Fruko y sus Tesos",
+        "audioPath":  "audios/fruko-y-sus-tesos-el-preso.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "12",
+        "title":  "La Cita",
+        "subtitle":  "Galy Galiano",
+        "audioPath":  "audios/galy-galiano-la-cita.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "13",
+        "title":  "Conciencia",
+        "subtitle":  "Gilberto Santa Rosa",
+        "audioPath":  "audios/gilberto-santa-rosa-conciencia.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "14",
+        "title":  "Cali Pachanguero",
+        "subtitle":  "Grupo Niche",
+        "audioPath":  "audios/grupo-niche-cali-pachanguero.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "15",
+        "title":  "Gotas de Lluvia",
+        "subtitle":  "Grupo Niche",
+        "audioPath":  "audios/grupo-niche-gotas-de-lluvia.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "16",
+        "title":  "Una Aventura",
+        "subtitle":  "Grupo Niche",
+        "audioPath":  "audios/grupo-niche-una-aventura.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "17",
+        "title":  "María Teresa y Danilo",
+        "subtitle":  "Hansel y Raul",
+        "audioPath":  "audios/hansel-y-raul-mara-teresa-y-danilo.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "18",
+        "title":  "El Cantante",
+        "subtitle":  "Héctor Lavoe",
+        "audioPath":  "audios/hctor-lavoe-el-cantante.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "19",
+        "title":  "Periódico de Ayer",
+        "subtitle":  "Héctor Lavoe",
+        "audioPath":  "audios/hctor-lavoe-peridico-de-ayer.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "20",
+        "title":  "Las Caras Lindas",
+        "subtitle":  "Ismael Rivera",
+        "audioPath":  "audios/ismael-rivera-las-caras-lindas.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "21",
+        "title":  "Amores Como El Nuestro",
+        "subtitle":  "Jerry Rivera",
+        "audioPath":  "audios/jerry-rivera-amores-como-el-nuestro.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "22",
+        "title":  "La Rebelión",
+        "subtitle":  "Joe Arroyo",
+        "audioPath":  "audios/joe-arroyo-la-rebelin.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "23",
+        "title":  "Ese Hombre",
+        "subtitle":  "La India",
+        "audioPath":  "audios/la-india-ese-hombre.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "24",
+        "title":  "Micaela",
+        "subtitle":  "La Sonora Carruseles",
+        "audioPath":  "audios/la-sonora-carruseles-micaela.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "25",
+        "title":  "Yo No Sé Mañana",
+        "subtitle":  "Luis Enrique",
+        "audioPath":  "audios/luis-enrique-yo-no-s-maana.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "26",
+        "title":  "Te Va a Doler",
+        "subtitle":  "Maelo Ruiz",
+        "audioPath":  "audios/maelo-ruiz-te-va-a-doler.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "27",
+        "title":  "Flor Pálida",
+        "subtitle":  "Marc Anthony",
+        "audioPath":  "audios/marc-anthony-flor-plida.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "28",
+        "title":  "Valió la Pena",
+        "subtitle":  "Marc Anthony",
+        "audioPath":  "audios/marc-anthony-vali-la-pena.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "29",
+        "title":  "Vivir Mi Vida",
+        "subtitle":  "Marc Anthony",
+        "audioPath":  "audios/marc-anthony-vivir-mi-vida.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "30",
+        "title":  "Persona Ideal",
+        "subtitle":  "Orquesta Adolescentes",
+        "audioPath":  "audios/orquesta-adolescentes-persona-ideal.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "31",
+        "title":  "Llorarás",
+        "subtitle":  "Oscar DLeón",
+        "audioPath":  "audios/oscar-dlen-llorars.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "32",
+        "title":  "Ladrón de Tu Amor",
+        "subtitle":  "Ray de la Paz",
+        "audioPath":  "audios/ray-de-la-paz-ladrn-de-tu-amor.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "33",
+        "title":  "Mi Media Mitad",
+        "subtitle":  "Rey Ruiz",
+        "audioPath":  "audios/rey-ruiz-mi-media-mitad.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "34",
+        "title":  "Yaré",
+        "subtitle":  "Sonora Ponceña",
+        "audioPath":  "audios/sonora-poncea-yar.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "35",
+        "title":  "Fabricando Fantasías",
+        "subtitle":  "Tito Nieves",
+        "audioPath":  "audios/tito-nieves-fabricando-fantasas.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "36",
+        "title":  "Esa Mujer",
+        "subtitle":  "Tony Vega",
+        "audioPath":  "audios/tony-vega-esa-mujer.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "37",
+        "title":  "Tengo Ganas",
+        "subtitle":  "Victor Manuelle",
+        "audioPath":  "audios/victor-manuelle-tengo-ganas.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "38",
+        "title":  "Idilio",
+        "subtitle":  "Willie Colón",
+        "audioPath":  "audios/willie-coln-idilio.mp3",
+        "posterPath":  ""
+    },
+    {
+        "id":  "39",
+        "title":  "No Podrás Escapar de Mí",
+        "subtitle":  "Willie González",
+        "audioPath":  "audios/willie-gonzlez-no-podrs-escapar-de-m.mp3",
+        "posterPath":  ""
+    }
 ]
