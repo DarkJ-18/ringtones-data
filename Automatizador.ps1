@@ -17,22 +17,25 @@ if ($files.Count -eq 0) {
     exit
 }
 
+$jsonPath = ".\$folder\ringtones.json"
+$existingJson = @()
+if (Test-Path $jsonPath) {
+    $existingData = Get-Content $jsonPath -Raw | ConvertFrom-Json
+    if ($null -ne $existingData) {
+        if ($existingData -is [array]) {
+            $existingJson = $existingData
+        } else {
+            $existingJson = @($existingData)
+        }
+    }
+}
+
 $jsonArray = @()
 $id = 1
 
 foreach ($f in $files) {
     $oldName = $f.Name
     $basename = $f.BaseName
-    
-    # Extraer artista y titulo
-    $parts = $basename -split ' - ', 2
-    if ($parts.Length -eq 2) {
-        $subtitle = $parts[0].Trim()
-        $title = $parts[1].Trim()
-    } else {
-        $subtitle = "Unknown"
-        $title = $basename.Trim()
-    }
     
     # Crear un slug seguro para el archivo
     $newName = $oldName.ToLower()
@@ -52,8 +55,32 @@ foreach ($f in $files) {
     
     $newPath = Join-Path $f.DirectoryName $newName
     
+    # Buscar si ya existía en el JSON anterior
+    $audioPathToMatch = "audios/$newName"
+    $existingEntry = $existingJson | Where-Object { $_.audioPath -eq $audioPathToMatch } | Select-Object -First 1
+    
+    if ($null -ne $existingEntry -and $existingEntry.subtitle -ne "Unknown") {
+        $title = $existingEntry.title
+        $subtitle = $existingEntry.subtitle
+    } else {
+        # Extraer artista y titulo
+        $parts = $basename -split ' - ', 2
+        if ($parts.Length -eq 2) {
+            $subtitle = $parts[0].Trim()
+            $title = $parts[1].Trim()
+        } else {
+            $subtitle = "Unknown"
+            $title = $basename.Trim()
+        }
+    }
+    
     if ($f.FullName -ne $newPath) {
-        Rename-Item -Path $f.FullName -NewName $newName
+        if (Test-Path -LiteralPath $newPath) {
+            # Si el archivo destino ya existe, borramos el original para evitar duplicados
+            Remove-Item -LiteralPath $f.FullName -Force
+        } else {
+            Rename-Item -LiteralPath $f.FullName -NewName $newName
+        }
     }
     
     $obj = [ordered]@{
@@ -63,8 +90,17 @@ foreach ($f in $files) {
         audioPath = "audios/$newName"
         posterPath = ""
     }
-    $jsonArray += $obj
-    $id++
+    
+    $alreadyAdded = $jsonArray | Where-Object { $_.audioPath -eq $obj.audioPath } | Select-Object -First 1
+    if ($null -eq $alreadyAdded) {
+        $jsonArray += $obj
+        $id++
+    } else {
+        if ($alreadyAdded.subtitle -eq 'Unknown' -and $obj.subtitle -ne 'Unknown') {
+            $alreadyAdded.title = $obj.title
+            $alreadyAdded.subtitle = $obj.subtitle
+        }
+    }
 }
 
 $jsonArray | ConvertTo-Json -Depth 5 | Set-Content -Path ".\$folder\ringtones.json" -Encoding UTF8
