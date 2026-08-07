@@ -12,8 +12,8 @@ if ($availableFolders.Count -eq 0) {
     foreach ($folder in $availableFolders) {
         Write-Host "`n---> Evaluando carpeta: $folder" -ForegroundColor Yellow
         
-        # Agregamos solo esta carpeta al "carrito" de Git
-        git add "$folder/"
+        # Agregamos todo en esta carpeta (nuevos, modificados y eliminados)
+        git add --all "$folder/"
         
         # Verificamos si realmente hay cambios nuevos en esta carpeta
         $status = git status --porcelain "$folder/"
