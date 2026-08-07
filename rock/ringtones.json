@@ -1,2214 +1,1661 @@
-﻿[
+[
     {
-        "id":  "1",
-        "title":  "Peaches  Cream",
-        "subtitle":  "112",
-        "audioPath":  "audios/112-peaches-cream.mp3",
-        "posterPath":  ""
+        "id": "1",
+        "title": "Crying in the Rain",
+        "subtitle": "a-ha",
+        "audioPath": "audios/a-ha-crying-in-the-rain.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "2",
-        "title":  "act ii date  8",
-        "subtitle":  "4Batz",
-        "audioPath":  "audios/4batz-act-ii-date-8.mp3",
-        "posterPath":  ""
+        "id": "2",
+        "title": "Hunting High and Low",
+        "subtitle": "a-ha",
+        "audioPath": "audios/a-ha-hunting-high-and-low.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "3",
-        "title":  "Can I Kick It",
-        "subtitle":  "A Tribe Called Quest",
-        "audioPath":  "audios/a-tribe-called-quest-can-i-kick-it.mp3",
-        "posterPath":  ""
+        "id": "3",
+        "title": "Take On Me",
+        "subtitle": "a-ha",
+        "audioPath": "audios/a-ha-take-on-me.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "4",
-        "title":  "Crying in the Rain",
-        "subtitle":  "a-ha",
-        "audioPath":  "audios/a-ha-crying-in-the-rain.mp3",
-        "posterPath":  ""
+        "id": "4",
+        "title": "The Sun Always Shines On TV",
+        "subtitle": "A-HA",
+        "audioPath": "audios/a-ha-the-sun-always-shines-on-tv.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "5",
-        "title":  "Hunting High and Low",
-        "subtitle":  "a-ha",
-        "audioPath":  "audios/a-ha-hunting-high-and-low.mp3",
-        "posterPath":  ""
+        "id": "5",
+        "title": "Back In Black",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-back-in-black.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "6",
-        "title":  "Take On Me",
-        "subtitle":  "a-ha",
-        "audioPath":  "audios/a-ha-take-on-me.mp3",
-        "posterPath":  ""
+        "id": "6",
+        "title": "Hells Bells",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-hells-bells.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "7",
-        "title":  "The Sun Always Shines On TV",
-        "subtitle":  "A-HA",
-        "audioPath":  "audios/a-ha-the-sun-always-shines-on-tv.mp3",
-        "posterPath":  ""
+        "id": "7",
+        "title": "Highway to Hell",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-highway-to-hell.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "8",
-        "title":  "Back In Black",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-back-in-black.mp3",
-        "posterPath":  ""
+        "id": "8",
+        "title": "Let There Be Rock",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-let-there-be-rock.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "9",
-        "title":  "Hells Bells",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-hells-bells.mp3",
-        "posterPath":  ""
+        "id": "9",
+        "title": "Shot in The Dark",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-shot-in-the-dark.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "10",
-        "title":  "Highway to Hell",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-highway-to-hell.mp3",
-        "posterPath":  ""
+        "id": "10",
+        "title": "Thunderstruck",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-thunderstruck.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "11",
-        "title":  "Let There Be Rock",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-let-there-be-rock.mp3",
-        "posterPath":  ""
+        "id": "11",
+        "title": "TNT",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-tnt.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "12",
-        "title":  "Shot in The Dark",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-shot-in-the-dark.mp3",
-        "posterPath":  ""
+        "id": "12",
+        "title": "You Shook Me All Night Long",
+        "subtitle": "ACDC",
+        "audioPath": "audios/acdc-you-shook-me-all-night-long.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "13",
-        "title":  "Thunderstruck",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-thunderstruck.mp3",
-        "posterPath":  ""
+        "id": "13",
+        "title": "Crazy",
+        "subtitle": "Aerosmith",
+        "audioPath": "audios/aerosmith-crazy.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "14",
-        "title":  "TNT",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-tnt.mp3",
-        "posterPath":  ""
+        "id": "14",
+        "title": "Dream On",
+        "subtitle": "Aerosmith",
+        "audioPath": "audios/aerosmith-dream-on.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "15",
-        "title":  "You Shook Me All Night Long",
-        "subtitle":  "ACDC",
-        "audioPath":  "audios/acdc-you-shook-me-all-night-long.mp3",
-        "posterPath":  ""
+        "id": "15",
+        "title": "Walk This Way",
+        "subtitle": "Aerosmith",
+        "audioPath": "audios/aerosmith-walk-this-way.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "16",
-        "title":  "Crazy",
-        "subtitle":  "Aerosmith",
-        "audioPath":  "audios/aerosmith-crazy.mp3",
-        "posterPath":  ""
+        "id": "16",
+        "title": "Do I Wanna Know",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-do-i-wanna-know.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "17",
-        "title":  "Dream On",
-        "subtitle":  "Aerosmith",
-        "audioPath":  "audios/aerosmith-dream-on.mp3",
-        "posterPath":  ""
+        "id": "17",
+        "title": "Fluorescent Adolescent",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-fluorescent-adolescent.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "18",
-        "title":  "Walk This Way",
-        "subtitle":  "Aerosmith",
-        "audioPath":  "audios/aerosmith-walk-this-way.mp3",
-        "posterPath":  ""
+        "id": "18",
+        "title": "Four Out Of Five",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-four-out-of-five.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "19",
-        "title":  "Sweet Love",
-        "subtitle":  "Anita Baker",
-        "audioPath":  "audios/anita-baker-sweet-love.mp3",
-        "posterPath":  ""
+        "id": "19",
+        "title": "I Bet You Look Good On The Dancefloor",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-i-bet-you-look-good-on-the-dancefloor.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "20",
-        "title":  "Do I Wanna Know",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-do-i-wanna-know.mp3",
-        "posterPath":  ""
+        "id": "20",
+        "title": "One For The Road",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-one-for-the-road.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "21",
-        "title":  "Fluorescent Adolescent",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-fluorescent-adolescent.mp3",
-        "posterPath":  ""
+        "id": "21",
+        "title": "R U Mine",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-r-u-mine.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "22",
-        "title":  "Four Out Of Five",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-four-out-of-five.mp3",
-        "posterPath":  ""
+        "id": "22",
+        "title": "Snap Out Of It",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-snap-out-of-it.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "23",
-        "title":  "I Bet You Look Good On The Dancefloor",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-i-bet-you-look-good-on-the-dancefloor.mp3",
-        "posterPath":  ""
+        "id": "23",
+        "title": "Why'd You Only Call Me When You're High",
+        "subtitle": "Arctic Monkeys",
+        "audioPath": "audios/arctic-monkeys-whyd-you-only-call-me-when-youre-high.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "24",
-        "title":  "One For The Road",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-one-for-the-road.mp3",
-        "posterPath":  ""
+        "id": "24",
+        "title": "Like a Stone",
+        "subtitle": "Audioslave",
+        "audioPath": "audios/audioslave-like-a-stone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "25",
-        "title":  "R U Mine",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-r-u-mine.mp3",
-        "posterPath":  ""
+        "id": "25",
+        "title": "Iron Man",
+        "subtitle": "Black Sabbath",
+        "audioPath": "audios/black-sabbath-iron-man.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "26",
-        "title":  "Snap Out Of It",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-snap-out-of-it.mp3",
-        "posterPath":  ""
+        "id": "26",
+        "title": "Paranoid",
+        "subtitle": "Black Sabbath",
+        "audioPath": "audios/black-sabbath-paranoid.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "27",
-        "title":  "Why\u0027d You Only Call Me When You\u0027re High",
-        "subtitle":  "Arctic Monkeys",
-        "audioPath":  "audios/arctic-monkeys-whyd-you-only-call-me-when-youre-high.mp3",
-        "posterPath":  ""
+        "id": "27",
+        "title": "Adam's Song",
+        "subtitle": "blink-182",
+        "audioPath": "audios/blink-182-adams-song.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "28",
-        "title":  "Like a Stone",
-        "subtitle":  "Audioslave",
-        "audioPath":  "audios/audioslave-like-a-stone.mp3",
-        "posterPath":  ""
+        "id": "28",
+        "title": "All The Small Things",
+        "subtitle": "blink-182",
+        "audioPath": "audios/blink-182-all-the-small-things.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "29",
-        "title":  "Put It On",
-        "subtitle":  "Big L",
-        "audioPath":  "audios/big-l-put-it-on.mp3",
-        "posterPath":  ""
+        "id": "29",
+        "title": "Always",
+        "subtitle": "blink-182",
+        "audioPath": "audios/blink-182-always.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "30",
-        "title":  "Precision",
-        "subtitle":  "Big Sean",
-        "audioPath":  "audios/big-sean-precision.mp3",
-        "posterPath":  ""
+        "id": "30",
+        "title": "Always",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-always.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "31",
-        "title":  "Iron Man",
-        "subtitle":  "Black Sabbath",
-        "audioPath":  "audios/black-sabbath-iron-man.mp3",
-        "posterPath":  ""
+        "id": "31",
+        "title": "Bed Of Roses",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-bed-of-roses.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "32",
-        "title":  "Paranoid",
-        "subtitle":  "Black Sabbath",
-        "audioPath":  "audios/black-sabbath-paranoid.mp3",
-        "posterPath":  ""
+        "id": "32",
+        "title": "Blaze Of Glory",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-blaze-of-glory.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "33",
-        "title":  "Adam\u0027s Song",
-        "subtitle":  "blink-182",
-        "audioPath":  "audios/blink-182-adams-song.mp3",
-        "posterPath":  ""
+        "id": "33",
+        "title": "Como Yo Nadie Te Ha Amado",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-como-yo-nadie-te-ha-amado.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "34",
-        "title":  "All The Small Things",
-        "subtitle":  "blink-182",
-        "audioPath":  "audios/blink-182-all-the-small-things.mp3",
-        "posterPath":  ""
+        "id": "34",
+        "title": "Have A Nice Day",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-have-a-nice-day.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "35",
-        "title":  "Always",
-        "subtitle":  "blink-182",
-        "audioPath":  "audios/blink-182-always.mp3",
-        "posterPath":  ""
+        "id": "35",
+        "title": "I'll Be There For You",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-ill-be-there-for-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "36",
-        "title":  "Always",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-always.mp3",
-        "posterPath":  ""
+        "id": "36",
+        "title": "It's my life",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-its-my-life.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "37",
-        "title":  "Bed Of Roses",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-bed-of-roses.mp3",
-        "posterPath":  ""
+        "id": "37",
+        "title": "Livin' On A Prayer",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-livin-on-a-prayer.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "38",
-        "title":  "Blaze Of Glory",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-blaze-of-glory.mp3",
-        "posterPath":  ""
+        "id": "38",
+        "title": "Runaway",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-runaway.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "39",
-        "title":  "Como Yo Nadie Te Ha Amado",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-como-yo-nadie-te-ha-amado.mp3",
-        "posterPath":  ""
+        "id": "39",
+        "title": "You Give Love A Bad Name",
+        "subtitle": "Bon Jovi",
+        "audioPath": "audios/bon-jovi-you-give-love-a-bad-name.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "40",
-        "title":  "Have A Nice Day",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-have-a-nice-day.mp3",
-        "posterPath":  ""
+        "id": "40",
+        "title": "A Sky Full Of Stars",
+        "subtitle": "Coldplay",
+        "audioPath": "audios/coldplay-a-sky-full-of-stars.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "41",
-        "title":  "I\u0027ll Be There For You",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-ill-be-there-for-you.mp3",
-        "posterPath":  ""
+        "id": "41",
+        "title": "Adventure Of A Lifetime",
+        "subtitle": "Coldplay",
+        "audioPath": "audios/coldplay-adventure-of-a-lifetime.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "42",
-        "title":  "It\u0027s my life",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-its-my-life.mp3",
-        "posterPath":  ""
+        "id": "42",
+        "title": "Fix You",
+        "subtitle": "Coldplay",
+        "audioPath": "audios/coldplay-fix-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "43",
-        "title":  "Livin\u0027 On A Prayer",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-livin-on-a-prayer.mp3",
-        "posterPath":  ""
+        "id": "43",
+        "title": "Fortunate Son",
+        "subtitle": "Creedence Clearwater Revival",
+        "audioPath": "audios/creedence-clearwater-revival-fortunate-son.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "44",
-        "title":  "Runaway",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-runaway.mp3",
-        "posterPath":  ""
+        "id": "44",
+        "title": "Have You Ever Seen The Rain",
+        "subtitle": "Creedence Clearwater Revival",
+        "audioPath": "audios/creedence-clearwater-revival-have-you-ever-seen-the-rain.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "45",
-        "title":  "You Give Love A Bad Name",
-        "subtitle":  "Bon Jovi",
-        "audioPath":  "audios/bon-jovi-you-give-love-a-bad-name.mp3",
-        "posterPath":  ""
+        "id": "45",
+        "title": "Heroes",
+        "subtitle": "David Bowie",
+        "audioPath": "audios/david-bowie-heroes.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "46",
-        "title":  "Get In With Me",
-        "subtitle":  "BossMan Dlow",
-        "audioPath":  "audios/bossman-dlow-get-in-with-me.mp3",
-        "posterPath":  ""
+        "id": "46",
+        "title": "Rebel Rebel",
+        "subtitle": "David Bowie",
+        "audioPath": "audios/david-bowie-rebel-rebel.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "47",
-        "title":  "Have You Ever",
-        "subtitle":  "Brandy",
-        "audioPath":  "audios/brandy-have-you-ever.mp3",
-        "posterPath":  ""
+        "id": "47",
+        "title": "Starman",
+        "subtitle": "David Bowie",
+        "audioPath": "audios/david-bowie-starman.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "48",
-        "title":  "Gen Z Luv",
-        "subtitle":  "Central Cee",
-        "audioPath":  "audios/central-cee-gen-z-luv.mp3",
-        "posterPath":  ""
+        "id": "48",
+        "title": "Highway Star",
+        "subtitle": "Deep Purple",
+        "audioPath": "audios/deep-purple-highway-star.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "49",
-        "title":  "Players",
-        "subtitle":  "Coi Leray",
-        "audioPath":  "audios/coi-leray-players.mp3",
-        "posterPath":  ""
+        "id": "49",
+        "title": "Smoke On The Water",
+        "subtitle": "Deep Purple",
+        "audioPath": "audios/deep-purple-smoke-on-the-water.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "50",
-        "title":  "A Sky Full Of Stars",
-        "subtitle":  "Coldplay",
-        "audioPath":  "audios/coldplay-a-sky-full-of-stars.mp3",
-        "posterPath":  ""
+        "id": "50",
+        "title": "Money For Nothing",
+        "subtitle": "Dire Straits",
+        "audioPath": "audios/dire-straits-money-for-nothing.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "51",
-        "title":  "Adventure Of A Lifetime",
-        "subtitle":  "Coldplay",
-        "audioPath":  "audios/coldplay-adventure-of-a-lifetime.mp3",
-        "posterPath":  ""
+        "id": "51",
+        "title": "Sultans Of Swing",
+        "subtitle": "Dire Straits",
+        "audioPath": "audios/dire-straits-sultans-of-swing.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "52",
-        "title":  "Fix You",
-        "subtitle":  "Coldplay",
-        "audioPath":  "audios/coldplay-fix-you.mp3",
-        "posterPath":  ""
+        "id": "52",
+        "title": "Hotel California",
+        "subtitle": "Eagles",
+        "audioPath": "audios/eagles-hotel-california.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "53",
-        "title":  "Fortunate Son",
-        "subtitle":  "Creedence Clearwater Revival",
-        "audioPath":  "audios/creedence-clearwater-revival-fortunate-son.mp3",
-        "posterPath":  ""
+        "id": "53",
+        "title": "Bring Me To Life",
+        "subtitle": "Evanescence",
+        "audioPath": "audios/evanescence-bring-me-to-life.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "54",
-        "title":  "Have You Ever Seen The Rain",
-        "subtitle":  "Creedence Clearwater Revival",
-        "audioPath":  "audios/creedence-clearwater-revival-have-you-ever-seen-the-rain.mp3",
-        "posterPath":  ""
+        "id": "54",
+        "title": "Going Under",
+        "subtitle": "Evanescence",
+        "audioPath": "audios/evanescence-going-under.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "55",
-        "title":  "Heroes",
-        "subtitle":  "David Bowie",
-        "audioPath":  "audios/david-bowie-heroes.mp3",
-        "posterPath":  ""
+        "id": "55",
+        "title": "More Than Words",
+        "subtitle": "Extreme",
+        "audioPath": "audios/extreme-more-than-words.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "56",
-        "title":  "Rebel Rebel",
-        "subtitle":  "David Bowie",
-        "audioPath":  "audios/david-bowie-rebel-rebel.mp3",
-        "posterPath":  ""
+        "id": "56",
+        "title": "Centuries",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-centuries.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "57",
-        "title":  "Starman",
-        "subtitle":  "David Bowie",
-        "audioPath":  "audios/david-bowie-starman.mp3",
-        "posterPath":  ""
+        "id": "57",
+        "title": "Dance, Dance",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-dance-dance.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "58",
-        "title":  "Highway Star",
-        "subtitle":  "Deep Purple",
-        "audioPath":  "audios/deep-purple-highway-star.mp3",
-        "posterPath":  ""
+        "id": "58",
+        "title": "I Don't Care",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-i-dont-care.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "59",
-        "title":  "Smoke On The Water",
-        "subtitle":  "Deep Purple",
-        "audioPath":  "audios/deep-purple-smoke-on-the-water.mp3",
-        "posterPath":  ""
+        "id": "59",
+        "title": "Immortals",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-immortals.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "60",
-        "title":  "Money For Nothing",
-        "subtitle":  "Dire Straits",
-        "audioPath":  "audios/dire-straits-money-for-nothing.mp3",
-        "posterPath":  ""
+        "id": "60",
+        "title": "My Songs Know What You Did In The Dark",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-my-songs-know-what-you-did-in-the-dark.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "61",
-        "title":  "Sultans Of Swing",
-        "subtitle":  "Dire Straits",
-        "audioPath":  "audios/dire-straits-sultans-of-swing.mp3",
-        "posterPath":  ""
+        "id": "61",
+        "title": "Sugar, We're Goin Down",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-sugar-were-goin-down.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "62",
-        "title":  "Ruff Ryders Anthem",
-        "subtitle":  "DMX",
-        "audioPath":  "audios/dmx-ruff-ryders-anthem.mp3",
-        "posterPath":  ""
+        "id": "62",
+        "title": "The Last Of The Real Ones",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-the-last-of-the-real-ones.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "63",
-        "title":  "What It Is",
-        "subtitle":  "Doechii",
-        "audioPath":  "audios/doechii-what-it-is.mp3",
-        "posterPath":  ""
+        "id": "63",
+        "title": "The Take Over, The Breaks Over",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-the-take-over-the-breaks-over.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "64",
-        "title":  "U Know Whats Up",
-        "subtitle":  "Donell Jones",
-        "audioPath":  "audios/donell-jones-u-know-whats-up.mp3",
-        "posterPath":  ""
+        "id": "64",
+        "title": "This Ain't A Scene, It's An Arms Race",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-this-aint-a-scene-its-an-arms-race.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "65",
-        "title":  "Rich Baby Daddy",
-        "subtitle":  "Drake",
-        "audioPath":  "audios/drake-rich-baby-daddy.mp3",
-        "posterPath":  ""
+        "id": "65",
+        "title": "Thnks fr th Mmrs",
+        "subtitle": "Fall Out Boy",
+        "audioPath": "audios/fall-out-boy-thnks-fr-th-mmrs.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "66",
-        "title":  "In My Bed",
-        "subtitle":  "Dru Hill",
-        "audioPath":  "audios/dru-hill-in-my-bed.mp3",
-        "posterPath":  ""
+        "id": "66",
+        "title": "Popular Monster",
+        "subtitle": "Falling In Reverse",
+        "audioPath": "audios/falling-in-reverse-popular-monster.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "67",
-        "title":  "Hotel California",
-        "subtitle":  "Eagles",
-        "audioPath":  "audios/eagles-hotel-california.mp3",
-        "posterPath":  ""
+        "id": "67",
+        "title": "Best of You",
+        "subtitle": "Foo Fighters",
+        "audioPath": "audios/foo-fighters-best-of-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "68",
-        "title":  "Reasons",
-        "subtitle":  "Earth Wind  Fire",
-        "audioPath":  "audios/earth-wind-fire-reasons.mp3",
-        "posterPath":  ""
+        "id": "68",
+        "title": "Everlong",
+        "subtitle": "Foo Fighters",
+        "audioPath": "audios/foo-fighters-everlong.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "69",
-        "title":  "Bood Up",
-        "subtitle":  "Ella Mai",
-        "audioPath":  "audios/ella-mai-bood-up.mp3",
-        "posterPath":  ""
+        "id": "69",
+        "title": "The Pretender",
+        "subtitle": "Foo Fighters",
+        "audioPath": "audios/foo-fighters-the-pretender.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "70",
-        "title":  "Trip",
-        "subtitle":  "Ella Mai",
-        "audioPath":  "audios/ella-mai-trip.mp3",
-        "posterPath":  ""
+        "id": "70",
+        "title": "Take Me Out",
+        "subtitle": "Franz Ferdinand",
+        "audioPath": "audios/franz-ferdinand-take-me-out.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "71",
-        "title":  "Dont Let Go (Love)",
-        "subtitle":  "En Vogue",
-        "audioPath":  "audios/en-vogue-dont-let-go-love.mp3",
-        "posterPath":  ""
+        "id": "71",
+        "title": "Mary On A Cross",
+        "subtitle": "Ghost",
+        "audioPath": "audios/ghost-mary-on-a-cross.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "72",
-        "title":  "Paid In Full",
-        "subtitle":  "Eric B and Rakim",
-        "audioPath":  "audios/eric-b-and-rakim-paid-in-full.mp3",
-        "posterPath":  ""
+        "id": "72",
+        "title": "Square Hammer",
+        "subtitle": "Ghost",
+        "audioPath": "audios/ghost-square-hammer.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "73",
-        "title":  "Bring Me To Life",
-        "subtitle":  "Evanescence",
-        "audioPath":  "audios/evanescence-bring-me-to-life.mp3",
-        "posterPath":  ""
+        "id": "73",
+        "title": "Clint Eastwood",
+        "subtitle": "Gorillaz",
+        "audioPath": "audios/gorillaz-clint-eastwood.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "74",
-        "title":  "Going Under",
-        "subtitle":  "Evanescence",
-        "audioPath":  "audios/evanescence-going-under.mp3",
-        "posterPath":  ""
+        "id": "74",
+        "title": "Feel Good Inc",
+        "subtitle": "Gorillaz",
+        "audioPath": "audios/gorillaz-feel-good-inc.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "75",
-        "title":  "More Than Words",
-        "subtitle":  "Extreme",
-        "audioPath":  "audios/extreme-more-than-words.mp3",
-        "posterPath":  ""
+        "id": "75",
+        "title": "21 Guns",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-21-guns.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "76",
-        "title":  "Centuries",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-centuries.mp3",
-        "posterPath":  ""
+        "id": "76",
+        "title": "American Idiot",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-american-idiot.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "77",
-        "title":  "Dance, Dance",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-dance-dance.mp3",
-        "posterPath":  ""
+        "id": "77",
+        "title": "Basket Case",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-basket-case.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "78",
-        "title":  "I Don\u0027t Care",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-i-dont-care.mp3",
-        "posterPath":  ""
+        "id": "78",
+        "title": "Boulevard Of Broken Dreams",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-boulevard-of-broken-dreams.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "79",
-        "title":  "Immortals",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-immortals.mp3",
-        "posterPath":  ""
+        "id": "79",
+        "title": "Good Riddance",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-good-riddance.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "80",
-        "title":  "My Songs Know What You Did In The Dark",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-my-songs-know-what-you-did-in-the-dark.mp3",
-        "posterPath":  ""
+        "id": "80",
+        "title": "Holiday",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-holiday.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "81",
-        "title":  "Sugar, We\u0027re Goin Down",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-sugar-were-goin-down.mp3",
-        "posterPath":  ""
+        "id": "81",
+        "title": "Wake Me Up When September Ends",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-wake-me-up-when-september-ends.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "82",
-        "title":  "The Last Of The Real Ones",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-the-last-of-the-real-ones.mp3",
-        "posterPath":  ""
+        "id": "82",
+        "title": "When I Come Around",
+        "subtitle": "Green Day",
+        "audioPath": "audios/green-day-when-i-come-around.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "83",
-        "title":  "The Take Over, The Breaks Over",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-the-take-over-the-breaks-over.mp3",
-        "posterPath":  ""
+        "id": "83",
+        "title": "Paradise City",
+        "subtitle": "Guns N' Roses",
+        "audioPath": "audios/guns-n-roses-paradise-city.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "84",
-        "title":  "This Ain\u0027t A Scene, It\u0027s An Arms Race",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-this-aint-a-scene-its-an-arms-race.mp3",
-        "posterPath":  ""
+        "id": "84",
+        "title": "Since I Don't Have You",
+        "subtitle": "Guns N' Roses",
+        "audioPath": "audios/guns-n-roses-since-i-dont-have-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "85",
-        "title":  "Thnks fr th Mmrs",
-        "subtitle":  "Fall Out Boy",
-        "audioPath":  "audios/fall-out-boy-thnks-fr-th-mmrs.mp3",
-        "posterPath":  ""
+        "id": "85",
+        "title": "Sweet Child O' Mine",
+        "subtitle": "Guns N' Roses",
+        "audioPath": "audios/guns-n-roses-sweet-child-o-mine.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "86",
-        "title":  "Popular Monster",
-        "subtitle":  "Falling In Reverse",
-        "audioPath":  "audios/falling-in-reverse-popular-monster.mp3",
-        "posterPath":  ""
+        "id": "86",
+        "title": "Don't Cry",
+        "subtitle": "Guns N’ Roses",
+        "audioPath": "audios/guns-n-roses-dont-cry.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "87",
-        "title":  "Best of You",
-        "subtitle":  "Foo Fighters",
-        "audioPath":  "audios/foo-fighters-best-of-you.mp3",
-        "posterPath":  ""
+        "id": "87",
+        "title": "Estranged",
+        "subtitle": "Guns N’ Roses",
+        "audioPath": "audios/guns-n-roses-estranged.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "88",
-        "title":  "Everlong",
-        "subtitle":  "Foo Fighters",
-        "audioPath":  "audios/foo-fighters-everlong.mp3",
-        "posterPath":  ""
+        "id": "88",
+        "title": "November Rain",
+        "subtitle": "Guns N’ Roses",
+        "audioPath": "audios/guns-n-roses-november-rain.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "89",
-        "title":  "The Pretender",
-        "subtitle":  "Foo Fighters",
-        "audioPath":  "audios/foo-fighters-the-pretender.mp3",
-        "posterPath":  ""
+        "id": "89",
+        "title": "Believer",
+        "subtitle": "Imagine Dragons",
+        "audioPath": "audios/imagine-dragons-believer.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "90",
-        "title":  "Take Me Out",
-        "subtitle":  "Franz Ferdinand",
-        "audioPath":  "audios/franz-ferdinand-take-me-out.mp3",
-        "posterPath":  ""
+        "id": "90",
+        "title": "Bones",
+        "subtitle": "Imagine Dragons",
+        "audioPath": "audios/imagine-dragons-bones.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "91",
-        "title":  "When It Comes To You",
-        "subtitle":  "Fridayy",
-        "audioPath":  "audios/fridayy-when-it-comes-to-you.mp3",
-        "posterPath":  ""
+        "id": "91",
+        "title": "Demons",
+        "subtitle": "Imagine Dragons",
+        "audioPath": "audios/imagine-dragons-demons.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "92",
-        "title":  "Like That",
-        "subtitle":  "Future",
-        "audioPath":  "audios/future-like-that.mp3",
-        "posterPath":  ""
+        "id": "92",
+        "title": "Natural",
+        "subtitle": "Imagine Dragons",
+        "audioPath": "audios/imagine-dragons-natural.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "93",
-        "title":  "Mass Appeal",
-        "subtitle":  "Gang Starr",
-        "audioPath":  "audios/gang-starr-mass-appeal.mp3",
-        "posterPath":  ""
+        "id": "93",
+        "title": "Aces high",
+        "subtitle": "Iron Maiden",
+        "audioPath": "audios/iron-maiden-aces-high.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "94",
-        "title":  "Mind Playing Tricks On Me",
-        "subtitle":  "Geto Boys",
-        "audioPath":  "audios/geto-boys-mind-playing-tricks-on-me.mp3",
-        "posterPath":  ""
+        "id": "94",
+        "title": "Fear of the Dark",
+        "subtitle": "Iron maiden",
+        "audioPath": "audios/iron-maiden-fear-of-the-dark.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "95",
-        "title":  "Mary On A Cross",
-        "subtitle":  "Ghost",
-        "audioPath":  "audios/ghost-mary-on-a-cross.mp3",
-        "posterPath":  ""
+        "id": "95",
+        "title": "Run To The Hills",
+        "subtitle": "Iron Maiden",
+        "audioPath": "audios/iron-maiden-run-to-the-hills.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "96",
-        "title":  "Square Hammer",
-        "subtitle":  "Ghost",
-        "audioPath":  "audios/ghost-square-hammer.mp3",
-        "posterPath":  ""
+        "id": "96",
+        "title": "I Love Rock n Roll",
+        "subtitle": "Joan Jett",
+        "audioPath": "audios/joan-jett-i-love-rock-n-roll.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "97",
-        "title":  "TGIF",
-        "subtitle":  "Glorilla",
-        "audioPath":  "audios/glorilla-tgif.mp3",
-        "posterPath":  ""
+        "id": "97",
+        "title": "Dont Stop Believin",
+        "subtitle": "Journey",
+        "audioPath": "audios/journey-dont-stop-believin.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "98",
-        "title":  "Yeah Glo",
-        "subtitle":  "Glorilla",
-        "audioPath":  "audios/glorilla-yeah-glo.mp3",
-        "posterPath":  ""
+        "id": "98",
+        "title": "Carry on Wayward Son",
+        "subtitle": "Kansas",
+        "audioPath": "audios/kansas-carry-on-wayward-son.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "99",
-        "title":  "Clint Eastwood",
-        "subtitle":  "Gorillaz",
-        "audioPath":  "audios/gorillaz-clint-eastwood.mp3",
-        "posterPath":  ""
+        "id": "99",
+        "title": "Dust in the Wind",
+        "subtitle": "Kansas",
+        "audioPath": "audios/kansas-dust-in-the-wind.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "100",
-        "title":  "Feel Good Inc",
-        "subtitle":  "Gorillaz",
-        "audioPath":  "audios/gorillaz-feel-good-inc.mp3",
-        "posterPath":  ""
+        "id": "100",
+        "title": "Sex on Fire",
+        "subtitle": "Kings Of Leon",
+        "audioPath": "audios/kings-of-leon-sex-on-fire.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "101",
-        "title":  "The Message",
-        "subtitle":  "Grandmaster Flash",
-        "audioPath":  "audios/grandmaster-flash-the-message.mp3",
-        "posterPath":  ""
+        "id": "101",
+        "title": "Use Somebody",
+        "subtitle": "Kings Of Leon",
+        "audioPath": "audios/kings-of-leon-use-somebody.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "102",
-        "title":  "21 Guns",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-21-guns.mp3",
-        "posterPath":  ""
+        "id": "102",
+        "title": "Forever",
+        "subtitle": "Kiss",
+        "audioPath": "audios/kiss-forever.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "103",
-        "title":  "American Idiot",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-american-idiot.mp3",
-        "posterPath":  ""
+        "id": "103",
+        "title": "Heaven's On Fire",
+        "subtitle": "Kiss",
+        "audioPath": "audios/kiss-heavens-on-fire.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "104",
-        "title":  "Basket Case",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-basket-case.mp3",
-        "posterPath":  ""
+        "id": "104",
+        "title": "I Love It Loud",
+        "subtitle": "Kiss",
+        "audioPath": "audios/kiss-i-love-it-loud.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "105",
-        "title":  "Boulevard Of Broken Dreams",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-boulevard-of-broken-dreams.mp3",
-        "posterPath":  ""
+        "id": "105",
+        "title": "Kashmir 1990 Remaster",
+        "subtitle": "Led Zeppelin",
+        "audioPath": "audios/led-zeppelin-kashmir-1990-remaster.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "106",
-        "title":  "Good Riddance",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-good-riddance.mp3",
-        "posterPath":  ""
+        "id": "106",
+        "title": "Since I've Been Loving You",
+        "subtitle": "Led Zeppelin",
+        "audioPath": "audios/led-zeppelin-since-ive-been-loving-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "107",
-        "title":  "Holiday",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-holiday.mp3",
-        "posterPath":  ""
+        "id": "107",
+        "title": "Castle Of Glass",
+        "subtitle": "Linkin Park",
+        "audioPath": "audios/linkin-park-castle-of-glass.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "108",
-        "title":  "Wake Me Up When September Ends",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-wake-me-up-when-september-ends.mp3",
-        "posterPath":  ""
+        "id": "108",
+        "title": "Faint",
+        "subtitle": "Linkin Park",
+        "audioPath": "audios/linkin-park-faint.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "109",
-        "title":  "When I Come Around",
-        "subtitle":  "Green Day",
-        "audioPath":  "audios/green-day-when-i-come-around.mp3",
-        "posterPath":  ""
+        "id": "109",
+        "title": "In The End",
+        "subtitle": "Linkin Park",
+        "audioPath": "audios/linkin-park-in-the-end.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "110",
-        "title":  "Paradise City",
-        "subtitle":  "Guns N\u0027 Roses",
-        "audioPath":  "audios/guns-n-roses-paradise-city.mp3",
-        "posterPath":  ""
+        "id": "110",
+        "title": "New Divide",
+        "subtitle": "Linkin Park",
+        "audioPath": "audios/linkin-park-new-divide.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "111",
-        "title":  "Since I Don\u0027t Have You",
-        "subtitle":  "Guns N\u0027 Roses",
-        "audioPath":  "audios/guns-n-roses-since-i-dont-have-you.mp3",
-        "posterPath":  ""
+        "id": "111",
+        "title": "The Emptiness Machine",
+        "subtitle": "Linkin Park",
+        "audioPath": "audios/linkin-park-the-emptiness-machine.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "112",
-        "title":  "Sweet Child O\u0027 Mine",
-        "subtitle":  "Guns N\u0027 Roses",
-        "audioPath":  "audios/guns-n-roses-sweet-child-o-mine.mp3",
-        "posterPath":  ""
+        "id": "112",
+        "title": "Lost On You",
+        "subtitle": "LP",
+        "audioPath": "audios/lp-lost-on-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "113",
-        "title":  "Don\u0027t Cry",
-        "subtitle":  "Guns N’ Roses",
-        "audioPath":  "audios/guns-n-roses-dont-cry.mp3",
-        "posterPath":  ""
+        "id": "113",
+        "title": "Muddy Waters",
+        "subtitle": "LP",
+        "audioPath": "audios/lp-muddy-waters.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "114",
-        "title":  "Estranged",
-        "subtitle":  "Guns N’ Roses",
-        "audioPath":  "audios/guns-n-roses-estranged.mp3",
-        "posterPath":  ""
+        "id": "114",
+        "title": "Sweet Home Alabama",
+        "subtitle": "Lynyrd Skynyrd",
+        "audioPath": "audios/lynyrd-skynyrd-sweet-home-alabama.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "115",
-        "title":  "November Rain",
-        "subtitle":  "Guns N’ Roses",
-        "audioPath":  "audios/guns-n-roses-november-rain.mp3",
-        "posterPath":  ""
+        "id": "115",
+        "title": "Pensando En Ti",
+        "subtitle": "Mago de Oz",
+        "audioPath": "audios/mago-de-oz-pensando-en-ti.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "116",
-        "title":  "Deli",
-        "subtitle":  "Ice Spice",
-        "audioPath":  "audios/ice-spice-deli.mp3",
-        "posterPath":  ""
+        "id": "116",
+        "title": "Piratas",
+        "subtitle": "Mago de Oz",
+        "audioPath": "audios/mago-de-oz-piratas.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "117",
-        "title":  "Think U The Shit (Fart)",
-        "subtitle":  "Ice Spice",
-        "audioPath":  "audios/ice-spice-think-u-the-shit-fart.mp3",
-        "posterPath":  ""
+        "id": "117",
+        "title": "Beggin",
+        "subtitle": "Maneskin",
+        "audioPath": "audios/maneskin-beggin.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "118",
-        "title":  "Believer",
-        "subtitle":  "Imagine Dragons",
-        "audioPath":  "audios/imagine-dragons-believer.mp3",
-        "posterPath":  ""
+        "id": "118",
+        "title": "I Don't Like The Drugs",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-i-dont-like-the-drugs.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "119",
-        "title":  "Bones",
-        "subtitle":  "Imagine Dragons",
-        "audioPath":  "audios/imagine-dragons-bones.mp3",
-        "posterPath":  ""
+        "id": "119",
+        "title": "Mobscene",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-mobscene.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "120",
-        "title":  "Demons",
-        "subtitle":  "Imagine Dragons",
-        "audioPath":  "audios/imagine-dragons-demons.mp3",
-        "posterPath":  ""
+        "id": "120",
+        "title": "Sweet Dreams",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-sweet-dreams.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "121",
-        "title":  "Natural",
-        "subtitle":  "Imagine Dragons",
-        "audioPath":  "audios/imagine-dragons-natural.mp3",
-        "posterPath":  ""
+        "id": "121",
+        "title": "The Beautiful People",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-the-beautiful-people.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "122",
-        "title":  "Aces high",
-        "subtitle":  "Iron Maiden",
-        "audioPath":  "audios/iron-maiden-aces-high.mp3",
-        "posterPath":  ""
+        "id": "122",
+        "title": "The Fight Song",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-the-fight-song.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "123",
-        "title":  "Fear of the Dark",
-        "subtitle":  "Iron maiden",
-        "audioPath":  "audios/iron-maiden-fear-of-the-dark.mp3",
-        "posterPath":  ""
+        "id": "123",
+        "title": "Third Day",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-third-day.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "124",
-        "title":  "Run To The Hills",
-        "subtitle":  "Iron Maiden",
-        "audioPath":  "audios/iron-maiden-run-to-the-hills.mp3",
-        "posterPath":  ""
+        "id": "124",
+        "title": "This Is The New Shit",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-this-is-the-new-shit.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "125",
-        "title":  "Where the Party At",
-        "subtitle":  "Jagged Edge",
-        "audioPath":  "audios/jagged-edge-where-the-party-at.mp3",
-        "posterPath":  ""
+        "id": "125",
+        "title": "Tourniquet",
+        "subtitle": "Marilyn Manson",
+        "audioPath": "audios/marilyn-manson-tourniquet.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "126",
-        "title":  "Pick Up Your Feelings",
-        "subtitle":  "Jazmine Sullivan",
-        "audioPath":  "audios/jazmine-sullivan-pick-up-your-feelings.mp3",
-        "posterPath":  ""
+        "id": "126",
+        "title": "Enter Sandman",
+        "subtitle": "Metallica",
+        "audioPath": "audios/metallica-enter-sandman.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "127",
-        "title":  "Sativa",
-        "subtitle":  "Jhené Aiko",
-        "audioPath":  "audios/jhen-aiko-sativa.mp3",
-        "posterPath":  ""
+        "id": "127",
+        "title": "Hardwired",
+        "subtitle": "Metallica",
+        "audioPath": "audios/metallica-hardwired.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "128",
-        "title":  "The Worst",
-        "subtitle":  "Jhené Aiko",
-        "audioPath":  "audios/jhen-aiko-the-worst.mp3",
-        "posterPath":  ""
+        "id": "128",
+        "title": "I Disappear",
+        "subtitle": "Metallica",
+        "audioPath": "audios/metallica-i-disappear.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "129",
-        "title":  "I Love Rock n Roll",
-        "subtitle":  "Joan Jett",
-        "audioPath":  "audios/joan-jett-i-love-rock-n-roll.mp3",
-        "posterPath":  ""
+        "id": "129",
+        "title": "Master of Puppets",
+        "subtitle": "Metallica",
+        "audioPath": "audios/metallica-master-of-puppets.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "130",
-        "title":  "I Wanna Know",
-        "subtitle":  "Joe",
-        "audioPath":  "audios/joe-i-wanna-know.mp3",
-        "posterPath":  ""
+        "id": "130",
+        "title": "Nothing Else Matters",
+        "subtitle": "Metallica",
+        "audioPath": "audios/metallica-nothing-else-matters.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "131",
-        "title":  "Dont Stop Believin",
-        "subtitle":  "Journey",
-        "audioPath":  "audios/journey-dont-stop-believin.mp3",
-        "posterPath":  ""
+        "id": "131",
+        "title": "Psycho",
+        "subtitle": "Muse",
+        "audioPath": "audios/muse-psycho.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "132",
-        "title":  "Area Codes",
-        "subtitle":  "Kaliii",
-        "audioPath":  "audios/kaliii-area-codes.mp3",
-        "posterPath":  ""
+        "id": "132",
+        "title": "Supermassive Black Hole",
+        "subtitle": "Muse",
+        "audioPath": "audios/muse-supermassive-black-hole.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "133",
-        "title":  "Carry on Wayward Son",
-        "subtitle":  "Kansas",
-        "audioPath":  "audios/kansas-carry-on-wayward-son.mp3",
-        "posterPath":  ""
+        "id": "133",
+        "title": "Uprising",
+        "subtitle": "Muse",
+        "audioPath": "audios/muse-uprising.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "134",
-        "title":  "Dust in the Wind",
-        "subtitle":  "Kansas",
-        "audioPath":  "audios/kansas-dust-in-the-wind.mp3",
-        "posterPath":  ""
+        "id": "134",
+        "title": "Helena",
+        "subtitle": "My Chemical Romance",
+        "audioPath": "audios/my-chemical-romance-helena.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "135",
-        "title":  "After Hours",
-        "subtitle":  "Kehlani",
-        "audioPath":  "audios/kehlani-after-hours.mp3",
-        "posterPath":  ""
+        "id": "135",
+        "title": "Teenagers",
+        "subtitle": "My Chemical Romance",
+        "audioPath": "audios/my-chemical-romance-teenagers.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "136",
-        "title":  "Nights Like This",
-        "subtitle":  "Kehlani",
-        "audioPath":  "audios/kehlani-nights-like-this.mp3",
-        "posterPath":  ""
+        "id": "136",
+        "title": "Welcome to the Black Parade",
+        "subtitle": "My Chemical Romance",
+        "audioPath": "audios/my-chemical-romance-welcome-to-the-black-parade.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "137",
-        "title":  "TV Off",
-        "subtitle":  "Kendrick Lamar",
-        "audioPath":  "audios/kendrick-lamar-tv-off.mp3",
-        "posterPath":  ""
+        "id": "137",
+        "title": "Fiesta Pagana",
+        "subtitle": "Mägo de Oz",
+        "audioPath": "audios/mgo-de-oz-fiesta-pagana.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "138",
-        "title":  "EX",
-        "subtitle":  "Kiana Ledé",
-        "audioPath":  "audios/kiana-led-ex.mp3",
-        "posterPath":  ""
+        "id": "138",
+        "title": "Hasta que el cuerpo aguante",
+        "subtitle": "Mägo de Oz",
+        "audioPath": "audios/mgo-de-oz-hasta-que-el-cuerpo-aguante.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "139",
-        "title":  "Sex on Fire",
-        "subtitle":  "Kings Of Leon",
-        "audioPath":  "audios/kings-of-leon-sex-on-fire.mp3",
-        "posterPath":  ""
+        "id": "139",
+        "title": "La posada de los muertos",
+        "subtitle": "Mägo de Oz",
+        "audioPath": "audios/mgo-de-oz-la-posada-de-los-muertos.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "140",
-        "title":  "Use Somebody",
-        "subtitle":  "Kings Of Leon",
-        "audioPath":  "audios/kings-of-leon-use-somebody.mp3",
-        "posterPath":  ""
+        "id": "140",
+        "title": "Molinos de Viento -",
+        "subtitle": "Mägo de Oz",
+        "audioPath": "audios/mgo-de-oz-molinos-de-viento-.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "141",
-        "title":  "Forever",
-        "subtitle":  "Kiss",
-        "audioPath":  "audios/kiss-forever.mp3",
-        "posterPath":  ""
+        "id": "141",
+        "title": "I WANNA BE YOUR SLAVE",
+        "subtitle": "Måneskin",
+        "audioPath": "audios/mneskin-i-wanna-be-your-slave.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "142",
-        "title":  "Heaven\u0027s On Fire",
-        "subtitle":  "Kiss",
-        "audioPath":  "audios/kiss-heavens-on-fire.mp3",
-        "posterPath":  ""
+        "id": "142",
+        "title": "ZITTI E BUONI",
+        "subtitle": "Måneskin",
+        "audioPath": "audios/mneskin-zitti-e-buoni.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "143",
-        "title":  "I Love It Loud",
-        "subtitle":  "Kiss",
-        "audioPath":  "audios/kiss-i-love-it-loud.mp3",
-        "posterPath":  ""
+        "id": "143",
+        "title": "How You Remind Me",
+        "subtitle": "Nickelback",
+        "audioPath": "audios/nickelback-how-you-remind-me.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "144",
-        "title":  "Sound of da Police",
-        "subtitle":  "KRS-One",
-        "audioPath":  "audios/krs-one-sound-of-da-police.mp3",
-        "posterPath":  ""
+        "id": "144",
+        "title": "I'd Come For You",
+        "subtitle": "Nickelback",
+        "audioPath": "audios/nickelback-id-come-for-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "145",
-        "title":  "Big Energy",
-        "subtitle":  "Latto",
-        "audioPath":  "audios/latto-big-energy.mp3",
-        "posterPath":  ""
+        "id": "145",
+        "title": "Lullaby",
+        "subtitle": "Nickelback",
+        "audioPath": "audios/nickelback-lullaby.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "146",
-        "title":  "Kashmir 1990 Remaster",
-        "subtitle":  "Led Zeppelin",
-        "audioPath":  "audios/led-zeppelin-kashmir-1990-remaster.mp3",
-        "posterPath":  ""
+        "id": "146",
+        "title": "Never Gonna Be Alone",
+        "subtitle": "Nickelback",
+        "audioPath": "audios/nickelback-never-gonna-be-alone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "147",
-        "title":  "Since I\u0027ve Been Loving You",
-        "subtitle":  "Led Zeppelin",
-        "audioPath":  "audios/led-zeppelin-since-ive-been-loving-you.mp3",
-        "posterPath":  ""
+        "id": "147",
+        "title": "Photograph",
+        "subtitle": "Nickelback",
+        "audioPath": "audios/nickelback-photograph.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "148",
-        "title":  "Snooze",
-        "subtitle":  "Leon Thomas",
-        "audioPath":  "audios/leon-thomas-snooze.mp3",
-        "posterPath":  ""
+        "id": "148",
+        "title": "About A Girl",
+        "subtitle": "Nirvana",
+        "audioPath": "audios/nirvana-about-a-girl.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "149",
-        "title":  "Castle Of Glass",
-        "subtitle":  "Linkin Park",
-        "audioPath":  "audios/linkin-park-castle-of-glass.mp3",
-        "posterPath":  ""
+        "id": "149",
+        "title": "Come As You Are",
+        "subtitle": "Nirvana",
+        "audioPath": "audios/nirvana-come-as-you-are.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "150",
-        "title":  "Faint",
-        "subtitle":  "Linkin Park",
-        "audioPath":  "audios/linkin-park-faint.mp3",
-        "posterPath":  ""
+        "id": "150",
+        "title": "Heart-Shaped Box",
+        "subtitle": "Nirvana",
+        "audioPath": "audios/nirvana-heart-shaped-box.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "151",
-        "title":  "In The End",
-        "subtitle":  "Linkin Park",
-        "audioPath":  "audios/linkin-park-in-the-end.mp3",
-        "posterPath":  ""
+        "id": "151",
+        "title": "In Bloom",
+        "subtitle": "Nirvana",
+        "audioPath": "audios/nirvana-in-bloom.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "152",
-        "title":  "New Divide",
-        "subtitle":  "Linkin Park",
-        "audioPath":  "audios/linkin-park-new-divide.mp3",
-        "posterPath":  ""
+        "id": "152",
+        "title": "Smells Like Teen Spirit",
+        "subtitle": "Nirvana",
+        "audioPath": "audios/nirvana-smells-like-teen-spirit.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "153",
-        "title":  "The Emptiness Machine",
-        "subtitle":  "Linkin Park",
-        "audioPath":  "audios/linkin-park-the-emptiness-machine.mp3",
-        "posterPath":  ""
+        "id": "153",
+        "title": "High Hopes",
+        "subtitle": "Panic! At The Disco",
+        "audioPath": "audios/panic-at-the-disco-high-hopes.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "154",
-        "title":  "Mama Said Knock You Out",
-        "subtitle":  "LL Cool J",
-        "audioPath":  "audios/ll-cool-j-mama-said-knock-you-out.mp3",
-        "posterPath":  ""
+        "id": "154",
+        "title": "Lying Is The Most Fun...",
+        "subtitle": "Panic! At The Disco",
+        "audioPath": "audios/panic-at-the-disco-lying-is-the-most-fun....mp3",
+        "posterPath": ""
     },
     {
-        "id":  "155",
-        "title":  "You",
-        "subtitle":  "Lloyd",
-        "audioPath":  "audios/lloyd-you.mp3",
-        "posterPath":  ""
+        "id": "155",
+        "title": "Sugar Soaker",
+        "subtitle": "Panic! At The Disco",
+        "audioPath": "audios/panic-at-the-disco-sugar-soaker.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "156",
-        "title":  "Lost On You",
-        "subtitle":  "LP",
-        "audioPath":  "audios/lp-lost-on-you.mp3",
-        "posterPath":  ""
+        "id": "156",
+        "title": "Ain't It Fun",
+        "subtitle": "Paramore",
+        "audioPath": "audios/paramore-aint-it-fun.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "157",
-        "title":  "Muddy Waters",
-        "subtitle":  "LP",
-        "audioPath":  "audios/lp-muddy-waters.mp3",
-        "posterPath":  ""
+        "id": "157",
+        "title": "Decode",
+        "subtitle": "Paramore",
+        "audioPath": "audios/paramore-decode.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "158",
-        "title":  "Yo No Sé Mañana",
-        "subtitle":  "Luis Enrique",
-        "audioPath":  "audios/luis-enrique-yo-no-s-maana.mp3",
-        "posterPath":  ""
+        "id": "158",
+        "title": "Ignorance",
+        "subtitle": "Paramore",
+        "audioPath": "audios/paramore-ignorance.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "159",
-        "title":  "BBL Drizzy",
-        "subtitle":  "Luminate",
-        "audioPath":  "audios/luminate-bbl-drizzy.mp3",
-        "posterPath":  ""
+        "id": "159",
+        "title": "Misery Business",
+        "subtitle": "Paramore",
+        "audioPath": "audios/paramore-misery-business.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "160",
-        "title":  "I Got 5 On It",
-        "subtitle":  "Luniz",
-        "audioPath":  "audios/luniz-i-got-5-on-it.mp3",
-        "posterPath":  ""
+        "id": "160",
+        "title": "Still Into You",
+        "subtitle": "Paramore",
+        "audioPath": "audios/paramore-still-into-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "161",
-        "title":  "Never Too Much",
-        "subtitle":  "Luther Vandross",
-        "audioPath":  "audios/luther-vandross-never-too-much.mp3",
-        "posterPath":  ""
+        "id": "161",
+        "title": "Alive",
+        "subtitle": "Pearl Jam",
+        "audioPath": "audios/pearl-jam-alive.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "162",
-        "title":  "Sweet Home Alabama",
-        "subtitle":  "Lynyrd Skynyrd",
-        "audioPath":  "audios/lynyrd-skynyrd-sweet-home-alabama.mp3",
-        "posterPath":  ""
+        "id": "162",
+        "title": "Even Flow",
+        "subtitle": "Pearl Jam",
+        "audioPath": "audios/pearl-jam-even-flow.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "163",
-        "title":  "Pensando En Ti",
-        "subtitle":  "Mago de Oz",
-        "audioPath":  "audios/mago-de-oz-pensando-en-ti.mp3",
-        "posterPath":  ""
+        "id": "163",
+        "title": "Jeremy",
+        "subtitle": "Pearl Jam",
+        "audioPath": "audios/pearl-jam-jeremy.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "164",
-        "title":  "Piratas",
-        "subtitle":  "Mago de Oz",
-        "audioPath":  "audios/mago-de-oz-piratas.mp3",
-        "posterPath":  ""
+        "id": "164",
+        "title": "Another Brick in the Wall",
+        "subtitle": "Pink Floyd",
+        "audioPath": "audios/pink-floyd-another-brick-in-the-wall.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "165",
-        "title":  "Beggin",
-        "subtitle":  "Maneskin",
-        "audioPath":  "audios/maneskin-beggin.mp3",
-        "posterPath":  ""
+        "id": "165",
+        "title": "Comfortably Numb",
+        "subtitle": "Pink Floyd",
+        "audioPath": "audios/pink-floyd-comfortably-numb.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "166",
-        "title":  "I Don\u0027t Like The Drugs",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-i-dont-like-the-drugs.mp3",
-        "posterPath":  ""
+        "id": "166",
+        "title": "Learning To Fly",
+        "subtitle": "Pink Floyd",
+        "audioPath": "audios/pink-floyd-learning-to-fly.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "167",
-        "title":  "Mobscene",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-mobscene.mp3",
-        "posterPath":  ""
+        "id": "167",
+        "title": "The Wall",
+        "subtitle": "Pink Floyd",
+        "audioPath": "audios/pink-floyd-the-wall.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "168",
-        "title":  "Sweet Dreams",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-sweet-dreams.mp3",
-        "posterPath":  ""
+        "id": "168",
+        "title": "Another One Bites the Dust",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-another-one-bites-the-dust.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "169",
-        "title":  "The Beautiful People",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-the-beautiful-people.mp3",
-        "posterPath":  ""
+        "id": "169",
+        "title": "bohemian Rhapsody",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-bohemian-rhapsody.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "170",
-        "title":  "The Fight Song",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-the-fight-song.mp3",
-        "posterPath":  ""
+        "id": "170",
+        "title": "Dont Stop Me Now",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-dont-stop-me-now.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "171",
-        "title":  "Third Day",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-third-day.mp3",
-        "posterPath":  ""
+        "id": "171",
+        "title": "I Want To Break Free",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-i-want-to-break-free.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "172",
-        "title":  "This Is The New Shit",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-this-is-the-new-shit.mp3",
-        "posterPath":  ""
+        "id": "172",
+        "title": "Sex Pistols",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-sex-pistols.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "173",
-        "title":  "Tourniquet",
-        "subtitle":  "Marilyn Manson",
-        "audioPath":  "audios/marilyn-manson-tourniquet.mp3",
-        "posterPath":  ""
+        "id": "173",
+        "title": "We Are The Champions",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-we-are-the-champions.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "174",
-        "title":  "Love Like This",
-        "subtitle":  "Marquan",
-        "audioPath":  "audios/marquan-love-like-this.mp3",
-        "posterPath":  ""
+        "id": "174",
+        "title": "We Will Rock You",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen-we-will-rock-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "175",
-        "title":  "Hiss",
-        "subtitle":  "Megan Thee Stallion",
-        "audioPath":  "audios/megan-thee-stallion-hiss.mp3",
-        "posterPath":  ""
+        "id": "175",
+        "title": "Don't Go Back To Rockville",
+        "subtitle": "R E M",
+        "audioPath": "audios/r-e-m-dont-go-back-to-rockville.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "176",
-        "title":  "Enter Sandman",
-        "subtitle":  "Metallica",
-        "audioPath":  "audios/metallica-enter-sandman.mp3",
-        "posterPath":  ""
+        "id": "176",
+        "title": "Everybody Hurts",
+        "subtitle": "R.E.M.",
+        "audioPath": "audios/r.e.m.-everybody-hurts.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "177",
-        "title":  "Hardwired",
-        "subtitle":  "Metallica",
-        "audioPath":  "audios/metallica-hardwired.mp3",
-        "posterPath":  ""
+        "id": "177",
+        "title": "It's The End Of The World As We Know It",
+        "subtitle": "R.E.M.",
+        "audioPath": "audios/r.e.m.-its-the-end-of-the-world-as-we-know-it.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "178",
-        "title":  "I Disappear",
-        "subtitle":  "Metallica",
-        "audioPath":  "audios/metallica-i-disappear.mp3",
-        "posterPath":  ""
+        "id": "178",
+        "title": "Losing My Religion",
+        "subtitle": "R.E.M.",
+        "audioPath": "audios/r.e.m.-losing-my-religion.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "179",
-        "title":  "Master of Puppets",
-        "subtitle":  "Metallica",
-        "audioPath":  "audios/metallica-master-of-puppets.mp3",
-        "posterPath":  ""
+        "id": "179",
+        "title": "Man On The Moon",
+        "subtitle": "R.E.M.",
+        "audioPath": "audios/r.e.m.-man-on-the-moon.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "180",
-        "title":  "Nothing Else Matters",
-        "subtitle":  "Metallica",
-        "audioPath":  "audios/metallica-nothing-else-matters.mp3",
-        "posterPath":  ""
+        "id": "180",
+        "title": "Creep",
+        "subtitle": "Radiohead",
+        "audioPath": "audios/radiohead-creep.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "181",
-        "title":  "Shook Ones Pt II",
-        "subtitle":  "Mob Deep",
-        "audioPath":  "audios/mob-deep-shook-ones-pt-ii.mp3",
-        "posterPath":  ""
+        "id": "181",
+        "title": "Karma Police",
+        "subtitle": "Radiohead",
+        "audioPath": "audios/radiohead-karma-police.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "182",
-        "title":  "Angel of Mine",
-        "subtitle":  "Monica",
-        "audioPath":  "audios/monica-angel-of-mine.mp3",
-        "posterPath":  ""
+        "id": "182",
+        "title": "Bulls On Parade",
+        "subtitle": "Rage Against The Machine",
+        "audioPath": "audios/rage-against-the-machine-bulls-on-parade.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "183",
-        "title":  "Psycho",
-        "subtitle":  "Muse",
-        "audioPath":  "audios/muse-psycho.mp3",
-        "posterPath":  ""
+        "id": "183",
+        "title": "Killing In The Name",
+        "subtitle": "Rage Against The Machine",
+        "audioPath": "audios/rage-against-the-machine-killing-in-the-name.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "184",
-        "title":  "Supermassive Black Hole",
-        "subtitle":  "Muse",
-        "audioPath":  "audios/muse-supermassive-black-hole.mp3",
-        "posterPath":  ""
+        "id": "184",
+        "title": "Amerika",
+        "subtitle": "Rammstein",
+        "audioPath": "audios/rammstein-amerika.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "185",
-        "title":  "Uprising",
-        "subtitle":  "Muse",
-        "audioPath":  "audios/muse-uprising.mp3",
-        "posterPath":  ""
+        "id": "185",
+        "title": "Deutschland",
+        "subtitle": "Rammstein",
+        "audioPath": "audios/rammstein-deutschland.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "186",
-        "title":  "Helena",
-        "subtitle":  "My Chemical Romance",
-        "audioPath":  "audios/my-chemical-romance-helena.mp3",
-        "posterPath":  ""
+        "id": "186",
+        "title": "Du Hast",
+        "subtitle": "Rammstein",
+        "audioPath": "audios/rammstein-du-hast.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "187",
-        "title":  "Teenagers",
-        "subtitle":  "My Chemical Romance",
-        "audioPath":  "audios/my-chemical-romance-teenagers.mp3",
-        "posterPath":  ""
+        "id": "187",
+        "title": "Ich Will",
+        "subtitle": "Rammstein",
+        "audioPath": "audios/rammstein-ich-will.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "188",
-        "title":  "Welcome to the Black Parade",
-        "subtitle":  "My Chemical Romance",
-        "audioPath":  "audios/my-chemical-romance-welcome-to-the-black-parade.mp3",
-        "posterPath":  ""
+        "id": "188",
+        "title": "Sonne",
+        "subtitle": "Rammstein",
+        "audioPath": "audios/rammstein-sonne.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "189",
-        "title":  "Fiesta Pagana",
-        "subtitle":  "Mägo de Oz",
-        "audioPath":  "audios/mgo-de-oz-fiesta-pagana.mp3",
-        "posterPath":  ""
+        "id": "189",
+        "title": "La Leyenda Del Hada Y El Mago",
+        "subtitle": "Rata Blanca",
+        "audioPath": "audios/rata-blanca-la-leyenda-del-hada-y-el-mago.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "190",
-        "title":  "Hasta que el cuerpo aguante",
-        "subtitle":  "Mägo de Oz",
-        "audioPath":  "audios/mgo-de-oz-hasta-que-el-cuerpo-aguante.mp3",
-        "posterPath":  ""
+        "id": "190",
+        "title": "Mujer Amante",
+        "subtitle": "Rata Blanca",
+        "audioPath": "audios/rata-blanca-mujer-amante.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "191",
-        "title":  "La posada de los muertos",
-        "subtitle":  "Mägo de Oz",
-        "audioPath":  "audios/mgo-de-oz-la-posada-de-los-muertos.mp3",
-        "posterPath":  ""
+        "id": "191",
+        "title": "Californication",
+        "subtitle": "Red Hot Chili Peppers",
+        "audioPath": "audios/red-hot-chili-peppers-californication.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "192",
-        "title":  "Molinos de Viento -",
-        "subtitle":  "Mägo de Oz",
-        "audioPath":  "audios/mgo-de-oz-molinos-de-viento-.mp3",
-        "posterPath":  ""
+        "id": "192",
+        "title": "Cant Stop",
+        "subtitle": "Red Hot Chili Peppers",
+        "audioPath": "audios/red-hot-chili-peppers-cant-stop.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "193",
-        "title":  "I WANNA BE YOUR SLAVE",
-        "subtitle":  "Måneskin",
-        "audioPath":  "audios/mneskin-i-wanna-be-your-slave.mp3",
-        "posterPath":  ""
+        "id": "193",
+        "title": "Otherside",
+        "subtitle": "Red Hot Chili Peppers",
+        "audioPath": "audios/red-hot-chili-peppers-otherside.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "194",
-        "title":  "ZITTI E BUONI",
-        "subtitle":  "Måneskin",
-        "audioPath":  "audios/mneskin-zitti-e-buoni.mp3",
-        "posterPath":  ""
+        "id": "194",
+        "title": "Always Somewhere",
+        "subtitle": "Scorpions",
+        "audioPath": "audios/scorpions-always-somewhere.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "195",
-        "title":  "OPP",
-        "subtitle":  "Naughty By Nature",
-        "audioPath":  "audios/naughty-by-nature-opp.mp3",
-        "posterPath":  ""
+        "id": "195",
+        "title": "Believe In Love",
+        "subtitle": "Scorpions",
+        "audioPath": "audios/scorpions-believe-in-love.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "196",
-        "title":  "Too Close",
-        "subtitle":  "Next",
-        "audioPath":  "audios/next-too-close.mp3",
-        "posterPath":  ""
+        "id": "196",
+        "title": "Holiday",
+        "subtitle": "Scorpions",
+        "audioPath": "audios/scorpions-holiday.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "197",
-        "title":  "How You Remind Me",
-        "subtitle":  "Nickelback",
-        "audioPath":  "audios/nickelback-how-you-remind-me.mp3",
-        "posterPath":  ""
+        "id": "197",
+        "title": "I'm Leaving You",
+        "subtitle": "Scorpions",
+        "audioPath": "audios/scorpions-im-leaving-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "198",
-        "title":  "I\u0027d Come For You",
-        "subtitle":  "Nickelback",
-        "audioPath":  "audios/nickelback-id-come-for-you.mp3",
-        "posterPath":  ""
+        "id": "198",
+        "title": "Wind Of Change",
+        "subtitle": "Scorpions",
+        "audioPath": "audios/scorpions-wind-of-change.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "199",
-        "title":  "Lullaby",
-        "subtitle":  "Nickelback",
-        "audioPath":  "audios/nickelback-lullaby.mp3",
-        "posterPath":  ""
+        "id": "199",
+        "title": "Duality",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-duality.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "200",
-        "title":  "Never Gonna Be Alone",
-        "subtitle":  "Nickelback",
-        "audioPath":  "audios/nickelback-never-gonna-be-alone.mp3",
-        "posterPath":  ""
+        "id": "200",
+        "title": "Killpop",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-killpop.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "201",
-        "title":  "Photograph",
-        "subtitle":  "Nickelback",
-        "audioPath":  "audios/nickelback-photograph.mp3",
-        "posterPath":  ""
+        "id": "201",
+        "title": "Psychosocial",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-psychosocial.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "202",
-        "title":  "About A Girl",
-        "subtitle":  "Nirvana",
-        "audioPath":  "audios/nirvana-about-a-girl.mp3",
-        "posterPath":  ""
+        "id": "202",
+        "title": "Snuff",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-snuff.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "203",
-        "title":  "Come As You Are",
-        "subtitle":  "Nirvana",
-        "audioPath":  "audios/nirvana-come-as-you-are.mp3",
-        "posterPath":  ""
+        "id": "203",
+        "title": "The Devil In I",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-the-devil-in-i.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "204",
-        "title":  "Heart-Shaped Box",
-        "subtitle":  "Nirvana",
-        "audioPath":  "audios/nirvana-heart-shaped-box.mp3",
-        "posterPath":  ""
+        "id": "204",
+        "title": "Unsainted",
+        "subtitle": "Slipknot",
+        "audioPath": "audios/slipknot-unsainted.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "205",
-        "title":  "In Bloom",
-        "subtitle":  "Nirvana",
-        "audioPath":  "audios/nirvana-in-bloom.mp3",
-        "posterPath":  ""
+        "id": "205",
+        "title": "Burning Heart",
+        "subtitle": "Survivor",
+        "audioPath": "audios/survivor-burning-heart.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "206",
-        "title":  "Smells Like Teen Spirit",
-        "subtitle":  "Nirvana",
-        "audioPath":  "audios/nirvana-smells-like-teen-spirit.mp3",
-        "posterPath":  ""
+        "id": "206",
+        "title": "Eye of the Tiger",
+        "subtitle": "Survivor",
+        "audioPath": "audios/survivor-eye-of-the-tiger.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "207",
-        "title":  "Slut Me Out",
-        "subtitle":  "NLE Choppa",
-        "audioPath":  "audios/nle-choppa-slut-me-out.mp3",
-        "posterPath":  ""
+        "id": "207",
+        "title": "B.Y.O.B.",
+        "subtitle": "System Of A Down",
+        "audioPath": "audios/system-of-a-down-b.y.o.b..mp3",
+        "posterPath": ""
     },
     {
-        "id":  "208",
-        "title":  "Ice Box",
-        "subtitle":  "Omarion",
-        "audioPath":  "audios/omarion-ice-box.mp3",
-        "posterPath":  ""
+        "id": "208",
+        "title": "Chop Suey",
+        "subtitle": "System Of A Down",
+        "audioPath": "audios/system-of-a-down-chop-suey.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "209",
-        "title":  "High Hopes",
-        "subtitle":  "Panic! At The Disco",
-        "audioPath":  "audios/panic-at-the-disco-high-hopes.mp3",
-        "posterPath":  ""
+        "id": "209",
+        "title": "Toxicity",
+        "subtitle": "System Of A Down",
+        "audioPath": "audios/system-of-a-down-toxicity.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "210",
-        "title":  "Lying Is The Most Fun...",
-        "subtitle":  "Panic! At The Disco",
-        "audioPath":  "audios/panic-at-the-disco-lying-is-the-most-fun....mp3",
-        "posterPath":  ""
+        "id": "210",
+        "title": "Come Together",
+        "subtitle": "The Beatles",
+        "audioPath": "audios/the-beatles-come-together.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "211",
-        "title":  "Sugar Soaker",
-        "subtitle":  "Panic! At The Disco",
-        "audioPath":  "audios/panic-at-the-disco-sugar-soaker.mp3",
-        "posterPath":  ""
+        "id": "211",
+        "title": "Don't Let Me Down",
+        "subtitle": "The Beatles",
+        "audioPath": "audios/the-beatles-dont-let-me-down.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "212",
-        "title":  "Ain\u0027t It Fun",
-        "subtitle":  "Paramore",
-        "audioPath":  "audios/paramore-aint-it-fun.mp3",
-        "posterPath":  ""
+        "id": "212",
+        "title": "Help!",
+        "subtitle": "The Beatles",
+        "audioPath": "audios/the-beatles-help.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "213",
-        "title":  "Decode",
-        "subtitle":  "Paramore",
-        "audioPath":  "audios/paramore-decode.mp3",
-        "posterPath":  ""
+        "id": "213",
+        "title": "Here Comes The Sun",
+        "subtitle": "The Beatles",
+        "audioPath": "audios/the-beatles-here-comes-the-sun.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "214",
-        "title":  "Ignorance",
-        "subtitle":  "Paramore",
-        "audioPath":  "audios/paramore-ignorance.mp3",
-        "posterPath":  ""
+        "id": "214",
+        "title": "Rock the Casbah",
+        "subtitle": "The Clash",
+        "audioPath": "audios/the-clash-rock-the-casbah.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "215",
-        "title":  "Misery Business",
-        "subtitle":  "Paramore",
-        "audioPath":  "audios/paramore-misery-business.mp3",
-        "posterPath":  ""
+        "id": "215",
+        "title": "Should I Stay or Should I Go",
+        "subtitle": "The Clash",
+        "audioPath": "audios/the-clash-should-i-stay-or-should-i-go.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "216",
-        "title":  "Still Into You",
-        "subtitle":  "Paramore",
-        "audioPath":  "audios/paramore-still-into-you.mp3",
-        "posterPath":  ""
+        "id": "216",
+        "title": "Mr Brightside",
+        "subtitle": "The Killers",
+        "audioPath": "audios/the-killers-mr-brightside.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "217",
-        "title":  "Break from Toronto",
-        "subtitle":  "PARTYNEXTDOOR",
-        "audioPath":  "audios/partynextdoor-break-from-toronto.mp3",
-        "posterPath":  ""
+        "id": "217",
+        "title": "The Kids Arent Alright",
+        "subtitle": "The Offspring",
+        "audioPath": "audios/the-offspring-the-kids-arent-alright.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "218",
-        "title":  "If Only You Knew",
-        "subtitle":  "Patti LaBelle",
-        "audioPath":  "audios/patti-labelle-if-only-you-knew.mp3",
-        "posterPath":  ""
+        "id": "218",
+        "title": "Youre Gonna Go Far Kid",
+        "subtitle": "The Offspring",
+        "audioPath": "audios/the-offspring-youre-gonna-go-far-kid.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "219",
-        "title":  "Alive",
-        "subtitle":  "Pearl Jam",
-        "audioPath":  "audios/pearl-jam-alive.mp3",
-        "posterPath":  ""
+        "id": "219",
+        "title": "Every Breath You Take",
+        "subtitle": "The Police",
+        "audioPath": "audios/the-police-every-breath-you-take.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "220",
-        "title":  "Even Flow",
-        "subtitle":  "Pearl Jam",
-        "audioPath":  "audios/pearl-jam-even-flow.mp3",
-        "posterPath":  ""
+        "id": "220",
+        "title": "Message In A Bottle",
+        "subtitle": "The Police",
+        "audioPath": "audios/the-police-message-in-a-bottle.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "221",
-        "title":  "Jeremy",
-        "subtitle":  "Pearl Jam",
-        "audioPath":  "audios/pearl-jam-jeremy.mp3",
-        "posterPath":  ""
+        "id": "221",
+        "title": "Roxanne",
+        "subtitle": "The Police",
+        "audioPath": "audios/the-police-roxanne.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "222",
-        "title":  "Another Brick in the Wall",
-        "subtitle":  "Pink Floyd",
-        "audioPath":  "audios/pink-floyd-another-brick-in-the-wall.mp3",
-        "posterPath":  ""
+        "id": "222",
+        "title": "Gimme Shelter",
+        "subtitle": "The Rolling Stones",
+        "audioPath": "audios/the-rolling-stones-gimme-shelter.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "223",
-        "title":  "Comfortably Numb",
-        "subtitle":  "Pink Floyd",
-        "audioPath":  "audios/pink-floyd-comfortably-numb.mp3",
-        "posterPath":  ""
+        "id": "223",
+        "title": "Honky Tonk Women",
+        "subtitle": "The Rolling Stones",
+        "audioPath": "audios/the-rolling-stones-honky-tonk-women.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "224",
-        "title":  "Learning To Fly",
-        "subtitle":  "Pink Floyd",
-        "audioPath":  "audios/pink-floyd-learning-to-fly.mp3",
-        "posterPath":  ""
+        "id": "224",
+        "title": "Jumpin’ Jack Flash",
+        "subtitle": "The Rolling Stones",
+        "audioPath": "audios/the-rolling-stones-jumpin-jack-flash.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "225",
-        "title":  "The Wall",
-        "subtitle":  "Pink Floyd",
-        "audioPath":  "audios/pink-floyd-the-wall.mp3",
-        "posterPath":  ""
+        "id": "225",
+        "title": "Paint It, Black",
+        "subtitle": "The Rolling Stones",
+        "audioPath": "audios/the-rolling-stones-paint-it-black.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "226",
-        "title":  "2024",
-        "subtitle":  "Playboi Carti",
-        "audioPath":  "audios/playboi-carti-2024.mp3",
-        "posterPath":  ""
+        "id": "226",
+        "title": "[I Can't Get No] Satisfaction",
+        "subtitle": "The Rolling Stones",
+        "audioPath": "audios/the-rolling-stones-i-cant-get-no-satisfaction.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "227",
-        "title":  "CARNIVAL",
-        "subtitle":  "Playboi Carti",
-        "audioPath":  "audios/playboi-carti-carnival.mp3",
-        "posterPath":  ""
+        "id": "227",
+        "title": "Reptilia",
+        "subtitle": "The Strokes",
+        "audioPath": "audios/the-strokes-reptilia.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "228",
-        "title":  "Fight The Power",
-        "subtitle":  "Public Enemy",
-        "audioPath":  "audios/public-enemy-fight-the-power.mp3",
-        "posterPath":  ""
+        "id": "228",
+        "title": "Seven Nation Army",
+        "subtitle": "The White Stripes",
+        "audioPath": "audios/the-white-stripes-seven-nation-army.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "229",
-        "title":  "Tough",
-        "subtitle":  "Quavo",
-        "audioPath":  "audios/quavo-tough.mp3",
-        "posterPath":  ""
+        "id": "229",
+        "title": "Closer To The Edge",
+        "subtitle": "Thirty Seconds To Mars",
+        "audioPath": "audios/thirty-seconds-to-mars-closer-to-the-edge.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "230",
-        "title":  "Another One Bites the Dust",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-another-one-bites-the-dust.mp3",
-        "posterPath":  ""
+        "id": "230",
+        "title": "The Kill",
+        "subtitle": "Thirty Seconds To Mars",
+        "audioPath": "audios/thirty-seconds-to-mars-the-kill.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "231",
-        "title":  "bohemian Rhapsody",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-bohemian-rhapsody.mp3",
-        "posterPath":  ""
+        "id": "231",
+        "title": "Georgy Porgy",
+        "subtitle": "Toto",
+        "audioPath": "audios/toto-georgy-porgy.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "232",
-        "title":  "Dont Stop Me Now",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-dont-stop-me-now.mp3",
-        "posterPath":  ""
+        "id": "232",
+        "title": "Hold The Line",
+        "subtitle": "Toto",
+        "audioPath": "audios/toto-hold-the-line.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "233",
-        "title":  "I Want To Break Free",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-i-want-to-break-free.mp3",
-        "posterPath":  ""
+        "id": "233",
+        "title": "I Will Remember",
+        "subtitle": "Toto",
+        "audioPath": "audios/toto-i-will-remember.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "234",
-        "title":  "Sex Pistols",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-sex-pistols.mp3",
-        "posterPath":  ""
+        "id": "234",
+        "title": "I'll Be Over You",
+        "subtitle": "Toto",
+        "audioPath": "audios/toto-ill-be-over-you.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "235",
-        "title":  "We Are The Champions",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-we-are-the-champions.mp3",
-        "posterPath":  ""
+        "id": "235",
+        "title": "Pamela",
+        "subtitle": "Toto",
+        "audioPath": "audios/toto-pamela.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "236",
-        "title":  "We Will Rock You",
-        "subtitle":  "Queen",
-        "audioPath":  "audios/queen-we-will-rock-you.mp3",
-        "posterPath":  ""
+        "id": "236",
+        "title": "We re Not Gonna Take It",
+        "subtitle": "Twisted Sister",
+        "audioPath": "audios/twisted-sister-we-re-not-gonna-take-it.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "237",
-        "title":  "Don\u0027t Go Back To Rockville",
-        "subtitle":  "R E M",
-        "audioPath":  "audios/r-e-m-dont-go-back-to-rockville.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "238",
-        "title":  "Everybody Hurts",
-        "subtitle":  "R.E.M.",
-        "audioPath":  "audios/r.e.m.-everybody-hurts.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "239",
-        "title":  "It\u0027s The End Of The World As We Know It",
-        "subtitle":  "R.E.M.",
-        "audioPath":  "audios/r.e.m.-its-the-end-of-the-world-as-we-know-it.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "240",
-        "title":  "Losing My Religion",
-        "subtitle":  "R.E.M.",
-        "audioPath":  "audios/r.e.m.-losing-my-religion.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "241",
-        "title":  "Man On The Moon",
-        "subtitle":  "R.E.M.",
-        "audioPath":  "audios/r.e.m.-man-on-the-moon.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "242",
-        "title":  "Creep",
-        "subtitle":  "Radiohead",
-        "audioPath":  "audios/radiohead-creep.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "243",
-        "title":  "Karma Police",
-        "subtitle":  "Radiohead",
-        "audioPath":  "audios/radiohead-karma-police.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "244",
-        "title":  "Bulls On Parade",
-        "subtitle":  "Rage Against The Machine",
-        "audioPath":  "audios/rage-against-the-machine-bulls-on-parade.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "245",
-        "title":  "Killing In The Name",
-        "subtitle":  "Rage Against The Machine",
-        "audioPath":  "audios/rage-against-the-machine-killing-in-the-name.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "246",
-        "title":  "Amerika",
-        "subtitle":  "Rammstein",
-        "audioPath":  "audios/rammstein-amerika.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "247",
-        "title":  "Deutschland",
-        "subtitle":  "Rammstein",
-        "audioPath":  "audios/rammstein-deutschland.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "248",
-        "title":  "Du Hast",
-        "subtitle":  "Rammstein",
-        "audioPath":  "audios/rammstein-du-hast.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "249",
-        "title":  "Ich Will",
-        "subtitle":  "Rammstein",
-        "audioPath":  "audios/rammstein-ich-will.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "250",
-        "title":  "Sonne",
-        "subtitle":  "Rammstein",
-        "audioPath":  "audios/rammstein-sonne.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "251",
-        "title":  "La Leyenda Del Hada Y El Mago",
-        "subtitle":  "Rata Blanca",
-        "audioPath":  "audios/rata-blanca-la-leyenda-del-hada-y-el-mago.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "252",
-        "title":  "Mujer Amante",
-        "subtitle":  "Rata Blanca",
-        "audioPath":  "audios/rata-blanca-mujer-amante.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "253",
-        "title":  "Californication",
-        "subtitle":  "Red Hot Chili Peppers",
-        "audioPath":  "audios/red-hot-chili-peppers-californication.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "254",
-        "title":  "Cant Stop",
-        "subtitle":  "Red Hot Chili Peppers",
-        "audioPath":  "audios/red-hot-chili-peppers-cant-stop.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "255",
-        "title":  "Otherside",
-        "subtitle":  "Red Hot Chili Peppers",
-        "audioPath":  "audios/red-hot-chili-peppers-otherside.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "256",
-        "title":  "Its Tricky",
-        "subtitle":  "Run DMC",
-        "audioPath":  "audios/run-dmc-its-tricky.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "257",
-        "title":  "By Your Side",
-        "subtitle":  "Sade",
-        "audioPath":  "audios/sade-by-your-side.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "258",
-        "title":  "Smooth Operator",
-        "subtitle":  "Sade",
-        "audioPath":  "audios/sade-smooth-operator.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "259",
-        "title":  "Always Somewhere",
-        "subtitle":  "Scorpions",
-        "audioPath":  "audios/scorpions-always-somewhere.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "260",
-        "title":  "Believe In Love",
-        "subtitle":  "Scorpions",
-        "audioPath":  "audios/scorpions-believe-in-love.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "261",
-        "title":  "Holiday",
-        "subtitle":  "Scorpions",
-        "audioPath":  "audios/scorpions-holiday.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "262",
-        "title":  "I\u0027m Leaving You",
-        "subtitle":  "Scorpions",
-        "audioPath":  "audios/scorpions-im-leaving-you.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "263",
-        "title":  "Wind Of Change",
-        "subtitle":  "Scorpions",
-        "audioPath":  "audios/scorpions-wind-of-change.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "264",
-        "title":  "Get It Sexyy",
-        "subtitle":  "Sexyy Red",
-        "audioPath":  "audios/sexyy-red-get-it-sexyy.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "265",
-        "title":  "SkeeYee",
-        "subtitle":  "Sexyy Red",
-        "audioPath":  "audios/sexyy-red-skeeyee.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "266",
-        "title":  "Childrens Story",
-        "subtitle":  "Slick Rick",
-        "audioPath":  "audios/slick-rick-childrens-story.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "267",
-        "title":  "Duality",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-duality.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "268",
-        "title":  "Killpop",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-killpop.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "269",
-        "title":  "Psychosocial",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-psychosocial.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "270",
-        "title":  "Snuff",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-snuff.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "271",
-        "title":  "The Devil In I",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-the-devil-in-i.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "272",
-        "title":  "Unsainted",
-        "subtitle":  "Slipknot",
-        "audioPath":  "audios/slipknot-unsainted.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "273",
-        "title":  "Cruisin",
-        "subtitle":  "Smokey Robinson",
-        "audioPath":  "audios/smokey-robinson-cruisin.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "274",
-        "title":  "I Want You Around",
-        "subtitle":  "Snoh Aalegra",
-        "audioPath":  "audios/snoh-aalegra-i-want-you-around.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "275",
-        "title":  "93 Til Infinity",
-        "subtitle":  "Souls Of Mischief",
-        "audioPath":  "audios/souls-of-mischief-93-til-infinity.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "276",
-        "title":  "Burning Heart",
-        "subtitle":  "Survivor",
-        "audioPath":  "audios/survivor-burning-heart.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "277",
-        "title":  "Eye of the Tiger",
-        "subtitle":  "Survivor",
-        "audioPath":  "audios/survivor-eye-of-the-tiger.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "278",
-        "title":  "B.Y.O.B.",
-        "subtitle":  "System Of A Down",
-        "audioPath":  "audios/system-of-a-down-b.y.o.b..mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "279",
-        "title":  "Chop Suey",
-        "subtitle":  "System Of A Down",
-        "audioPath":  "audios/system-of-a-down-chop-suey.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "280",
-        "title":  "Toxicity",
-        "subtitle":  "System Of A Down",
-        "audioPath":  "audios/system-of-a-down-toxicity.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "281",
-        "title":  "The Anonymous Ones",
-        "subtitle":  "SZA",
-        "audioPath":  "audios/sza-the-anonymous-ones.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "282",
-        "title":  "Close the Door",
-        "subtitle":  "Teddy Pendergrass",
-        "audioPath":  "audios/teddy-pendergrass-close-the-door.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "283",
-        "title":  "Come Together",
-        "subtitle":  "The Beatles",
-        "audioPath":  "audios/the-beatles-come-together.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "284",
-        "title":  "Don\u0027t Let Me Down",
-        "subtitle":  "The Beatles",
-        "audioPath":  "audios/the-beatles-dont-let-me-down.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "285",
-        "title":  "Help!",
-        "subtitle":  "The Beatles",
-        "audioPath":  "audios/the-beatles-help.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "286",
-        "title":  "Here Comes The Sun",
-        "subtitle":  "The Beatles",
-        "audioPath":  "audios/the-beatles-here-comes-the-sun.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "287",
-        "title":  "Rock the Casbah",
-        "subtitle":  "The Clash",
-        "audioPath":  "audios/the-clash-rock-the-casbah.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "288",
-        "title":  "Should I Stay or Should I Go",
-        "subtitle":  "The Clash",
-        "audioPath":  "audios/the-clash-should-i-stay-or-should-i-go.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "289",
-        "title":  "Between the Sheets",
-        "subtitle":  "The Isley Brothers",
-        "audioPath":  "audios/the-isley-brothers-between-the-sheets.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "290",
-        "title":  "Mr Brightside",
-        "subtitle":  "The Killers",
-        "audioPath":  "audios/the-killers-mr-brightside.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "291",
-        "title":  "The Kids Arent Alright",
-        "subtitle":  "The Offspring",
-        "audioPath":  "audios/the-offspring-the-kids-arent-alright.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "292",
-        "title":  "Youre Gonna Go Far Kid",
-        "subtitle":  "The Offspring",
-        "audioPath":  "audios/the-offspring-youre-gonna-go-far-kid.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "293",
-        "title":  "Every Breath You Take",
-        "subtitle":  "The Police",
-        "audioPath":  "audios/the-police-every-breath-you-take.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "294",
-        "title":  "Message In A Bottle",
-        "subtitle":  "The Police",
-        "audioPath":  "audios/the-police-message-in-a-bottle.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "295",
-        "title":  "Roxanne",
-        "subtitle":  "The Police",
-        "audioPath":  "audios/the-police-roxanne.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "296",
-        "title":  "Gimme Shelter",
-        "subtitle":  "The Rolling Stones",
-        "audioPath":  "audios/the-rolling-stones-gimme-shelter.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "297",
-        "title":  "Honky Tonk Women",
-        "subtitle":  "The Rolling Stones",
-        "audioPath":  "audios/the-rolling-stones-honky-tonk-women.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "298",
-        "title":  "Jumpin’ Jack Flash",
-        "subtitle":  "The Rolling Stones",
-        "audioPath":  "audios/the-rolling-stones-jumpin-jack-flash.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "299",
-        "title":  "Paint It, Black",
-        "subtitle":  "The Rolling Stones",
-        "audioPath":  "audios/the-rolling-stones-paint-it-black.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "300",
-        "title":  "[I Can\u0027t Get No] Satisfaction",
-        "subtitle":  "The Rolling Stones",
-        "audioPath":  "audios/the-rolling-stones-i-cant-get-no-satisfaction.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "301",
-        "title":  "Reptilia",
-        "subtitle":  "The Strokes",
-        "audioPath":  "audios/the-strokes-reptilia.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "302",
-        "title":  "Seven Nation Army",
-        "subtitle":  "The White Stripes",
-        "audioPath":  "audios/the-white-stripes-seven-nation-army.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "303",
-        "title":  "Closer To The Edge",
-        "subtitle":  "Thirty Seconds To Mars",
-        "audioPath":  "audios/thirty-seconds-to-mars-closer-to-the-edge.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "304",
-        "title":  "The Kill",
-        "subtitle":  "Thirty Seconds To Mars",
-        "audioPath":  "audios/thirty-seconds-to-mars-the-kill.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "305",
-        "title":  "Say It",
-        "subtitle":  "Tory Lanez",
-        "audioPath":  "audios/tory-lanez-say-it.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "306",
-        "title":  "The Color Violet",
-        "subtitle":  "Tory Lanez",
-        "audioPath":  "audios/tory-lanez-the-color-violet.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "307",
-        "title":  "Georgy Porgy",
-        "subtitle":  "Toto",
-        "audioPath":  "audios/toto-georgy-porgy.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "308",
-        "title":  "Hold The Line",
-        "subtitle":  "Toto",
-        "audioPath":  "audios/toto-hold-the-line.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "309",
-        "title":  "I Will Remember",
-        "subtitle":  "Toto",
-        "audioPath":  "audios/toto-i-will-remember.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "310",
-        "title":  "I\u0027ll Be Over You",
-        "subtitle":  "Toto",
-        "audioPath":  "audios/toto-ill-be-over-you.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "311",
-        "title":  "Pamela",
-        "subtitle":  "Toto",
-        "audioPath":  "audios/toto-pamela.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "312",
-        "title":  "Na Na",
-        "subtitle":  "Trey Songz",
-        "audioPath":  "audios/trey-songz-na-na.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "313",
-        "title":  "We re Not Gonna Take It",
-        "subtitle":  "Twisted Sister",
-        "audioPath":  "audios/twisted-sister-we-re-not-gonna-take-it.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "314",
-        "title":  "On My Mama",
-        "subtitle":  "Victoria Monét",
-        "audioPath":  "audios/victoria-mont-on-my-mama.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "315",
-        "title":  "Say It Aint So",
-        "subtitle":  "Weezer",
-        "audioPath":  "audios/weezer-say-it-aint-so.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "316",
-        "title":  "Protect Ya Neck",
-        "subtitle":  "Wu-Tang Clan",
-        "audioPath":  "audios/wu-tang-clan-protect-ya-neck.mp3",
-        "posterPath":  ""
+        "id": "237",
+        "title": "Say It Aint So",
+        "subtitle": "Weezer",
+        "audioPath": "audios/weezer-say-it-aint-so.mp3",
+        "posterPath": ""
     }
 ]
