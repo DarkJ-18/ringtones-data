@@ -1,275 +1,1150 @@
 [
-  {
-    "id": "1",
-    "title": "Peaches Cream",
-    "subtitle": "112",
-    "audioPath": "audios/112-peaches-cream.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "2",
-    "title": "act ii date 8",
-    "subtitle": "4Batz",
-    "audioPath": "audios/4batz-act-ii-date-8.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "3",
-    "title": "Sweet Love",
-    "subtitle": "Anita Baker",
-    "audioPath": "audios/anita-baker-sweet-love.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "4",
-    "title": "Have You Ever",
-    "subtitle": "Brandy",
-    "audioPath": "audios/brandy-have-you-ever.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "5",
-    "title": "U Know Whats Up",
-    "subtitle": "Donell Jones",
-    "audioPath": "audios/donell-jones-u-know-whats-up.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "6",
-    "title": "In My Bed",
-    "subtitle": "Dru Hill",
-    "audioPath": "audios/dru-hill-in-my-bed.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "7",
-    "title": "Reasons",
-    "subtitle": "Earth Wind Fire",
-    "audioPath": "audios/earth-wind-fire-reasons.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "8",
-    "title": "Bood Up",
-    "subtitle": "Ella Mai",
-    "audioPath": "audios/ella-mai-bood-up.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "9",
-    "title": "Trip",
-    "subtitle": "Ella Mai",
-    "audioPath": "audios/ella-mai-trip.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "10",
-    "title": "Dont Let Go (Love)",
-    "subtitle": "En Vogue",
-    "audioPath": "audios/en-vogue-dont-let-go-love.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "11",
-    "title": "When It Comes To You",
-    "subtitle": "Fridayy",
-    "audioPath": "audios/fridayy-when-it-comes-to-you.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "12",
-    "title": "Where the Party At",
-    "subtitle": "Jagged Edge",
-    "audioPath": "audios/jagged-edge-where-the-party-at.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "13",
-    "title": "Pick Up Your Feelings",
-    "subtitle": "Jazmine Sullivan",
-    "audioPath": "audios/jazmine-sullivan-pick-up-your-feelings.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "14",
-    "title": "Sativa",
-    "subtitle": "Jhené Aiko",
-    "audioPath": "audios/jhene-aiko-sativa.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "15",
-    "title": "The Worst",
-    "subtitle": "Jhené Aiko",
-    "audioPath": "audios/jhene-aiko-the-worst.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "16",
-    "title": "I Wanna Know",
-    "subtitle": "Joe",
-    "audioPath": "audios/joe-i-wanna-know.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "17",
-    "title": "After Hours",
-    "subtitle": "Kehlani",
-    "audioPath": "audios/kehlani-after-hours.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "18",
-    "title": "Nights Like This",
-    "subtitle": "Kehlani",
-    "audioPath": "audios/kehlani-nights-like-this.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "19",
-    "title": "EX",
-    "subtitle": "Kiana Ledé",
-    "audioPath": "audios/kiana-lede-ex.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "20",
-    "title": "Snooze",
-    "subtitle": "Leon Thomas",
-    "audioPath": "audios/leon-thomas-snooze.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "21",
-    "title": "You",
-    "subtitle": "Lloyd",
-    "audioPath": "audios/lloyd-you.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "22",
-    "title": "Never Too Much",
-    "subtitle": "Luther Vandross",
-    "audioPath": "audios/luther-vandross-never-too-much.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "23",
-    "title": "Love Like This",
-    "subtitle": "Marquan",
-    "audioPath": "audios/marquan-love-like-this.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "24",
-    "title": "Angel of Mine",
-    "subtitle": "Monica",
-    "audioPath": "audios/monica-angel-of-mine.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "25",
-    "title": "Too Close",
-    "subtitle": "Next",
-    "audioPath": "audios/next-too-close.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "26",
-    "title": "Ice Box",
-    "subtitle": "Omarion",
-    "audioPath": "audios/omarion-ice-box.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "27",
-    "title": "Break from Toronto",
-    "subtitle": "PARTYNEXTDOOR",
-    "audioPath": "audios/partynextdoor-break-from-toronto.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "28",
-    "title": "If Only You Knew",
-    "subtitle": "Patti LaBelle",
-    "audioPath": "audios/patti-labelle-if-only-you-knew.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "29",
-    "title": "The Anonymous Ones",
-    "subtitle": "SZA",
-    "audioPath": "audios/sza-the-anonymous-ones.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "30",
-    "title": "By Your Side",
-    "subtitle": "Sade",
-    "audioPath": "audios/sade-by-your-side.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "31",
-    "title": "Smooth Operator",
-    "subtitle": "Sade",
-    "audioPath": "audios/sade-smooth-operator.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "32",
-    "title": "Cruisin",
-    "subtitle": "Smokey Robinson",
-    "audioPath": "audios/smokey-robinson-cruisin.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "33",
-    "title": "I Want You Around",
-    "subtitle": "Snoh Aalegra",
-    "audioPath": "audios/snoh-aalegra-i-want-you-around.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "34",
-    "title": "Close the Door",
-    "subtitle": "Teddy Pendergrass",
-    "audioPath": "audios/teddy-pendergrass-close-the-door.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "35",
-    "title": "Between the Sheets",
-    "subtitle": "The Isley Brothers",
-    "audioPath": "audios/the-isley-brothers-between-the-sheets.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "36",
-    "title": "Say It",
-    "subtitle": "Tory Lanez",
-    "audioPath": "audios/tory-lanez-say-it.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "37",
-    "title": "The Color Violet",
-    "subtitle": "Tory Lanez",
-    "audioPath": "audios/tory-lanez-the-color-violet.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "38",
-    "title": "Na Na",
-    "subtitle": "Trey Songz",
-    "audioPath": "audios/trey-songz-na-na.mp3",
-    "posterPath": ""
-  },
-  {
-    "id": "39",
-    "title": "On My Mama",
-    "subtitle": "Victoria Monét",
-    "audioPath": "audios/victoria-monet-on-my-mama.mp3",
-    "posterPath": ""
-  }
+    {
+        "id": "1",
+        "title": "Kiss It Better",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-kiss-it-better.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "2",
+        "title": "Sex With Me",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-sex-with-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "3",
+        "title": "Call Out My Name",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-call-out-my-name.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "4",
+        "title": "Crazy in Love",
+        "subtitle": "Beyonce",
+        "audioPath": "audios/beyonce-crazy-in-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "5",
+        "title": "Dem Haters",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-dem-haters.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "6",
+        "title": "Heartless",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-heartless.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "7",
+        "title": "Often",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-often.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "8",
+        "title": "Earned It",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-earned-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "9",
+        "title": "Formation",
+        "subtitle": "Beyonce",
+        "audioPath": "audios/beyonce-formation.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "10",
+        "title": "Partition",
+        "subtitle": "Beyonce",
+        "audioPath": "audios/beyonce-partition.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "11",
+        "title": "Fallin",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-fallin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "12",
+        "title": "If I Ain't Got You",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-if-i-aint-got-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "13",
+        "title": "No One",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-no-one.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "14",
+        "title": "Try Sleeping With a Broken Heart",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-try-sleeping-with-a-broken-heart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "15",
+        "title": "Un Thinkable",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-un-thinkable.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "16",
+        "title": "You Don't Know My Name",
+        "subtitle": "Alicia Keys",
+        "audioPath": "audios/alicia-keys-you-dont-know-my-name.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "17",
+        "title": "Human Nature",
+        "subtitle": "Michael Jackson",
+        "audioPath": "audios/michael-jackson-human-nature.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "18",
+        "title": "Remember the Time",
+        "subtitle": "Michael Jackson",
+        "audioPath": "audios/michael-jackson-remember-the-time.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "19",
+        "title": "Cry Me a River",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-cry-me-a-river.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "20",
+        "title": "Filthy",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-filthy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "21",
+        "title": "Last Night",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-last-night.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "22",
+        "title": "Let's Take A Ride",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-lets-take-a-ride.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "23",
+        "title": "Never Again",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-never-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "24",
+        "title": "Nothin' Else",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-nothin-else.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "25",
+        "title": "Still on My Brain",
+        "subtitle": "Justin Timberlake",
+        "audioPath": "audios/justin-timberlake-still-on-my-brain.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "26",
+        "title": "Versace on the Floor",
+        "subtitle": "Bruno Mars",
+        "audioPath": "audios/bruno-mars-versace-on-the-floor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "27",
+        "title": "That’s What I Like",
+        "subtitle": "Bruno Mars",
+        "audioPath": "audios/bruno-mars-thats-what-i-like.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "28",
+        "title": "Adore You",
+        "subtitle": "Bruno Mars",
+        "audioPath": "audios/bruno-mars-adore-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "29",
+        "title": "Chanel",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-chanel.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "30",
+        "title": "Ivy",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-ivy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "31",
+        "title": "Nights",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-nights.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "32",
+        "title": "Nikes",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-nikes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "33",
+        "title": "Pink + White",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-pink-white.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "34",
+        "title": "Self Control",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-self-control.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "35",
+        "title": "White Ferrari",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-white-ferrari.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "36",
+        "title": "Ain't Too Proud To Beg",
+        "subtitle": "The Temptations",
+        "audioPath": "audios/the-temptations-aint-too-proud-to-beg.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "37",
+        "title": "Just My Imagination",
+        "subtitle": "The Temptations",
+        "audioPath": "audios/the-temptations-just-my-imagination.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "38",
+        "title": "Get Ready",
+        "subtitle": "The Temptations",
+        "audioPath": "audios/the-temptations-get-ready.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "39",
+        "title": "I wish it would rain",
+        "subtitle": "The Temptations",
+        "audioPath": "audios/the-temptations-i-wish-it-would-rain.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "40",
+        "title": "My Girl",
+        "subtitle": "The Temptations",
+        "audioPath": "audios/the-temptations-my-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "44",
+        "title": "Burn",
+        "subtitle": "Usher",
+        "audioPath": "audios/usher-burn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "48",
+        "title": "Work",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-work.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "49",
+        "title": "Billie Jean",
+        "subtitle": "Michael Jackson",
+        "audioPath": "audios/michael-jackson-billie-jean.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "50",
+        "title": "Love Never Felt So Good",
+        "subtitle": "Michael Jackson",
+        "audioPath": "audios/michael-jackson-love-never-felt-so-good.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "51",
+        "title": "Thriller",
+        "subtitle": "Michael Jackson",
+        "audioPath": "audios/michael-jackson-thriller.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "52",
+        "title": "Are You That Somebody",
+        "subtitle": "Aaliyah",
+        "audioPath": "audios/aaliyah-are-you-that-somebody.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "53",
+        "title": "Lets Stay Together",
+        "subtitle": "Al Green",
+        "audioPath": "audios/al-green-lets-stay-together.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "54",
+        "title": "Foolish",
+        "subtitle": "Ashanti",
+        "audioPath": "audios/ashanti-foolish.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "55",
+        "title": "Aint No Sunshine",
+        "subtitle": "Bill Withers",
+        "audioPath": "audios/bill-withers-aint-no-sunshine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "56",
+        "title": "Ill Make Love to You",
+        "subtitle": "Boyz II Men",
+        "audioPath": "audios/boyz-ii-men-ill-make-love-to-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "57",
+        "title": "Dead Man Walking",
+        "subtitle": "Brent Faiyaz",
+        "audioPath": "audios/brent-faiyaz-dead-man-walking.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "58",
+        "title": "Dont",
+        "subtitle": "Bryson Tiller",
+        "audioPath": "audios/bryson-tiller-dont.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "59",
+        "title": "Aint Nobody",
+        "subtitle": "Chaka Khan",
+        "audioPath": "audios/chaka-khan-aint-nobody.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "60",
+        "title": "No Guidance",
+        "subtitle": "Chris Brown",
+        "audioPath": "audios/chris-brown-no-guidance.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "61",
+        "title": "With You",
+        "subtitle": "Chris Brown",
+        "audioPath": "audios/chris-brown-with-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "62",
+        "title": "Goodies",
+        "subtitle": "Ciara",
+        "audioPath": "audios/ciara-goodies.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "63",
+        "title": "7 Days",
+        "subtitle": "Craig David",
+        "audioPath": "audios/craig-david-7-days.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "64",
+        "title": "Untitled (How Does It Feel)",
+        "subtitle": "DAngelo",
+        "audioPath": "audios/dangelo-untitled-how-does-it-feel.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "65",
+        "title": "Get You",
+        "subtitle": "Daniel Caesar",
+        "audioPath": "audios/daniel-caesar-get-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "66",
+        "title": "Say My Name",
+        "subtitle": "Destinys Child",
+        "audioPath": "audios/destinys-child-say-my-name.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "67",
+        "title": "September",
+        "subtitle": "Earth Wind  Fire",
+        "audioPath": "audios/earth-wind-fire-september.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "68",
+        "title": "On  On",
+        "subtitle": "Erykah Badu",
+        "audioPath": "audios/erykah-badu-on-on.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "69",
+        "title": "Pony",
+        "subtitle": "Ginuwine",
+        "audioPath": "audios/ginuwine-pony.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "70",
+        "title": "Heartbreak Anniversary",
+        "subtitle": "Giveon",
+        "audioPath": "audios/giveon-heartbreak-anniversary.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "71",
+        "title": "Best Part",
+        "subtitle": "H.E.R.",
+        "audioPath": "audios/h.e.r.-best-part.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "72",
+        "title": "Birthday Sex",
+        "subtitle": "Jeremih",
+        "audioPath": "audios/jeremih-birthday-sex.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "73",
+        "title": "Knock You Down",
+        "subtitle": "Keri Hilson",
+        "audioPath": "audios/keri-hilson-knock-you-down.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "74",
+        "title": "Location",
+        "subtitle": "Khalid",
+        "audioPath": "audios/khalid-location.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "75",
+        "title": "Doo Wop (That Thing)",
+        "subtitle": "Lauryn Hill",
+        "audioPath": "audios/lauryn-hill-doo-wop-that-thing.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "76",
+        "title": "Let Me Love You",
+        "subtitle": "Mario",
+        "audioPath": "audios/mario-let-me-love-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "77",
+        "title": "Sexual Healing",
+        "subtitle": "Marvin Gaye",
+        "audioPath": "audios/marvin-gaye-sexual-healing.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "78",
+        "title": "Family Affair",
+        "subtitle": "Mary J. Blige",
+        "audioPath": "audios/mary-j.-blige-family-affair.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "79",
+        "title": "Adorn",
+        "subtitle": "Miguel",
+        "audioPath": "audios/miguel-adorn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "80",
+        "title": "So Sick",
+        "subtitle": "Ne-Yo",
+        "audioPath": "audios/ne-yo-so-sick.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "81",
+        "title": "Promiscuous",
+        "subtitle": "Nelly Furtado",
+        "audioPath": "audios/nelly-furtado-promiscuous.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "82",
+        "title": "Ignition (Remix)",
+        "subtitle": "R. Kelly",
+        "audioPath": "audios/r.-kelly-ignition-remix.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "83",
+        "title": "I Got a Woman",
+        "subtitle": "Ray Charles",
+        "audioPath": "audios/ray-charles-i-got-a-woman.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "84",
+        "title": "Leave the Door Open",
+        "subtitle": "Silk Sonic",
+        "audioPath": "audios/silk-sonic-leave-the-door-open.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "85",
+        "title": "Superstition",
+        "subtitle": "Stevie Wonder",
+        "audioPath": "audios/stevie-wonder-superstition.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "86",
+        "title": "Girls Need Love",
+        "subtitle": "Summer Walker",
+        "audioPath": "audios/summer-walker-girls-need-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "87",
+        "title": "Kill Bill",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-kill-bill.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "88",
+        "title": "Buy U a Drank",
+        "subtitle": "T-Pain",
+        "audioPath": "audios/t-pain-buy-u-a-drank.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "89",
+        "title": "No Scrubs",
+        "subtitle": "TLC",
+        "audioPath": "audios/tlc-no-scrubs.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "90",
+        "title": "Bottoms Up",
+        "subtitle": "Trey Songz",
+        "audioPath": "audios/trey-songz-bottoms-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "91",
+        "title": "Pillowtalk",
+        "subtitle": "Zayn",
+        "audioPath": "audios/zayn-pillowtalk.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "92",
+        "title": "Respect",
+        "subtitle": "Aretha Franklin",
+        "audioPath": "audios/aretha-franklin-respect.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "93",
+        "title": "Stand by Me",
+        "subtitle": "Ben E. King",
+        "audioPath": "audios/ben-e.-king-stand-by-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "94",
+        "title": "No Diggity",
+        "subtitle": "Blackstreet",
+        "audioPath": "audios/blackstreet-no-diggity.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "95",
+        "title": "Chosen",
+        "subtitle": "Blxst",
+        "audioPath": "audios/blxst-chosen.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "96",
+        "title": "End of the Road",
+        "subtitle": "Boyz II Men",
+        "audioPath": "audios/boyz-ii-men-end-of-the-road.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "97",
+        "title": "All Mine",
+        "subtitle": "Brent Faiyaz",
+        "audioPath": "audios/brent-faiyaz-all-mine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "98",
+        "title": "Whatever She Wants",
+        "subtitle": "Bryson Tiller",
+        "audioPath": "audios/bryson-tiller-whatever-she-wants.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "99",
+        "title": "Have Mercy",
+        "subtitle": "Chlöe",
+        "audioPath": "audios/chle-have-mercy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "100",
+        "title": "Under the Influence",
+        "subtitle": "Chris Brown",
+        "audioPath": "audios/chris-brown-under-the-influence.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "101",
+        "title": "Yo (Excuse Me Miss)",
+        "subtitle": "Chris Brown",
+        "audioPath": "audios/chris-brown-yo-excuse-me-miss.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "102",
+        "title": "ICU",
+        "subtitle": "Coco Jones",
+        "audioPath": "audios/coco-jones-icu.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "103",
+        "title": "Always",
+        "subtitle": "Daniel Caesar",
+        "audioPath": "audios/daniel-caesar-always.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "104",
+        "title": "Survivor",
+        "subtitle": "Destinys Child",
+        "audioPath": "audios/destinys-child-survivor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "105",
+        "title": "At Last",
+        "subtitle": "Etta James",
+        "audioPath": "audios/etta-james-at-last.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "106",
+        "title": "Killing Me Softly With His Song",
+        "subtitle": "Fugees",
+        "audioPath": "audios/fugees-killing-me-softly-with-his-song.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "107",
+        "title": "For Tonight",
+        "subtitle": "Giveon",
+        "audioPath": "audios/giveon-for-tonight.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "108",
+        "title": "Damage",
+        "subtitle": "H.E.R.",
+        "audioPath": "audios/h.e.r.-damage.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "109",
+        "title": "Strangers",
+        "subtitle": "Kenya Grace",
+        "audioPath": "audios/kenya-grace-strangers.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "110",
+        "title": "Over",
+        "subtitle": "Lucky Daye",
+        "audioPath": "audios/lucky-daye-over.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "111",
+        "title": "We Belong Together",
+        "subtitle": "Mariah Carey",
+        "audioPath": "audios/mariah-carey-we-belong-together.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "112",
+        "title": "Whats Going On",
+        "subtitle": "Marvin Gaye",
+        "audioPath": "audios/marvin-gaye-whats-going-on.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "112",
+        "title": "peaches-cream",
+        "subtitle": "Unknown",
+        "audioPath": "audios/peaches-cream.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "113",
+        "title": "Hrs and Hrs",
+        "subtitle": "Muni Long",
+        "audioPath": "audios/muni-long-hrs-and-hrs.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "114",
+        "title": "Miss Independent",
+        "subtitle": "Ne-Yo",
+        "audioPath": "audios/ne-yo-miss-independent.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "115",
+        "title": "Motivation",
+        "subtitle": "Normani",
+        "audioPath": "audios/normani-motivation.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "116",
+        "title": "(Sittin On) The Dock of the Bay",
+        "subtitle": "Otis Redding",
+        "audioPath": "audios/otis-redding-sittin-on-the-dock-of-the-bay.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "117",
+        "title": "I Believe I Can Fly",
+        "subtitle": "R. Kelly",
+        "audioPath": "audios/r.-kelly-i-believe-i-can-fly.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "118",
+        "title": "A Change Is Gonna Come",
+        "subtitle": "Sam Cooke",
+        "audioPath": "audios/sam-cooke-a-change-is-gonna-come.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "119",
+        "title": "Bad Habit",
+        "subtitle": "Steve Lacy",
+        "audioPath": "audios/steve-lacy-bad-habit.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "120",
+        "title": "I Just Called to Say I Love You",
+        "subtitle": "Stevie Wonder",
+        "audioPath": "audios/stevie-wonder-i-just-called-to-say-i-love-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "121",
+        "title": "No Love",
+        "subtitle": "Summer Walker",
+        "audioPath": "audios/summer-walker-no-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "122",
+        "title": "Shirt",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-shirt.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "123",
+        "title": "Snooze",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-snooze.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "124",
+        "title": "Free Mind",
+        "subtitle": "Tems",
+        "audioPath": "audios/tems-free-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "125",
+        "title": "Baby Love",
+        "subtitle": "The Supremes",
+        "audioPath": "audios/the-supremes-baby-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "126",
+        "title": "Starboy",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-starboy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "127",
+        "title": "MILLION DOLLAR BABY",
+        "subtitle": "Tommy Richman",
+        "audioPath": "audios/tommy-richman-million-dollar-baby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "128",
+        "title": "Un-Break My Heart",
+        "subtitle": "Toni Braxton",
+        "audioPath": "audios/toni-braxton-un-break-my-heart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "129",
+        "title": "Water",
+        "subtitle": "Tyla",
+        "audioPath": "audios/tyla-water.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "130",
+        "title": "Yeah",
+        "subtitle": "Usher",
+        "audioPath": "audios/usher-yeah.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "131",
+        "title": "Peaches  Cream",
+        "subtitle": "112",
+        "audioPath": "audios/112-peaches-cream.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "132",
+        "title": "act ii date  8",
+        "subtitle": "4Batz",
+        "audioPath": "audios/4batz-act-ii-date-8.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "133",
+        "title": "Sweet Love",
+        "subtitle": "Anita Baker",
+        "audioPath": "audios/anita-baker-sweet-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "134",
+        "title": "Have You Ever",
+        "subtitle": "Brandy",
+        "audioPath": "audios/brandy-have-you-ever.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "135",
+        "title": "U Know Whats Up",
+        "subtitle": "Donell Jones",
+        "audioPath": "audios/donell-jones-u-know-whats-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "136",
+        "title": "In My Bed",
+        "subtitle": "Dru Hill",
+        "audioPath": "audios/dru-hill-in-my-bed.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "137",
+        "title": "Reasons",
+        "subtitle": "Earth Wind  Fire",
+        "audioPath": "audios/earth-wind-fire-reasons.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "138",
+        "title": "Bood Up",
+        "subtitle": "Ella Mai",
+        "audioPath": "audios/ella-mai-bood-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "139",
+        "title": "Trip",
+        "subtitle": "Ella Mai",
+        "audioPath": "audios/ella-mai-trip.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "140",
+        "title": "Dont Let Go (Love)",
+        "subtitle": "En Vogue",
+        "audioPath": "audios/en-vogue-dont-let-go-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "141",
+        "title": "When It Comes To You",
+        "subtitle": "Fridayy",
+        "audioPath": "audios/fridayy-when-it-comes-to-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "142",
+        "title": "Where the Party At",
+        "subtitle": "Jagged Edge",
+        "audioPath": "audios/jagged-edge-where-the-party-at.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "143",
+        "title": "Pick Up Your Feelings",
+        "subtitle": "Jazmine Sullivan",
+        "audioPath": "audios/jazmine-sullivan-pick-up-your-feelings.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "144",
+        "title": "Sativa",
+        "subtitle": "Jhené Aiko",
+        "audioPath": "audios/jhen-aiko-sativa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "145",
+        "title": "The Worst",
+        "subtitle": "Jhené Aiko",
+        "audioPath": "audios/jhen-aiko-the-worst.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "146",
+        "title": "I Wanna Know",
+        "subtitle": "Joe",
+        "audioPath": "audios/joe-i-wanna-know.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "147",
+        "title": "After Hours",
+        "subtitle": "Kehlani",
+        "audioPath": "audios/kehlani-after-hours.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "148",
+        "title": "Nights Like This",
+        "subtitle": "Kehlani",
+        "audioPath": "audios/kehlani-nights-like-this.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "149",
+        "title": "EX",
+        "subtitle": "Kiana Ledé",
+        "audioPath": "audios/kiana-led-ex.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "150",
+        "title": "Snooze",
+        "subtitle": "Leon Thomas",
+        "audioPath": "audios/leon-thomas-snooze.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "151",
+        "title": "You",
+        "subtitle": "Lloyd",
+        "audioPath": "audios/lloyd-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "152",
+        "title": "Never Too Much",
+        "subtitle": "Luther Vandross",
+        "audioPath": "audios/luther-vandross-never-too-much.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "153",
+        "title": "Love Like This",
+        "subtitle": "Marquan",
+        "audioPath": "audios/marquan-love-like-this.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "154",
+        "title": "Angel of Mine",
+        "subtitle": "Monica",
+        "audioPath": "audios/monica-angel-of-mine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "155",
+        "title": "Too Close",
+        "subtitle": "Next",
+        "audioPath": "audios/next-too-close.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "156",
+        "title": "Ice Box",
+        "subtitle": "Omarion",
+        "audioPath": "audios/omarion-ice-box.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "157",
+        "title": "Break from Toronto",
+        "subtitle": "PARTYNEXTDOOR",
+        "audioPath": "audios/partynextdoor-break-from-toronto.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "158",
+        "title": "If Only You Knew",
+        "subtitle": "Patti LaBelle",
+        "audioPath": "audios/patti-labelle-if-only-you-knew.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "159",
+        "title": "By Your Side",
+        "subtitle": "Sade",
+        "audioPath": "audios/sade-by-your-side.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "160",
+        "title": "Smooth Operator",
+        "subtitle": "Sade",
+        "audioPath": "audios/sade-smooth-operator.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "161",
+        "title": "Cruisin",
+        "subtitle": "Smokey Robinson",
+        "audioPath": "audios/smokey-robinson-cruisin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "162",
+        "title": "I Want You Around",
+        "subtitle": "Snoh Aalegra",
+        "audioPath": "audios/snoh-aalegra-i-want-you-around.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "163",
+        "title": "The Anonymous Ones",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-the-anonymous-ones.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "164",
+        "title": "Close the Door",
+        "subtitle": "Teddy Pendergrass",
+        "audioPath": "audios/teddy-pendergrass-close-the-door.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "165",
+        "title": "Between the Sheets",
+        "subtitle": "The Isley Brothers",
+        "audioPath": "audios/the-isley-brothers-between-the-sheets.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "166",
+        "title": "Say It",
+        "subtitle": "Tory Lanez",
+        "audioPath": "audios/tory-lanez-say-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "167",
+        "title": "The Color Violet",
+        "subtitle": "Tory Lanez",
+        "audioPath": "audios/tory-lanez-the-color-violet.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "168",
+        "title": "Na Na",
+        "subtitle": "Trey Songz",
+        "audioPath": "audios/trey-songz-na-na.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "169",
+        "title": "On My Mama",
+        "subtitle": "Victoria Monét",
+        "audioPath": "audios/victoria-mont-on-my-mama.mp3",
+        "posterPath": ""
+    }
 ]
