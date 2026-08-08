@@ -7,7 +7,7 @@ def main():
     print("      EXPORTADOR DE CATÁLOGO DESDE JSON LOCAL")
     print("========================================================")
     
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # Buscar géneros disponibles
     generos_disponibles = []
@@ -26,11 +26,15 @@ def main():
         return
         
     print("")
-    genero_input = input("Ingresa el nombre del género (carpeta) que deseas exportar: ").strip()
+    if len(sys.argv) > 1:
+        genero_input = sys.argv[1].strip()
+    else:
+        genero_input = input("Ingresa el nombre del género (carpeta) que deseas exportar: ").strip()
     
     if not genero_input:
         print("[ERROR] No ingresaste ningún género.")
-        input("Presiona ENTER para salir...")
+        if len(sys.argv) <= 1:
+            input("Presiona ENTER para salir...")
         return
         
     json_path = os.path.join(base_dir, genero_input, "ringtones.json")

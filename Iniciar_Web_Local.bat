@@ -9,7 +9,7 @@ if not exist ".venv\Scripts\python.exe" (
 )
 
 :: Iniciar la app directamente y mantener la ventana abierta para ver errores
-".venv\Scripts\python.exe" -m pip install audioop-lts
-".venv\Scripts\python.exe" app.py
+".venv\Scripts\python.exe" -m pip install audioop-lts requests
+".venv\Scripts\python.exe" Scripts\app.py
 pause
 exit /b

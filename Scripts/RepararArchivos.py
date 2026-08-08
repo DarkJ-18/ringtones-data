@@ -26,7 +26,8 @@ print("=========================================")
 print("REPARANDO ARCHIVOS JSON CORRUPTOS")
 print("=========================================\n")
 
-for root, dirs, files in os.walk('.'):
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+for root, dirs, files in os.walk(base_dir):
     if 'ringtones.json' in files:
         path = os.path.join(root, 'ringtones.json')
         print(f"Analizando: {path}")

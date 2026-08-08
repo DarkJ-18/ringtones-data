@@ -9,22 +9,37 @@ import math
 import concurrent.futures
 import re
 import subprocess
+import traceback
 from flask import Flask, request, jsonify, render_template
+
+# Hexagonal architecture imports
+from hex_core.domain.profile import Profile
+from hex_core.infrastructure.repositories.json_profile_repository import JsonProfileRepository
+from hex_core.application.profile_service import ProfileService
+from hex_core.infrastructure.adapters.script_runner import ScriptRunner
 
 import yt_dlp
 from pydub import AudioSegment
 from pydub.effects import speedup
 
-app = Flask(__name__)
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+app = Flask(__name__, 
+            template_folder=os.path.join(base_dir, 'templates'), 
+            static_folder=os.path.join(base_dir, 'static'))
+
 APP_URL = "http://127.0.0.1:5000"
-
 job_status = {"logs": [], "is_processing": False, "abort_requested": False}
-
-base_dir = os.path.dirname(os.path.abspath(__file__))
 CACHE_BASE = os.path.join(base_dir, ".cache")
 PREVIEW_FOLDER = os.path.join(CACHE_BASE, "previews")
 CACHE_FOLDER = os.path.join(CACHE_BASE, "raw_cache")
 TEMP_DOWNLOADS = os.path.join(CACHE_BASE, "temp_downloads")
+
+# Initialize Domain Services
+profile_repo = JsonProfileRepository(os.path.join(base_dir, "profiles.json"))
+profile_service = ProfileService(profile_repo)
+venv_python = os.path.join(base_dir, ".venv", "Scripts", "python.exe")
+script_runner = ScriptRunner(base_dir, venv_python)
 
 def startup_cleanup():
     print("🧹 Iniciando limpieza de arranque...")
@@ -39,6 +54,14 @@ def startup_cleanup():
     print("✅ Carpetas inicializadas.")
 
 startup_cleanup()
+
+@app.route("/api/clear_cache", methods=["POST"])
+def clear_cache_api():
+    try:
+        startup_cleanup()
+        return jsonify({"status": "Caché limpiada con éxito."})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 def parse_time_to_ms(time_str: str) -> int:
     if not time_str: return 0
@@ -448,6 +471,91 @@ def git_sync_api():
         return jsonify({"error": f"Error en Git: {str(e)}"}), 500
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# --- NUEVOS ENDPOINTS HEXAGONALES ---
+
+@app.route("/api/profiles", methods=["GET"])
+def get_profiles():
+    return jsonify(profile_service.list_profiles())
+
+@app.route("/api/profiles", methods=["POST"])
+def save_profile():
+    data = request.json
+    try:
+        updated_profile = profile_service.create_or_update_profile(data)
+        return jsonify(updated_profile)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
+@app.route("/api/profiles/<profile_id>", methods=["DELETE"])
+def delete_profile(profile_id):
+    try:
+        profile_service.delete_profile(profile_id)
+        return jsonify({"status": "deleted"})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
+
+@app.route("/api/run_script", methods=["POST"])
+def run_script():
+    data = request.json
+    script_name = data.get("script")
+    profile_id = data.get("profile_id")
+    
+    # Validar el script permitido
+    allowed_scripts = {
+        "airtable": "Scripts/descargar_canciones_airtable.py",
+        "baserow": "Scripts/descargar_canciones_baserow.py",
+        "exportar": "Scripts/exportar_catalogo.py",
+        "reparar": "Scripts/RepararArchivos.py",
+        "subir_github": "Scripts/subir_github.py"
+    }
+    
+    if script_name not in allowed_scripts:
+        return jsonify({"error": "Script no permitido o desconocido"}), 400
+        
+    script_path = allowed_scripts[script_name]
+    
+    # Preparar las variables de entorno si se usa un perfil (Para inyección dinámica)
+    env_vars = {}
+    if profile_id:
+        profile = profile_service.get_profile(profile_id)
+        if profile:
+            env_vars = {
+                "AIRTABLE_TOKEN": profile.airtable_token,
+                "AIRTABLE_BASE_ID": profile.airtable_base_id,
+                "AIRTABLE_TABLE_ID": profile.airtable_table_id,
+                "BASEROW_TOKEN": profile.baserow_token,
+                "TABLE_ID": profile.baserow_table_id,
+                "DOWNLOAD_FOLDER_AIRTABLE": profile.download_folder_airtable,
+                "DOWNLOAD_FOLDER_BASEROW": profile.download_folder_baserow,
+                "TARGET_FOLDER": profile.target_folder,
+                "COL_ARTIST": profile.col_artist,
+                "COL_TITLE": profile.col_title,
+                "COL_AUDIO": profile.col_audio,
+                "COL_ICON": profile.col_icon
+            }
+            
+    # Para scripts que requieran input interactivo (como exportar_catalogo.py)
+    # se debe pasar el input mediante argumentos o evitar el input()
+    # Para exportar_catalogo.py modificaremos el script para leer sys.argv
+    args = []
+    if script_name == "exportar":
+        genero = data.get("genero", "")
+        if not genero:
+            return jsonify({"error": "Debes especificar el género a exportar"}), 400
+        args = [genero]
+        
+    # Ejecutar en segundo plano o sincrónico?
+    # Lo haremos sincrónico para retornar el log completo
+    try:
+        stdout, returncode = script_runner.run_script(script_path, env_vars=env_vars, args=args)
+        return jsonify({
+            "status": "success" if returncode == 0 else "error",
+            "log": stdout,
+            "returncode": returncode
+        })
+    except Exception as e:
+        return jsonify({"error": str(e), "log": traceback.format_exc()}), 500
 
 if __name__ == "__main__":
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0

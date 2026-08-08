@@ -4,3 +4,5 @@ __pycache__/
 .cache/
 temp_previews/
 raw_cache/
+profiles.json
+Scripts/config.py
