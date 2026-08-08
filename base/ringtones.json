@@ -1,9 +1,9 @@
 [
     {
         "id": "1",
-        "title": "La Vida Es Un Carnaval",
-        "subtitle": "Celia Cruz",
-        "audioPath": "audios/celia-cruz-la-vida-es-un-carnaval.mp3",
-        "posterPath": ""
+        "title": "Another One Bites the Dust",
+        "subtitle": "Queen",
+        "audioPath": "audios/queen---another-one-bites-the-dust.mp3",
+        "posterPath": "images/queen---another-one-bites-the-dust.jpeg"
     }
 ]
