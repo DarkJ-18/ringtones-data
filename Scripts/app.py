@@ -506,7 +506,8 @@ def run_script():
         "airtable": "Scripts/descargar_canciones_airtable.py",
         "baserow": "Scripts/descargar_canciones_baserow.py",
         "exportar": "Scripts/exportar_catalogo.py",
-        "subir_github": "Scripts/subir_github.py"
+        "subir_github": "Scripts/subir_github.py",
+        "purgar_cdn": "Scripts/purgar_cdn.py"
     }
     
     if script_name not in allowed_scripts:
@@ -536,13 +537,17 @@ def run_script():
             
     # Para scripts que requieran input interactivo (como exportar_catalogo.py)
     # se debe pasar el input mediante argumentos o evitar el input()
-    # Para exportar_catalogo.py modificaremos el script para leer sys.argv
+    # Para exportar_catalogo.py y purgar_cdn.py leemos sys.argv
     args = []
     if script_name == "exportar":
         genero = data.get("genero", "")
         if not genero:
             return jsonify({"error": "Debes especificar el género a exportar"}), 400
         args = [genero]
+    elif script_name == "purgar_cdn":
+        target = data.get("target", "")
+        if target:
+            args = [target]
         
     # Ejecutar en segundo plano o sincrónico?
     # Lo haremos sincrónico para retornar el log completo

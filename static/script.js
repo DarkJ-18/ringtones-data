@@ -237,6 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         executeScript("exportar", "toolsConsole", { genero: genre });
     });
+
+    document.getElementById('runPurgeBtn').addEventListener('click', () => {
+        const folder = document.getElementById('purgeFolder').value.trim();
+        executeScript("purgar_cdn", "toolsConsole", { target: folder });
+    });
     document.getElementById('runGithubBtn').addEventListener('click', () => {
         executeScript("subir_github", "toolsConsole");
     });

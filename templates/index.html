@@ -179,7 +179,7 @@
                 <h2>Herramientas de Mantenimiento</h2>
                 <p style="color: var(--text-muted); margin-bottom: 20px;">Utilidades para reparar y exportar tu catálogo local.</p>
 
-                <div class="grid-2">
+                <div class="grid-3">
                     <div class="glass-panel">
                         <h3>Exportar Catálogo</h3>
                         <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Genera un archivo .txt con la lista de todas las canciones de un género específico para poder copiarlas fácilmente.</p>
@@ -188,6 +188,16 @@
                             <input type="text" id="exportGenre" placeholder="salsa">
                         </div>
                         <button id="runExportBtn" class="btn btn-primary" style="width: 100%;">📄 Exportar</button>
+                    </div>
+
+                    <div class="glass-panel">
+                        <h3>Purgar Caché CDN</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Fuerza a los servidores a descargar tu catálogo más reciente. (Se ejecuta automáticamente al subir a GitHub).</p>
+                        <div class="input-group">
+                            <label>Carpeta (Déjalo vacío para purgar todas)</label>
+                            <input type="text" id="purgeFolder" placeholder="ej. salsa, pop, etc.">
+                        </div>
+                        <button id="runPurgeBtn" class="btn btn-primary" style="width: 100%; background: var(--accent-purple);">⚡ Purgar jsDelivr</button>
                     </div>
 
                     <div class="glass-panel">

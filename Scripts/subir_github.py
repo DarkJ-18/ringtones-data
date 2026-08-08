@@ -108,5 +108,13 @@ def main():
     print_out(" TODAS LAS SUBIDAS HAN TERMINADO CON EXITO")
     print_out("=================================================")
 
+    # 4. Disparar purga de cache CDN automatica
+    try:
+        import purgar_cdn
+        print_out("\n>>> DISPARANDO PURGA AUTOMATICA DE CACHE CDN >>>\n")
+        purgar_cdn.purge_cdn()
+    except Exception as e:
+        print_out(f"[AVISO] No se pudo ejecutar la purga automatica: {str(e)}")
+
 if __name__ == "__main__":
     main()
