@@ -237,11 +237,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         executeScript("exportar", "toolsConsole", { genero: genre });
     });
-
-    document.getElementById('runRepairBtn').addEventListener('click', () => {
-        executeScript("reparar", "toolsConsole");
-    });
-
     document.getElementById('runGithubBtn').addEventListener('click', () => {
         executeScript("subir_github", "toolsConsole");
     });

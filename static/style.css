@@ -313,6 +313,7 @@ input:focus, select:focus, textarea:focus {
     font-family: monospace;
     font-size: 0.9rem;
     color: var(--accent-green);
+    white-space: pre-wrap;
     height: 250px;
     overflow-y: auto;
 }

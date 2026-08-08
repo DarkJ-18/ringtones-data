@@ -506,7 +506,6 @@ def run_script():
         "airtable": "Scripts/descargar_canciones_airtable.py",
         "baserow": "Scripts/descargar_canciones_baserow.py",
         "exportar": "Scripts/exportar_catalogo.py",
-        "reparar": "Scripts/RepararArchivos.py",
         "subir_github": "Scripts/subir_github.py"
     }
     
