@@ -33,8 +33,17 @@ def main():
     print_out("Configurando el limite de memoria de Git para archivos pesados...")
     run_command("git config --global http.postBuffer 524288000", hide_output=True)
     
-    # 2. Descubrir carpetas que tienen un subdirectorio "audios"
+    # 2. Verificacion global rapida
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    _, out_global = run_command("git status --porcelain", cwd=base_dir, hide_output=True)
+    if not out_global or not out_global.strip():
+        print_out("\n[OK] El repositorio esta completamente al dia. No hay ningun cambio para subir.")
+        print_out("\n=================================================")
+        print_out(" PROCESO FINALIZADO SIN CAMBIOS")
+        print_out("=================================================")
+        sys.exit(0)
+    
+    # 3. Descubrir carpetas que tienen un subdirectorio "audios"
     carpetas_validas = []
     
     for item in os.listdir(base_dir):
