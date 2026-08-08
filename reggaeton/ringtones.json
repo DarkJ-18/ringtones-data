@@ -1580,5 +1580,285 @@
         "subtitle": "Zion  Lennox",
         "audioPath": "audios/zion-lennox-hay-algo-en-ti.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "227",
+        "title": "Un Preview",
+        "subtitle": "Bad Bunny",
+        "audioPath": "audios/bad-bunny-un-preview.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "228",
+        "title": "Problema",
+        "subtitle": "Daddy Yankee",
+        "audioPath": "audios/daddy-yankee-problema.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "229",
+        "title": "Algo Me Gusta De Ti",
+        "subtitle": "Wiski & Yandel",
+        "audioPath": "audios/wiski-yandel-algo-me-gusta-de-ti.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "230",
+        "title": "Taboo",
+        "subtitle": "Don Omar",
+        "audioPath": "audios/don-omar-taboo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "231",
+        "title": "Oki Doki",
+        "subtitle": "Karol G",
+        "audioPath": "audios/karol-g-oki-doki.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "232",
+        "title": "Más Rica Que Ayer",
+        "subtitle": "Anuel AA",
+        "audioPath": "audios/anuel-aa-mas-rica-que-ayer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "233",
+        "title": "Lokera",
+        "subtitle": "Rauw Alejandro",
+        "audioPath": "audios/rauw-alejandro-lokera.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "234",
+        "title": "Bubalu",
+        "subtitle": "Feid",
+        "audioPath": "audios/feid-bubalu.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "235",
+        "title": "Hey Mor",
+        "subtitle": "Ozuna",
+        "audioPath": "audios/ozuna-hey-mor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "236",
+        "title": "Labyrinths",
+        "subtitle": "J Balvin",
+        "audioPath": "audios/j-balvin-labyrinths.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "237",
+        "title": "La Player (Bandolera)",
+        "subtitle": "Zion & Lennox",
+        "audioPath": "audios/zion-lennox-la-player-bandolera.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "238",
+        "title": "ALV",
+        "subtitle": "Arcángel",
+        "audioPath": "audios/arcangel-alv.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "239",
+        "title": "Te Dijeron",
+        "subtitle": "Plan B",
+        "audioPath": "audios/plan-b-te-dijeron.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "240",
+        "title": "Muévelo",
+        "subtitle": "Nicky Jam",
+        "audioPath": "audios/nicky-jam-muevelo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "241",
+        "title": "Ulala",
+        "subtitle": "Myke Towers",
+        "audioPath": "audios/myke-towers-ulala.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "242",
+        "title": "Passoa",
+        "subtitle": "Farruko",
+        "audioPath": "audios/farruko-passoa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "243",
+        "title": "Podemos Repetirlo",
+        "subtitle": "Chencho Corleone",
+        "audioPath": "audios/chencho-corleone-podemos-repetirlo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "244",
+        "title": "ID",
+        "subtitle": "Young Miko",
+        "audioPath": "audios/young-miko-id.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "245",
+        "title": "Ex-Special",
+        "subtitle": "Jhayco",
+        "audioPath": "audios/jhayco-ex-special.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "246",
+        "title": "Mala Conducta",
+        "subtitle": "Alexis & Fido",
+        "audioPath": "audios/alexis-fido-mala-conducta.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "247",
+        "title": "Sola",
+        "subtitle": "Hector El Father",
+        "audioPath": "audios/hector-el-father-sola.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "248",
+        "title": "Los Callejones",
+        "subtitle": "Tego Calderón",
+        "audioPath": "audios/tego-calderon-los-callejones.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "249",
+        "title": "Bonita",
+        "subtitle": "Jowell & Randy",
+        "audioPath": "audios/jowell-randy-bonita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "250",
+        "title": "Plakito",
+        "subtitle": "Yandel",
+        "audioPath": "audios/yandel-plakito.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "251",
+        "title": "Donde Se Aprende A Querer",
+        "subtitle": "Mora",
+        "audioPath": "audios/mora-donde-se-aprende-a-querer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "252",
+        "title": "Diablo, Qué Chimba",
+        "subtitle": "Maluma",
+        "audioPath": "audios/maluma-diablo-que-chimba.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "253",
+        "title": "El Ritmo Que Nos Une",
+        "subtitle": "Ryan Castro",
+        "audioPath": "audios/ryan-castro-el-ritmo-que-nos-une.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "254",
+        "title": "Mírame",
+        "subtitle": "Blessd",
+        "audioPath": "audios/blessd-mirame.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "255",
+        "title": "Noche de Citas",
+        "subtitle": "Sech",
+        "audioPath": "audios/sech-noche-de-citas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "256",
+        "title": "Vagabundo",
+        "subtitle": "Manuel Turizo",
+        "audioPath": "audios/manuel-turizo-vagabundo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "257",
+        "title": "La Botella",
+        "subtitle": "Justin Quiles",
+        "audioPath": "audios/justin-quiles-la-botella.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "258",
+        "title": "A Solas",
+        "subtitle": "Lunay",
+        "audioPath": "audios/lunay-a-solas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "259",
+        "title": "Prometo Olvidarte",
+        "subtitle": "Tony Dize",
+        "audioPath": "audios/tony-dize-prometo-olvidarte.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "260",
+        "title": "La Fórmula",
+        "subtitle": "De La Ghetto",
+        "audioPath": "audios/de-la-ghetto-la-formula.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "261",
+        "title": "Mayor Que Yo 4",
+        "subtitle": "Natti Natasha",
+        "audioPath": "audios/natti-natasha-mayor-que-yo-4.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "262",
+        "title": "La Roca",
+        "subtitle": "Ivy Queen",
+        "audioPath": "audios/ivy-queen-la-roca.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "263",
+        "title": "Te Regalo Amores",
+        "subtitle": "R.K.M & Ken-Y",
+        "audioPath": "audios/r.k.m-ken-y-te-regalo-amores.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "264",
+        "title": "Siente El Boom",
+        "subtitle": "Tito El Bambino",
+        "audioPath": "audios/tito-el-bambino-siente-el-boom.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "265",
+        "title": "Si No Es Contigo",
+        "subtitle": "Cris Mj",
+        "audioPath": "audios/cris-mj-si-no-es-contigo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "266",
+        "title": "Tranky Funky",
+        "subtitle": "Trueno",
+        "audioPath": "audios/trueno-tranky-funky.mp3",
+        "posterPath": ""
     }
 ]
