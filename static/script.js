@@ -186,9 +186,15 @@ document.addEventListener('DOMContentLoaded', () => {
     loadProfiles();
 
     // --- RUN EXTERNAL SCRIPTS ---
+    let activeScripts = {}; // consoleElemId -> { taskId, pollInterval }
+
     function executeScript(scriptName, consoleElemId, extraData = {}) {
         const consoleEl = document.getElementById(consoleElemId);
-        consoleEl.textContent = "Ejecutando script...\n";
+        consoleEl.textContent = "Iniciando script...\n";
+        
+        let cancelBtnId = consoleElemId === 'syncConsole' ? 'cancelSyncBtn' : 'cancelToolsBtn';
+        const cancelBtn = document.getElementById(cancelBtnId);
+        if (cancelBtn) cancelBtn.style.display = 'block';
         
         const payload = {
             script: scriptName,
@@ -203,23 +209,61 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(r => r.json())
         .then(data => {
-            if (data.error && !data.log) {
+            if (data.error) {
                 showToast(data.error, "error");
                 consoleEl.textContent += "\nError: " + data.error;
-            } else {
-                consoleEl.textContent += data.log;
-                if (data.returncode === 0) {
-                    showToast("Operación finalizada con éxito", "success");
-                } else {
-                    showToast("El script terminó con errores. Revisa la consola.", "warning");
-                }
+                if (cancelBtn) cancelBtn.style.display = 'none';
+            } else if (data.status === 'started') {
+                const taskId = data.task_id;
+                
+                const interval = setInterval(() => {
+                    fetch('/api/script_status/' + taskId)
+                    .then(r => r.json())
+                    .then(statusData => {
+                        if (statusData.error) return;
+                        
+                        consoleEl.textContent = statusData.logs.join("\n");
+                        consoleEl.scrollTop = consoleEl.scrollHeight;
+                        
+                        if (statusData.status === 'completed' || statusData.status === 'error' || statusData.status === 'cancelled') {
+                            clearInterval(interval);
+                            delete activeScripts[consoleElemId];
+                            if (cancelBtn) cancelBtn.style.display = 'none';
+                            
+                            if (statusData.status === 'completed') {
+                                showToast("Operación finalizada con éxito", "success");
+                            } else if (statusData.status === 'error') {
+                                showToast("El script terminó con errores. Revisa la consola.", "warning");
+                            } else {
+                                showToast("Operación cancelada", "info");
+                            }
+                        }
+                    });
+                }, 1000);
+                
+                activeScripts[consoleElemId] = { taskId: taskId, pollInterval: interval };
             }
         })
         .catch(e => {
             showToast("Error de conexión al servidor", "error");
             consoleEl.textContent += "\nExcepción: " + e;
+            if (cancelBtn) cancelBtn.style.display = 'none';
         });
     }
+
+    function cancelActiveScript(consoleElemId) {
+        if (activeScripts[consoleElemId]) {
+            const taskId = activeScripts[consoleElemId].taskId;
+            fetch('/api/cancel_script/' + taskId, {method: 'POST'})
+            .then(() => {
+                showToast("Cancelando...", "warning");
+            });
+        }
+    }
+
+    document.getElementById('cancelSyncBtn')?.addEventListener('click', () => cancelActiveScript('syncConsole'));
+    document.getElementById('cancelToolsBtn')?.addEventListener('click', () => cancelActiveScript('toolsConsole'));
+
 
     document.getElementById('runAirtableBtn').addEventListener('click', () => {
         executeScript("airtable", "syncConsole");

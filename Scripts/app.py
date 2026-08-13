@@ -549,17 +549,32 @@ def run_script():
         if target:
             args = [target]
         
-    # Ejecutar en segundo plano o sincrónico?
-    # Lo haremos sincrónico para retornar el log completo
+    # Ejecutar de forma asíncrona
     try:
-        stdout, returncode = script_runner.run_script(script_path, env_vars=env_vars, args=args)
+        task_id = script_runner.start_script(script_path, env_vars=env_vars, args=args)
         return jsonify({
-            "status": "success" if returncode == 0 else "error",
-            "log": stdout,
-            "returncode": returncode
+            "status": "started",
+            "task_id": task_id
         })
     except Exception as e:
         return jsonify({"error": str(e), "log": traceback.format_exc()}), 500
+
+@app.route("/api/script_status/<task_id>", methods=["GET"])
+def script_status(task_id):
+    status = script_runner.get_status(task_id)
+    if not status:
+        return jsonify({"error": "Task not found"}), 404
+    return jsonify({
+        "status": status["status"],
+        "logs": status["logs"],
+        "returncode": status.get("returncode")
+    })
+
+@app.route("/api/cancel_script/<task_id>", methods=["POST"])
+def cancel_script(task_id):
+    script_runner.cancel_script(task_id)
+    return jsonify({"status": "cancelled"})
+
 
 if __name__ == "__main__":
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0

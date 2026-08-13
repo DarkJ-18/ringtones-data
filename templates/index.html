@@ -104,26 +104,29 @@
                             <input type="text" id="profName" placeholder="Ej. Cliente VIP">
                         </div>
                         
-                        <h4 style="margin: 15px 0 10px 0; font-size: 0.9rem; color: var(--accent);">Configuración de Inyección Directa</h4>
+                        <div style="background: rgba(56, 189, 248, 0.05); padding: 10px 15px; border-radius: 8px; border: 1px solid rgba(56, 189, 248, 0.2); margin-bottom: 15px; margin-top: 15px;">
+                            <h4 style="margin: 0 0 5px 0; font-size: 0.95rem; color: var(--accent-cyan);">Mapeo de Columnas (Base de Datos)</h4>
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0; line-height: 1.4;">Escribe el nombre <strong>exacto</strong> que tienen las columnas en tu tabla de Airtable/Baserow para que el sistema sepa dónde buscar la información.</p>
+                        </div>
                         <div class="grid-2">
                             <div class="input-group">
-                                <label>Carpeta Destino (Ej. salsa)</label>
+                                <label>Carpeta Destino Local <span class="help-icon" data-tooltip="Donde se guardarán los MP3 descargados (Ej. salsa, pop, rock).">?</span></label>
                                 <input type="text" id="profTargetFolder" placeholder="salsa">
                             </div>
                             <div class="input-group">
-                                <label>Columna MP3</label>
+                                <label>Nombre Columna: Audio <span class="help-icon" data-tooltip="La columna que contiene el archivo MP3 (Ej. 'Ringtone' o 'Archivo Audio').">?</span></label>
                                 <input type="text" id="profColAudio" placeholder="Ringtone">
                             </div>
                             <div class="input-group">
-                                <label>Columna Artista</label>
+                                <label>Nombre Columna: Artista <span class="help-icon" data-tooltip="La columna con el nombre del artista (Ej. 'Subtitle' o 'Artista').">?</span></label>
                                 <input type="text" id="profColArtist" placeholder="Subtitle">
                             </div>
                             <div class="input-group">
-                                <label>Columna Título</label>
+                                <label>Nombre Columna: Título <span class="help-icon" data-tooltip="La columna con el nombre de la canción (Ej. 'Title' o 'Nombre Cancion').">?</span></label>
                                 <input type="text" id="profColTitle" placeholder="Title">
                             </div>
                             <div class="input-group" style="grid-column: span 2;">
-                                <label>Columna Imagen/Icono (Opcional)</label>
+                                <label>Nombre Columna: Portada (Opcional) <span class="help-icon" data-tooltip="La columna que contiene la imagen de la canción (Ej. 'Icon' o 'Portada').">?</span></label>
                                 <input type="text" id="profColIcon" placeholder="Icon">
                             </div>
                         </div>
@@ -170,7 +173,10 @@
                     </div>
                 </div>
 
-                <h3>Consola de Sincronización</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Consola de Sincronización</h3>
+                    <button id="cancelSyncBtn" class="btn btn-danger" style="display: none; padding: 5px 15px;">🛑 Cancelar</button>
+                </div>
                 <div class="console-box" id="syncConsole">Selecciona un perfil y ejecuta una sincronización.</div>
             </div>
 
@@ -213,7 +219,10 @@
                     <button id="runGithubBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px;">🚀 Sincronizar y Subir Cambios a GitHub</button>
                 </div>
 
-                <h3>Consola de Herramientas</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h3 style="margin: 0;">Consola de Herramientas</h3>
+                    <button id="cancelToolsBtn" class="btn btn-danger" style="display: none; padding: 5px 15px;">🛑 Cancelar</button>
+                </div>
                 <div class="console-box" id="toolsConsole">Esperando acción...</div>
             </div>
 
