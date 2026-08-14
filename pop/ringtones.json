@@ -1342,5 +1342,278 @@
         "subtitle": "Whitney Houston",
         "audioPath": "audios/whitney-houston-how-will-i-know.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "193",
+        "title": "That's So True",
+        "subtitle": "Gracie Abrams",
+        "audioPath": "audios/gracie-abrams-thats-so-true.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "194",
+        "title": "WILDFLOWER",
+        "subtitle": "Billie Eilish",
+        "audioPath": "audios/billie-eilish-wildflower.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "195",
+        "title": "I Love You, I'm Sorry",
+        "subtitle": "Gracie Abrams",
+        "audioPath": "audios/gracie-abrams-i-love-you-im-sorry.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "196",
+        "title": "Abracadabra",
+        "subtitle": "Lady Gaga",
+        "audioPath": "audios/lady-gaga-abracadabra.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "197",
+        "title": "2 hands",
+        "subtitle": "Tate McRae",
+        "audioPath": "audios/tate-mcrae-2-hands.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "198",
+        "title": "Beautiful Things",
+        "subtitle": "Benson Boone",
+        "audioPath": "audios/benson-boone-beautiful-things.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "199",
+        "title": "End of Beginning",
+        "subtitle": "Djo",
+        "audioPath": "audios/djo-end-of-beginning.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "200",
+        "title": "Lose Control",
+        "subtitle": "Teddy Swims",
+        "audioPath": "audios/teddy-swims-lose-control.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "201",
+        "title": "Rush",
+        "subtitle": "Troye Sivan",
+        "audioPath": "audios/troye-sivan-rush.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "202",
+        "title": "One of Your Girls",
+        "subtitle": "Troye Sivan",
+        "audioPath": "audios/troye-sivan-one-of-your-girls.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "203",
+        "title": "Guess",
+        "subtitle": "Charli xcx",
+        "audioPath": "audios/charli-xcx-guess.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "204",
+        "title": "Obsessed",
+        "subtitle": "Olivia Rodrigo",
+        "audioPath": "audios/olivia-rodrigo-obsessed.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "205",
+        "title": "Bed Chem",
+        "subtitle": "Sabrina Carpenter",
+        "audioPath": "audios/sabrina-carpenter-bed-chem.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "206",
+        "title": "Red Wine Supernova",
+        "subtitle": "Chappell Roan",
+        "audioPath": "audios/chappell-roan-red-wine-supernova.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "207",
+        "title": "The Night We Met",
+        "subtitle": "Lord Huron",
+        "audioPath": "audios/lord-huron-the-night-we-met.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "208",
+        "title": "Until I Found You",
+        "subtitle": "Stephen Sanchez",
+        "audioPath": "audios/stephen-sanchez-until-i-found-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "209",
+        "title": "SNAP",
+        "subtitle": "Rosa Linn",
+        "audioPath": "audios/rosa-linn-snap.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "210",
+        "title": "Style",
+        "subtitle": "Taylor Swift",
+        "audioPath": "audios/taylor-swift-style.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "211",
+        "title": "Wide Awake",
+        "subtitle": "Katy Perry",
+        "audioPath": "audios/katy-perry-wide-awake.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "212",
+        "title": "Judas",
+        "subtitle": "Lady Gaga",
+        "audioPath": "audios/lady-gaga-judas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "213",
+        "title": "Born This Way",
+        "subtitle": "Lady Gaga",
+        "audioPath": "audios/lady-gaga-born-this-way.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "214",
+        "title": "Blow",
+        "subtitle": "Kesha",
+        "audioPath": "audios/kesha-blow.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "215",
+        "title": "Praying",
+        "subtitle": "Kesha",
+        "audioPath": "audios/kesha-praying.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "216",
+        "title": "Disturbia",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-disturbia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "217",
+        "title": "Circus",
+        "subtitle": "Britney Spears",
+        "audioPath": "audios/britney-spears-circus.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "218",
+        "title": "Hold It Against Me",
+        "subtitle": "Britney Spears",
+        "audioPath": "audios/britney-spears-hold-it-against-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "219",
+        "title": "Send My Love (To Your New Lover)",
+        "subtitle": "Adele",
+        "audioPath": "audios/adele-send-my-love-to-your-new-lover.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "220",
+        "title": "Easy On Me",
+        "subtitle": "Adele",
+        "audioPath": "audios/adele-easy-on-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "221",
+        "title": "Royals",
+        "subtitle": "Lorde",
+        "audioPath": "audios/lorde-royals.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "222",
+        "title": "Team",
+        "subtitle": "Lorde",
+        "audioPath": "audios/lorde-team.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "223",
+        "title": "Material Girl",
+        "subtitle": "Madonna",
+        "audioPath": "audios/madonna-material-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "224",
+        "title": "La Isla Bonita",
+        "subtitle": "Madonna",
+        "audioPath": "audios/madonna-la-isla-bonita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "225",
+        "title": "Wake Me Up Before You Go-Go",
+        "subtitle": "Wham!",
+        "audioPath": "audios/wham-wake-me-up-before-you-go-go.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "226",
+        "title": "Greatest Love of All",
+        "subtitle": "Whitney Houston",
+        "audioPath": "audios/whitney-houston-greatest-love-of-all.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "227",
+        "title": "Careless Whisper",
+        "subtitle": "Wham!",
+        "audioPath": "audios/wham-careless-whisper.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "228",
+        "title": "Mamma Mia",
+        "subtitle": "ABBA",
+        "audioPath": "audios/abba-mamma-mia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "229",
+        "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "subtitle": "ABBA",
+        "audioPath": "audios/abba-gimme-gimme-gimme-a-man-after-midnight.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "230",
+        "title": "Time After Time",
+        "subtitle": "Cyndi Lauper",
+        "audioPath": "audios/cyndi-lauper-time-after-time.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "231",
+        "title": "Never Gonna Give You Up",
+        "subtitle": "Rick Astley",
+        "audioPath": "audios/rick-astley-never-gonna-give-you-up.mp3",
+        "posterPath": ""
     }
 ]
