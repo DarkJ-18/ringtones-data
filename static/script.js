@@ -342,6 +342,13 @@ document.addEventListener('DOMContentLoaded', () => {
         updateVal(bass, '.val-bass');
         updateVal(pan, '.val-pan');
 
+        if (data.pitch !== undefined) { pitch.value = data.pitch; card.querySelector('.val-pitch').textContent = data.pitch; }
+        if (data.bass !== undefined) { bass.value = data.bass; card.querySelector('.val-bass').textContent = data.bass; }
+        if (data.pan !== undefined) { pan.value = data.pan; card.querySelector('.val-pan').textContent = data.pan; }
+        if (data.fade_in !== undefined) card.querySelector('.task-fade-in').value = data.fade_in;
+        if (data.fade_out !== undefined) card.querySelector('.task-fade-out').value = data.fade_out;
+        if (data.pan_dinamico !== undefined) card.querySelector('.task-pan-dinamico').checked = data.pan_dinamico;
+
         card.querySelector('.remove-task').addEventListener('click', () => {
             card.remove();
             updateQueueCount();
