@@ -1545,5 +1545,264 @@
         "subtitle": "Wu-Tang Clan",
         "audioPath": "audios/wu-tang-clan-protect-ya-neck.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "214",
+        "title": "See You Again",
+        "subtitle": "Tyler, The Creator",
+        "audioPath": "audios/tyler-the-creator-see-you-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "215",
+        "title": "MY EYES",
+        "subtitle": "Travis Scott",
+        "audioPath": "audios/travis-scott-my-eyes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "216",
+        "title": "EARFQUAKE",
+        "subtitle": "Tyler, The Creator",
+        "audioPath": "audios/tyler-the-creator-earfquake.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "217",
+        "title": "Creepin'",
+        "subtitle": "Metro Boomin",
+        "audioPath": "audios/metro-boomin-creepin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "218",
+        "title": "Superhero (Heroes & Villains)",
+        "subtitle": "Metro Boomin",
+        "audioPath": "audios/metro-boomin-superhero-heroes-villains.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "219",
+        "title": "Yale",
+        "subtitle": "Ken Carson",
+        "audioPath": "audios/ken-carson-yale.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "220",
+        "title": "NOSTYLIST",
+        "subtitle": "Destroy Lonely",
+        "audioPath": "audios/destroy-lonely-nostylist.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "221",
+        "title": "Savage",
+        "subtitle": "Megan Thee Stallion",
+        "audioPath": "audios/megan-thee-stallion-savage.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "222",
+        "title": "Mamushi",
+        "subtitle": "Megan Thee Stallion",
+        "audioPath": "audios/megan-thee-stallion-mamushi.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "223",
+        "title": "F.N.F. (Let's Go)",
+        "subtitle": "GloRilla",
+        "audioPath": "audios/glorilla-f.n.f.-lets-go.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "224",
+        "title": "Munch (Feelin' U)",
+        "subtitle": "Ice Spice",
+        "audioPath": "audios/ice-spice-munch-feelin-u.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "225",
+        "title": "Persuasive",
+        "subtitle": "Doechii",
+        "audioPath": "audios/doechii-persuasive.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "226",
+        "title": "Cardigan",
+        "subtitle": "Don Toliver",
+        "audioPath": "audios/don-toliver-cardigan.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "227",
+        "title": "Bounce Back",
+        "subtitle": "Big Sean",
+        "audioPath": "audios/big-sean-bounce-back.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "228",
+        "title": "BOP",
+        "subtitle": "DaBaby",
+        "audioPath": "audios/dababy-bop.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "229",
+        "title": "Pound Town",
+        "subtitle": "Sexyy Red",
+        "audioPath": "audios/sexyy-red-pound-town.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "230",
+        "title": "Suge",
+        "subtitle": "DaBaby",
+        "audioPath": "audios/dababy-suge.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "231",
+        "title": "Poland",
+        "subtitle": "Lil Yachty",
+        "audioPath": "audios/lil-yachty-poland.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "232",
+        "title": "Old Town Road",
+        "subtitle": "Lil Nas X",
+        "audioPath": "audios/lil-nas-x-old-town-road.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "233",
+        "title": "One Night",
+        "subtitle": "Lil Yachty",
+        "audioPath": "audios/lil-yachty-one-night.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "234",
+        "title": "Industry Baby",
+        "subtitle": "Lil Nas X",
+        "audioPath": "audios/lil-nas-x-industry-baby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "235",
+        "title": "Hot In Herre",
+        "subtitle": "Nelly",
+        "audioPath": "audios/nelly-hot-in-herre.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "236",
+        "title": "Dilemma",
+        "subtitle": "Nelly",
+        "audioPath": "audios/nelly-dilemma.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "237",
+        "title": "Always On Time",
+        "subtitle": "Ja Rule",
+        "audioPath": "audios/ja-rule-always-on-time.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "238",
+        "title": "Magnolia",
+        "subtitle": "Playboi Carti",
+        "audioPath": "audios/playboi-carti-magnolia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "239",
+        "title": "Lean Back",
+        "subtitle": "Terror Squad",
+        "audioPath": "audios/terror-squad-lean-back.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "240",
+        "title": "All The Way Up",
+        "subtitle": "Fat Joe",
+        "audioPath": "audios/fat-joe-all-the-way-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "241",
+        "title": "Survival of the Fittest",
+        "subtitle": "Mobb Deep",
+        "audioPath": "audios/mobb-deep-survival-of-the-fittest.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "242",
+        "title": "Electric Relaxation",
+        "subtitle": "A Tribe Called Quest",
+        "audioPath": "audios/a-tribe-called-quest-electric-relaxation.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "243",
+        "title": "B.O.B.",
+        "subtitle": "Outkast",
+        "audioPath": "audios/outkast-b.o.b..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "244",
+        "title": "Roses",
+        "subtitle": "Outkast",
+        "audioPath": "audios/outkast-roses.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "245",
+        "title": "Break Ya Neck",
+        "subtitle": "Busta Rhymes",
+        "audioPath": "audios/busta-rhymes-break-ya-neck.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "246",
+        "title": "Touch It",
+        "subtitle": "Busta Rhymes",
+        "audioPath": "audios/busta-rhymes-touch-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "247",
+        "title": "Tha Crossroads",
+        "subtitle": "Bone Thugs-N-Harmony",
+        "audioPath": "audios/bone-thugs-n-harmony-tha-crossroads.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "248",
+        "title": "Flava In Ya Ear",
+        "subtitle": "Craig Mack",
+        "audioPath": "audios/craig-mack-flava-in-ya-ear.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "249",
+        "title": "This D.J.",
+        "subtitle": "Warren G",
+        "audioPath": "audios/warren-g-this-d.j..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "250",
+        "title": "Move Bitch",
+        "subtitle": "Ludacris",
+        "audioPath": "audios/ludacris-move-bitch.mp3",
+        "posterPath": ""
     }
 ]
