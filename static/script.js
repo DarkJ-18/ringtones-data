@@ -499,10 +499,12 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('startProcessBtn').style.display = 'none';
             document.getElementById('cancelProcessBtn').style.display = 'block';
 
+            const forceOverwrite = document.getElementById('forceOverwrite').checked;
+
             const res = await fetch('/api/process', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({ folder, tasks })
+                body: JSON.stringify({ folder, tasks, force_overwrite: forceOverwrite })
             });
 
             if (!res.ok) {
