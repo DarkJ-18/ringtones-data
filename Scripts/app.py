@@ -176,7 +176,8 @@ def get_cached_audio(url, ffmpeg_path, js_runtimes, log_func=print):
         "outtmpl": {"default": os.path.join(CACHE_FOLDER, f"{url_hash}.%(ext)s")},
         "quiet": True,
         "no_warnings": True,
-        "extract_flat": False
+        "extract_flat": False,
+        "extractor_args": {"youtube": {"player_client": ["android"]}}
     }
     if js_runtimes:
         ydl_opts["js_runtimes"] = js_runtimes
@@ -250,7 +251,7 @@ def update_json_db(folder_path, folder_name, song_title, song_artist, audio_file
             
         return True
 
-def process_single_task(task, folder_name, ffmpeg_path, js_runtimes):
+def process_single_task(task, folder_name, ffmpeg_path, js_runtimes, force_overwrite=False):
     if job_status.get("abort_requested"):
         return {"status": "skipped", "task": task}
         
@@ -311,7 +312,7 @@ def process_single_task(task, folder_name, ffmpeg_path, js_runtimes):
         
         final_path = os.path.join(audios_folder, final_name)
 
-        if os.path.exists(final_path):
+        if not force_overwrite and os.path.exists(final_path):
             add_log(f"⚠️ Omitida la descarga (ya existe audio en disco): {final_name}")
             db_updated = update_json_db(target_folder, safe_folder, song, artist, final_name)
             if db_updated:
@@ -332,7 +333,7 @@ def process_single_task(task, folder_name, ffmpeg_path, js_runtimes):
         add_log(f"❌ Error en {url}: {str(e)}")
         return {"status": "error", "url": url, "error": str(e), "task": task}
 
-def process_tasks(folder_name, tasks):
+def process_tasks(folder_name, tasks, force_overwrite=False):
     job_status["is_processing"] = True
     job_status["abort_requested"] = False
     add_log("--- INICIANDO PROCESO BATCH WEB ---")
@@ -350,7 +351,7 @@ def process_tasks(folder_name, tasks):
     total_tasks = len(valid_tasks)
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        futures = {executor.submit(process_single_task, task, folder_name, ffmpeg_path, js_runtimes): task for task in valid_tasks}
+        futures = {executor.submit(process_single_task, task, folder_name, ffmpeg_path, js_runtimes, force_overwrite): task for task in valid_tasks}
         
         pendientes = set(futures.keys())
         while pendientes:
@@ -387,7 +388,7 @@ def process_api():
     job_status["logs"] = []
     job_status["failed_items"] = []
     job_status["abort_requested"] = False
-    threading.Thread(target=process_tasks, args=(data.get("folder", "general"), data.get("tasks", [])), daemon=True).start()
+    threading.Thread(target=process_tasks, args=(data.get("folder", "general"), data.get("tasks", []), data.get("force_overwrite", False)), daemon=True).start()
     return jsonify({"status": "Iniciado"})
 
 @app.route("/api/cancel", methods=["POST"])

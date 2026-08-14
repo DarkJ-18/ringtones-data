@@ -66,9 +66,13 @@
 
                 <div id="tasksList" style="max-height: 55vh; overflow-y: auto; padding-right: 10px; margin-bottom: 20px;"></div>
 
-                <div class="glass-panel" style="display: flex; gap: 15px; background: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.2);">
+                <div class="glass-panel" style="display: flex; gap: 15px; align-items: center; background: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.2);">
                     <button id="startProcessBtn" class="btn btn-primary" style="flex: 3; font-size: 1.1rem; padding: 1rem;">▶️ Iniciar Procesamiento</button>
                     <button id="cancelProcessBtn" class="btn btn-danger" style="flex: 1; display: none; font-size: 1.1rem;">🛑 Cancelar</button>
+                    <div style="flex: 1; display: flex; align-items: center; gap: 5px;">
+                        <input type="checkbox" id="forceOverwrite" style="width: 20px; height: 20px; cursor: pointer;">
+                        <label for="forceOverwrite" style="cursor: pointer; font-size: 0.9rem; color: var(--text-muted);">Sobrescribir si ya existe</label>
+                    </div>
                 </div>
                 
                 <div class="console-box" id="ytConsole">Esperando tareas...</div>
