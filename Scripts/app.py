@@ -176,7 +176,8 @@ def get_cached_audio(url, ffmpeg_path, js_runtimes, log_func=print):
         "outtmpl": {"default": os.path.join(CACHE_FOLDER, f"{url_hash}.%(ext)s")},
         "quiet": True,
         "no_warnings": True,
-        "extract_flat": False
+        "extract_flat": False,
+        "extractor_args": {"youtube": {"player_client": ["android"]}}
     }
     if js_runtimes:
         ydl_opts["js_runtimes"] = js_runtimes

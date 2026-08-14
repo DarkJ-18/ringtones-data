@@ -1699,5 +1699,285 @@
         "subtitle": "John Prine",
         "audioPath": "audios/john-prine-angel-from-montgomery.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "245",
+        "title": "In Dreams",
+        "subtitle": "Sierra Ferrell",
+        "audioPath": "audios/sierra-ferrell-in-dreams.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "246",
+        "title": "Sunday Mornin' Comin' Down",
+        "subtitle": "Kris Kristofferson",
+        "audioPath": "audios/kris-kristofferson-sunday-mornin-comin-down.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "247",
+        "title": "Copperhead Road",
+        "subtitle": "Steve Earle",
+        "audioPath": "audios/steve-earle-copperhead-road.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "248",
+        "title": "Whiskey Bent and Hell Bound",
+        "subtitle": "Hank Williams Jr.",
+        "audioPath": "audios/hank-williams-jr.-whiskey-bent-and-hell-bound.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "249",
+        "title": "Slide Off of Your Satin Sheets",
+        "subtitle": "Johnny Paycheck",
+        "audioPath": "audios/johnny-paycheck-slide-off-of-your-satin-sheets.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "250",
+        "title": "Up Against the Wall Redneck Mother",
+        "subtitle": "Jerry Jeff Walker",
+        "audioPath": "audios/jerry-jeff-walker-up-against-the-wall-redneck-mother.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "251",
+        "title": "Waiting Around to Die",
+        "subtitle": "Townes Van Zandt",
+        "audioPath": "audios/townes-van-zandt-waiting-around-to-die.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "252",
+        "title": "Dust in a Baggie",
+        "subtitle": "Billy Strings",
+        "audioPath": "audios/billy-strings-dust-in-a-baggie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "253",
+        "title": "In Spite of Ourselves",
+        "subtitle": "John Prine",
+        "audioPath": "audios/john-prine-in-spite-of-ourselves.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "254",
+        "title": "Desperados Waiting for a Train",
+        "subtitle": "Guy Clark",
+        "audioPath": "audios/guy-clark-desperados-waiting-for-a-train.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "255",
+        "title": "Me and Bobby McGee",
+        "subtitle": "Kris Kristofferson",
+        "audioPath": "audios/kris-kristofferson-me-and-bobby-mcgee.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "256",
+        "title": "The Ride",
+        "subtitle": "David Allan Coe",
+        "audioPath": "audios/david-allan-coe-the-ride.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "257",
+        "title": "Georgia on a Fast Train",
+        "subtitle": "Billy Joe Shaver",
+        "audioPath": "audios/billy-joe-shaver-georgia-on-a-fast-train.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "258",
+        "title": "Guitar Town",
+        "subtitle": "Steve Earle",
+        "audioPath": "audios/steve-earle-guitar-town.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "259",
+        "title": "L.A. Freeway",
+        "subtitle": "Guy Clark",
+        "audioPath": "audios/guy-clark-l.a.-freeway.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "260",
+        "title": "Four Strong Winds",
+        "subtitle": "Ian Tyson",
+        "audioPath": "audios/ian-tyson-four-strong-winds.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "261",
+        "title": "I'm Just a Clown",
+        "subtitle": "Charley Crockett",
+        "audioPath": "audios/charley-crockett-im-just-a-clown.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "262",
+        "title": "Fox Hunt",
+        "subtitle": "Sierra Ferrell",
+        "audioPath": "audios/sierra-ferrell-fox-hunt.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "263",
+        "title": "Good Lord Lorrie",
+        "subtitle": "Turnpike Troubadours",
+        "audioPath": "audios/turnpike-troubadours-good-lord-lorrie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "264",
+        "title": "Alabama",
+        "subtitle": "Cross Canadian Ragweed",
+        "audioPath": "audios/cross-canadian-ragweed-alabama.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "265",
+        "title": "Merry Christmas from the Family",
+        "subtitle": "Robert Earl Keen",
+        "audioPath": "audios/robert-earl-keen-merry-christmas-from-the-family.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "266",
+        "title": "Choctaw Bingo",
+        "subtitle": "Ray Wylie Hubbard",
+        "audioPath": "audios/ray-wylie-hubbard-choctaw-bingo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "267",
+        "title": "No Vacancy",
+        "subtitle": "Treaty Oak Revival",
+        "audioPath": "audios/treaty-oak-revival-no-vacancy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "268",
+        "title": "Fortune Favors the Bold",
+        "subtitle": "49 Winchester",
+        "audioPath": "audios/49-winchester-fortune-favors-the-bold.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "269",
+        "title": "Dancing in the Sky",
+        "subtitle": "Sam Barber",
+        "audioPath": "audios/sam-barber-dancing-in-the-sky.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "270",
+        "title": "Milwaukee",
+        "subtitle": "Wyatt Flores",
+        "audioPath": "audios/wyatt-flores-milwaukee.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "271",
+        "title": "Holy Roller",
+        "subtitle": "Paul Cauthen",
+        "audioPath": "audios/paul-cauthen-holy-roller.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "272",
+        "title": "Million Miles",
+        "subtitle": "Kody West",
+        "audioPath": "audios/kody-west-million-miles.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "273",
+        "title": "Horses & Weed",
+        "subtitle": "Ian Munsick",
+        "audioPath": "audios/ian-munsick-horses-weed.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "274",
+        "title": "Learnin' to Drown",
+        "subtitle": "Vincent Neil Emerson",
+        "audioPath": "audios/vincent-neil-emerson-learnin-to-drown.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "275",
+        "title": "25 & Wastin' Time",
+        "subtitle": "Vincent Neil Emerson",
+        "audioPath": "audios/vincent-neil-emerson-25-wastin-time.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "276",
+        "title": "Deep River Blues",
+        "subtitle": "Doc Watson",
+        "audioPath": "audios/doc-watson-deep-river-blues.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "277",
+        "title": "Look at Miss Ohio",
+        "subtitle": "Gillian Welch",
+        "audioPath": "audios/gillian-welch-look-at-miss-ohio.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "278",
+        "title": "Clay Pigeons",
+        "subtitle": "Blaze Foley",
+        "audioPath": "audios/blaze-foley-clay-pigeons.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "279",
+        "title": "If I Could Only Fly",
+        "subtitle": "Blaze Foley",
+        "audioPath": "audios/blaze-foley-if-i-could-only-fly.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "280",
+        "title": "Straight Tequila Night",
+        "subtitle": "John Anderson",
+        "audioPath": "audios/john-anderson-straight-tequila-night.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "281",
+        "title": "Seminole Wind",
+        "subtitle": "John Anderson",
+        "audioPath": "audios/john-anderson-seminole-wind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "282",
+        "title": "Two More Bottles of Wine",
+        "subtitle": "Emmylou Harris",
+        "audioPath": "audios/emmylou-harris-two-more-bottles-of-wine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "Boulder to Birmingham",
+        "subtitle": "Emmylou Harris",
+        "audioPath": "audios/emmylou-harris-boulder-to-birmingham.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "Rhododendron",
+        "subtitle": "Bella White",
+        "audioPath": "audios/bella-white-rhododendron.mp3",
+        "posterPath": ""
     }
 ]
