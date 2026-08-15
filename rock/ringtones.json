@@ -1657,5 +1657,285 @@
         "subtitle": "Weezer",
         "audioPath": "audios/weezer-say-it-aint-so.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "238",
+        "title": "Jump",
+        "subtitle": "Van Halen",
+        "audioPath": "audios/van-halen-jump.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "239",
+        "title": "Purple Haze",
+        "subtitle": "Jimi Hendrix",
+        "audioPath": "audios/jimi-hendrix-purple-haze.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "240",
+        "title": "Baba O'Riley",
+        "subtitle": "The Who",
+        "audioPath": "audios/the-who-baba-oriley.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "241",
+        "title": "Light My Fire",
+        "subtitle": "The Doors",
+        "audioPath": "audios/the-doors-light-my-fire.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "242",
+        "title": "Panama",
+        "subtitle": "Van Halen",
+        "audioPath": "audios/van-halen-panama.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "243",
+        "title": "More Than a Feeling",
+        "subtitle": "Boston",
+        "audioPath": "audios/boston-more-than-a-feeling.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "244",
+        "title": "(Don't Fear) The Reaper",
+        "subtitle": "Blue Oyster Cult",
+        "audioPath": "audios/blue-oyster-cult-dont-fear-the-reaper.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "245",
+        "title": "La Grange",
+        "subtitle": "ZZ Top",
+        "audioPath": "audios/zz-top-la-grange.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "246",
+        "title": "You Really Got Me",
+        "subtitle": "The Kinks",
+        "audioPath": "audios/the-kinks-you-really-got-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "247",
+        "title": "The Chain",
+        "subtitle": "Fleetwood Mac",
+        "audioPath": "audios/fleetwood-mac-the-chain.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "248",
+        "title": "Sunshine of Your Love",
+        "subtitle": "Cream",
+        "audioPath": "audios/cream-sunshine-of-your-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "249",
+        "title": "House of the Rising Sun",
+        "subtitle": "The Animals",
+        "audioPath": "audios/the-animals-house-of-the-rising-sun.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "250",
+        "title": "1979",
+        "subtitle": "The Smashing Pumpkins",
+        "audioPath": "audios/the-smashing-pumpkins-1979.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "251",
+        "title": "Black Hole Sun",
+        "subtitle": "Soundgarden",
+        "audioPath": "audios/soundgarden-black-hole-sun.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "252",
+        "title": "Man in the Box",
+        "subtitle": "Alice In Chains",
+        "audioPath": "audios/alice-in-chains-man-in-the-box.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "253",
+        "title": "Zombie",
+        "subtitle": "The Cranberries",
+        "audioPath": "audios/the-cranberries-zombie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "254",
+        "title": "Wonderwall",
+        "subtitle": "Oasis",
+        "audioPath": "audios/oasis-wonderwall.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "255",
+        "title": "Song 2",
+        "subtitle": "Blur",
+        "audioPath": "audios/blur-song-2.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "256",
+        "title": "Don't Look Back in Anger",
+        "subtitle": "Oasis",
+        "audioPath": "audios/oasis-dont-look-back-in-anger.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "257",
+        "title": "Lonely Boy",
+        "subtitle": "The Black Keys",
+        "audioPath": "audios/the-black-keys-lonely-boy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "258",
+        "title": "Ain't No Rest for the Wicked",
+        "subtitle": "Cage The Elephant",
+        "audioPath": "audios/cage-the-elephant-aint-no-rest-for-the-wicked.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "259",
+        "title": "Cigarette Daydreams",
+        "subtitle": "Cage The Elephant",
+        "audioPath": "audios/cage-the-elephant-cigarette-daydreams.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "260",
+        "title": "Figure It Out",
+        "subtitle": "Royal Blood",
+        "audioPath": "audios/royal-blood-figure-it-out.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "261",
+        "title": "Highway Tune",
+        "subtitle": "Greta Van Fleet",
+        "audioPath": "audios/greta-van-fleet-highway-tune.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "262",
+        "title": "Safari Song",
+        "subtitle": "Greta Van Fleet",
+        "audioPath": "audios/greta-van-fleet-safari-song.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "263",
+        "title": "Amsterdam",
+        "subtitle": "Nothing But Thieves",
+        "audioPath": "audios/nothing-but-thieves-amsterdam.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "264",
+        "title": "Can You Feel My Heart",
+        "subtitle": "Bring Me The Horizon",
+        "audioPath": "audios/bring-me-the-horizon-can-you-feel-my-heart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "265",
+        "title": "Throne",
+        "subtitle": "Bring Me The Horizon",
+        "audioPath": "audios/bring-me-the-horizon-throne.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "266",
+        "title": "Just Pretend",
+        "subtitle": "Bad Omens",
+        "audioPath": "audios/bad-omens-just-pretend.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "267",
+        "title": "THE DEATH OF PEACE OF MIND",
+        "subtitle": "Bad Omens",
+        "audioPath": "audios/bad-omens-the-death-of-peace-of-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "268",
+        "title": "The Summoning",
+        "subtitle": "Sleep Token",
+        "audioPath": "audios/sleep-token-the-summoning.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "269",
+        "title": "MONEY",
+        "subtitle": "The Warning",
+        "audioPath": "audios/the-warning-money.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "270",
+        "title": "CHOKE",
+        "subtitle": "The Warning",
+        "audioPath": "audios/the-warning-choke.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "271",
+        "title": "Starburster",
+        "subtitle": "Fontaines D.C.",
+        "audioPath": "audios/fontaines-d.c.-starburster.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "272",
+        "title": "Freaks",
+        "subtitle": "Surf Curse",
+        "audioPath": "audios/surf-curse-freaks.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "273",
+        "title": "Notion",
+        "subtitle": "The Rare Occasions",
+        "audioPath": "audios/the-rare-occasions-notion.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "274",
+        "title": "Sex, Drugs, Etc.",
+        "subtitle": "Beach Weather",
+        "audioPath": "audios/beach-weather-sex-drugs-etc..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "275",
+        "title": "I Can't Handle Change",
+        "subtitle": "Roar",
+        "audioPath": "audios/roar-i-cant-handle-change.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "276",
+        "title": "fleabag",
+        "subtitle": "YUNGBLUD",
+        "audioPath": "audios/yungblud-fleabag.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "277",
+        "title": "My Honest Face",
+        "subtitle": "Inhaler",
+        "audioPath": "audios/inhaler-my-honest-face.mp3",
+        "posterPath": ""
     }
 ]
