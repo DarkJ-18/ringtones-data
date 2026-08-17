@@ -14,6 +14,7 @@ Sabrás que funcionó cuando la página muestre un mensaje que dice `"status": "
 * **Pop:** [Purgar Caché de Pop](https://purge.jsdelivr.net/gh/DarkJ-18/ringtones-data@main/pop/ringtones.json)
 * **Country:** [Purgar Caché de Country](https://purge.jsdelivr.net/gh/DarkJ-18/ringtones-data@main/country/ringtones.json)
 * **RyB (R&B):** [Purgar Caché de RyB](https://purge.jsdelivr.net/gh/DarkJ-18/ringtones-data@main/ryb/ringtones.json)
+* **Merengue:** [Purgar Caché de Merengue](https://purge.jsdelivr.net/gh/DarkJ-18/ringtones-data@main/merengue/ringtones.json)
 
 ---
 **Nota PRO:** Si en el futuro activas "GitHub Pages" como te sugerí anteriormente, ya no necesitarás usar estos links jamás, porque GitHub Pages limpia su caché automáticamente cada minuto al hacer `git push`.

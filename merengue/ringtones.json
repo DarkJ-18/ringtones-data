@@ -1,0 +1,282 @@
+[
+    {
+        "id": "1",
+        "title": "La Bilirrubina",
+        "subtitle": "Juan Luis Guerra",
+        "audioPath": "audios/juan-luis-guerra-la-bilirrubina.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "2",
+        "title": "Ojalá Que Llueva Café",
+        "subtitle": "Juan Luis Guerra",
+        "audioPath": "audios/juan-luis-guerra-ojala-que-llueva-cafe.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "3",
+        "title": "El Africano",
+        "subtitle": "Wilfrido Vargas",
+        "audioPath": "audios/wilfrido-vargas-el-africano.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "4",
+        "title": "El Niágara en Bicicleta",
+        "subtitle": "Juan Luis Guerra",
+        "audioPath": "audios/juan-luis-guerra-el-niagara-en-bicicleta.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "5",
+        "title": "El Baile del Perrito",
+        "subtitle": "Wilfrido Vargas",
+        "audioPath": "audios/wilfrido-vargas-el-baile-del-perrito.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "6",
+        "title": "Abusadora",
+        "subtitle": "Wilfrido Vargas",
+        "audioPath": "audios/wilfrido-vargas-abusadora.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "7",
+        "title": "La Dueña del Swing",
+        "subtitle": "Los Hermanos Rosario",
+        "audioPath": "audios/los-hermanos-rosario-la-duena-del-swing.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "8",
+        "title": "Morena Ven",
+        "subtitle": "Los Hermanos Rosario",
+        "audioPath": "audios/los-hermanos-rosario-morena-ven.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "9",
+        "title": "Guayando",
+        "subtitle": "Los Hermanos Rosario",
+        "audioPath": "audios/los-hermanos-rosario-guayando.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "10",
+        "title": "La Ventanita",
+        "subtitle": "Sergio Vargas",
+        "audioPath": "audios/sergio-vargas-la-ventanita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "11",
+        "title": "Si Algún Día la Ves",
+        "subtitle": "Sergio Vargas",
+        "audioPath": "audios/sergio-vargas-si-algun-dia-la-ves.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "12",
+        "title": "Pégate Tu Vicio",
+        "subtitle": "Eddy Herrera",
+        "audioPath": "audios/eddy-herrera-pegate-tu-vicio.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "13",
+        "title": "Ajena",
+        "subtitle": "Eddy Herrera",
+        "audioPath": "audios/eddy-herrera-ajena.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "14",
+        "title": "Carolina",
+        "subtitle": "Eddy Herrera",
+        "audioPath": "audios/eddy-herrera-carolina.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "15",
+        "title": "Kulikitaka",
+        "subtitle": "Toño Rosario",
+        "audioPath": "audios/tono-rosario-kulikitaka.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "16",
+        "title": "Dale Vieja Dale",
+        "subtitle": "Toño Rosario",
+        "audioPath": "audios/tono-rosario-dale-vieja-dale.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "17",
+        "title": "Es Su Problema",
+        "subtitle": "Ala Jaza",
+        "audioPath": "audios/ala-jaza-es-su-problema.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "18",
+        "title": "Bailando Contigo",
+        "subtitle": "Manny Cruz",
+        "audioPath": "audios/manny-cruz-bailando-contigo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "19",
+        "title": "Mi Forma de Ser",
+        "subtitle": "Ala Jaza",
+        "audioPath": "audios/ala-jaza-mi-forma-de-ser.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "20",
+        "title": "Tú Si Quieres",
+        "subtitle": "Omega El Fuerte",
+        "audioPath": "audios/omega-el-fuerte-tu-si-quieres.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "21",
+        "title": "Chambonea",
+        "subtitle": "Omega El Fuerte",
+        "audioPath": "audios/omega-el-fuerte-chambonea.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "22",
+        "title": "Capullo y Sorullo",
+        "subtitle": "Johnny Ventura",
+        "audioPath": "audios/johnny-ventura-capullo-y-sorullo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "23",
+        "title": "Una Fotografía",
+        "subtitle": "Bonny Cepeda",
+        "audioPath": "audios/bonny-cepeda-una-fotografia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "24",
+        "title": "Santo Domingo",
+        "subtitle": "Manny Cruz",
+        "audioPath": "audios/manny-cruz-santo-domingo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "25",
+        "title": "Asesina",
+        "subtitle": "Bonny Cepeda",
+        "audioPath": "audios/bonny-cepeda-asesina.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "26",
+        "title": "Patacón Pisa'o",
+        "subtitle": "Johnny Ventura",
+        "audioPath": "audios/johnny-ventura-patacon-pisao.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "27",
+        "title": "Baila en la Calle",
+        "subtitle": "Fernando Villalona",
+        "audioPath": "audios/fernando-villalona-baila-en-la-calle.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "28",
+        "title": "Salsa con Coco",
+        "subtitle": "Pochy y Su Cocoband",
+        "audioPath": "audios/pochy-y-su-cocoband-salsa-con-coco.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "29",
+        "title": "La Faldita",
+        "subtitle": "Pochy y Su Cocoband",
+        "audioPath": "audios/pochy-y-su-cocoband-la-faldita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "30",
+        "title": "Juliana",
+        "subtitle": "Cuco Valoy",
+        "audioPath": "audios/cuco-valoy-juliana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "31",
+        "title": "Cachamba",
+        "subtitle": "Kinito Méndez",
+        "audioPath": "audios/kinito-mendez-cachamba.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "32",
+        "title": "El Baile del Sua Sua",
+        "subtitle": "Kinito Méndez",
+        "audioPath": "audios/kinito-mendez-el-baile-del-sua-sua.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "33",
+        "title": "Dominicano Soy",
+        "subtitle": "Fernando Villalona",
+        "audioPath": "audios/fernando-villalona-dominicano-soy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "34",
+        "title": "Cuando El Amor Se Daña",
+        "subtitle": "Rikarena",
+        "audioPath": "audios/rikarena-cuando-el-amor-se-dana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "35",
+        "title": "Te Dejo Libre",
+        "subtitle": "Rikarena",
+        "audioPath": "audios/rikarena-te-dejo-libre.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "36",
+        "title": "Suavemente",
+        "subtitle": "Elvis Crespo",
+        "audioPath": "audios/elvis-crespo-suavemente.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "37",
+        "title": "Píntame",
+        "subtitle": "Elvis Crespo",
+        "audioPath": "audios/elvis-crespo-pintame.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "38",
+        "title": "Es Mentiroso",
+        "subtitle": "Olga Tañón",
+        "audioPath": "audios/olga-tanon-es-mentiroso.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "39",
+        "title": "Muchacho Malo",
+        "subtitle": "Olga Tañón",
+        "audioPath": "audios/olga-tanon-muchacho-malo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "40",
+        "title": "La Hora de Bailar",
+        "subtitle": "Sandy & Papo",
+        "audioPath": "audios/sandy-papo-la-hora-de-bailar.mp3",
+        "posterPath": ""
+    }
+]
