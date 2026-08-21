@@ -1972,5 +1972,278 @@
         "subtitle": "Bella White",
         "audioPath": "audios/bella-white-rhododendron.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "Dollar Bill Bar",
+        "subtitle": "Sierra Ferrell",
+        "audioPath": "audios/sierra-ferrell-dollar-bill-bar.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "Dust in a Baggie",
+        "subtitle": "Billy Strings",
+        "audioPath": "audios/billy-strings-dust-in-a-baggie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "285",
+        "title": "Jeremiah",
+        "subtitle": "Sierra Ferrell",
+        "audioPath": "audios/sierra-ferrell-jeremiah.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "286",
+        "title": "Away From the Mire",
+        "subtitle": "Billy Strings",
+        "audioPath": "audios/billy-strings-away-from-the-mire.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "287",
+        "title": "Trinity River",
+        "subtitle": "Charley Crockett",
+        "audioPath": "audios/charley-crockett-trinity-river.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "288",
+        "title": "Paint It Blue",
+        "subtitle": "Charley Crockett",
+        "audioPath": "audios/charley-crockett-paint-it-blue.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "289",
+        "title": "Orange Bottles",
+        "subtitle": "Wyatt Flores",
+        "audioPath": "audios/wyatt-flores-orange-bottles.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "290",
+        "title": "Everlasting Lover",
+        "subtitle": "49 Winchester",
+        "audioPath": "audios/49-winchester-everlasting-lover.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "291",
+        "title": "Everybody Walkin' This Land",
+        "subtitle": "Paul Cauthen",
+        "audioPath": "audios/paul-cauthen-everybody-walkin-this-land.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "292",
+        "title": "Ode to Bourbon",
+        "subtitle": "Treaty Oak Revival",
+        "audioPath": "audios/treaty-oak-revival-ode-to-bourbon.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "293",
+        "title": "Waitin' Around to Die",
+        "subtitle": "Townes Van Zandt",
+        "audioPath": "audios/townes-van-zandt-waitin-around-to-die.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "294",
+        "title": "If I Needed You",
+        "subtitle": "Townes Van Zandt",
+        "audioPath": "audios/townes-van-zandt-if-i-needed-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "295",
+        "title": "Dublin Blues",
+        "subtitle": "Guy Clark",
+        "audioPath": "audios/guy-clark-dublin-blues.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "296",
+        "title": "Randall Knife",
+        "subtitle": "Guy Clark",
+        "audioPath": "audios/guy-clark-randall-knife.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "297",
+        "title": "Sam Stone",
+        "subtitle": "John Prine",
+        "audioPath": "audios/john-prine-sam-stone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "298",
+        "title": "Help Me Make It Through the Night",
+        "subtitle": "Kris Kristofferson",
+        "audioPath": "audios/kris-kristofferson-help-me-make-it-through-the-night.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "299",
+        "title": "Old Five and Dimers Like Me",
+        "subtitle": "Billy Joe Shaver",
+        "audioPath": "audios/billy-joe-shaver-old-five-and-dimers-like-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "300",
+        "title": "I'm Just an Old Chunk of Coal",
+        "subtitle": "Billy Joe Shaver",
+        "audioPath": "audios/billy-joe-shaver-im-just-an-old-chunk-of-coal.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "301",
+        "title": "Mr. Bojangles",
+        "subtitle": "Jerry Jeff Walker",
+        "audioPath": "audios/jerry-jeff-walker-mr.-bojangles.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "302",
+        "title": "Sangria Wine",
+        "subtitle": "Jerry Jeff Walker",
+        "audioPath": "audios/jerry-jeff-walker-sangria-wine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "303",
+        "title": "Loving Her Was Easier",
+        "subtitle": "Kris Kristofferson",
+        "audioPath": "audios/kris-kristofferson-loving-her-was-easier.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "304",
+        "title": "Longhaired Redneck",
+        "subtitle": "David Allan Coe",
+        "audioPath": "audios/david-allan-coe-longhaired-redneck.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "305",
+        "title": "Jack Daniel's, If You Please",
+        "subtitle": "David Allan Coe",
+        "audioPath": "audios/david-allan-coe-jack-daniels-if-you-please.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "306",
+        "title": "I'm the Only Hell (Mama Ever Raised)",
+        "subtitle": "Johnny Paycheck",
+        "audioPath": "audios/johnny-paycheck-im-the-only-hell-mama-ever-raised.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "307",
+        "title": "Old Habits",
+        "subtitle": "Hank Williams Jr.",
+        "audioPath": "audios/hank-williams-jr.-old-habits.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "308",
+        "title": "Paradise",
+        "subtitle": "John Prine",
+        "audioPath": "audios/john-prine-paradise.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "309",
+        "title": "Galway Girl",
+        "subtitle": "Steve Earle",
+        "audioPath": "audios/steve-earle-galway-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "310",
+        "title": "My Old Friend the Blues",
+        "subtitle": "Steve Earle",
+        "audioPath": "audios/steve-earle-my-old-friend-the-blues.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "311",
+        "title": "Feelin' Good Again",
+        "subtitle": "Robert Earl Keen",
+        "audioPath": "audios/robert-earl-keen-feelin-good-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "312",
+        "title": "Screw You, We're From Texas",
+        "subtitle": "Ray Wylie Hubbard",
+        "audioPath": "audios/ray-wylie-hubbard-screw-you-were-from-texas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "313",
+        "title": "Dimebag",
+        "subtitle": "Cross Canadian Ragweed",
+        "audioPath": "audios/cross-canadian-ragweed-dimebag.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "314",
+        "title": "Sitting on Top of the World",
+        "subtitle": "Doc Watson",
+        "audioPath": "audios/doc-watson-sitting-on-top-of-the-world.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "315",
+        "title": "Shady Grove",
+        "subtitle": "Doc Watson",
+        "audioPath": "audios/doc-watson-shady-grove.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "316",
+        "title": "Caleb Meyer",
+        "subtitle": "Gillian Welch",
+        "audioPath": "audios/gillian-welch-caleb-meyer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "317",
+        "title": "Wild and Blue",
+        "subtitle": "John Anderson",
+        "audioPath": "audios/john-anderson-wild-and-blue.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "318",
+        "title": "Pancho and Lefty",
+        "subtitle": "Emmylou Harris",
+        "audioPath": "audios/emmylou-harris-pancho-and-lefty.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "319",
+        "title": "Orphan Girl",
+        "subtitle": "Gillian Welch",
+        "audioPath": "audios/gillian-welch-orphan-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "320",
+        "title": "Just Like Leaves",
+        "subtitle": "Bella White",
+        "audioPath": "audios/bella-white-just-like-leaves.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "321",
+        "title": "Picture Cards",
+        "subtitle": "Blaze Foley",
+        "audioPath": "audios/blaze-foley-picture-cards.mp3",
+        "posterPath": ""
     }
 ]
