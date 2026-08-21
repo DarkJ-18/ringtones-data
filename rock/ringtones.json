@@ -1937,5 +1937,278 @@
         "subtitle": "Inhaler",
         "audioPath": "audios/inhaler-my-honest-face.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "278",
+        "title": "Heartbreaker",
+        "subtitle": "Pat Benatar",
+        "audioPath": "audios/pat-benatar-heartbreaker.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "279",
+        "title": "Rebel Yell",
+        "subtitle": "Billy Idol",
+        "audioPath": "audios/billy-idol-rebel-yell.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "280",
+        "title": "Photograph",
+        "subtitle": "Def Leppard",
+        "audioPath": "audios/def-leppard-photograph.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "281",
+        "title": "Pour Some Sugar On Me",
+        "subtitle": "Def Leppard",
+        "audioPath": "audios/def-leppard-pour-some-sugar-on-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "282",
+        "title": "Breaking the Law",
+        "subtitle": "Judas Priest",
+        "audioPath": "audios/judas-priest-breaking-the-law.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "You've Got Another Thing Comin'",
+        "subtitle": "Judas Priest",
+        "audioPath": "audios/judas-priest-youve-got-another-thing-comin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "Here I Go Again",
+        "subtitle": "Whitesnake",
+        "audioPath": "audios/whitesnake-here-i-go-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "285",
+        "title": "Every Rose Has Its Thorn",
+        "subtitle": "Poison",
+        "audioPath": "audios/poison-every-rose-has-its-thorn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "286",
+        "title": "Kickstart My Heart",
+        "subtitle": "Mötley Crüe",
+        "audioPath": "audios/motley-crue-kickstart-my-heart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "287",
+        "title": "Dr. Feelgood",
+        "subtitle": "Mötley Crüe",
+        "audioPath": "audios/motley-crue-dr.-feelgood.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "288",
+        "title": "Poison",
+        "subtitle": "Alice Cooper",
+        "audioPath": "audios/alice-cooper-poison.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "289",
+        "title": "Barracuda",
+        "subtitle": "Heart",
+        "audioPath": "audios/heart-barracuda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "290",
+        "title": "She Sells Sanctuary",
+        "subtitle": "The Cult",
+        "audioPath": "audios/the-cult-she-sells-sanctuary.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "291",
+        "title": "Don't You (Forget About Me)",
+        "subtitle": "Simple Minds",
+        "audioPath": "audios/simple-minds-dont-you-forget-about-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "292",
+        "title": "With Or Without You",
+        "subtitle": "U2",
+        "audioPath": "audios/u2-with-or-without-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "293",
+        "title": "Sunday Bloody Sunday",
+        "subtitle": "U2",
+        "audioPath": "audios/u2-sunday-bloody-sunday.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "294",
+        "title": "Ace of Spades",
+        "subtitle": "Motörhead",
+        "audioPath": "audios/motorhead-ace-of-spades.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "295",
+        "title": "Boys Don't Cry",
+        "subtitle": "The Cure",
+        "audioPath": "audios/the-cure-boys-dont-cry.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "296",
+        "title": "Friday I'm In Love",
+        "subtitle": "The Cure",
+        "audioPath": "audios/the-cure-friday-im-in-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "297",
+        "title": "Love Will Tear Us Apart",
+        "subtitle": "Joy Division",
+        "audioPath": "audios/joy-division-love-will-tear-us-apart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "298",
+        "title": "Personal Jesus",
+        "subtitle": "Depeche Mode",
+        "audioPath": "audios/depeche-mode-personal-jesus.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "299",
+        "title": "Never Tear Us Apart",
+        "subtitle": "INXS",
+        "audioPath": "audios/inxs-never-tear-us-apart.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "300",
+        "title": "Everybody Wants to Rule the World",
+        "subtitle": "Tears for Fears",
+        "audioPath": "audios/tears-for-fears-everybody-wants-to-rule-the-world.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "301",
+        "title": "Psycho Killer",
+        "subtitle": "Talking Heads",
+        "audioPath": "audios/talking-heads-psycho-killer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "302",
+        "title": "Where Is My Mind?",
+        "subtitle": "Pixies",
+        "audioPath": "audios/pixies-where-is-my-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "303",
+        "title": "Plush",
+        "subtitle": "Stone Temple Pilots",
+        "audioPath": "audios/stone-temple-pilots-plush.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "304",
+        "title": "Interstate Love Song",
+        "subtitle": "Stone Temple Pilots",
+        "audioPath": "audios/stone-temple-pilots-interstate-love-song.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "305",
+        "title": "Glycerine",
+        "subtitle": "Bush",
+        "audioPath": "audios/bush-glycerine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "306",
+        "title": "Tomorrow",
+        "subtitle": "Silverchair",
+        "audioPath": "audios/silverchair-tomorrow.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "307",
+        "title": "Just a Girl",
+        "subtitle": "No Doubt",
+        "audioPath": "audios/no-doubt-just-a-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "308",
+        "title": "The Middle",
+        "subtitle": "Jimmy Eat World",
+        "audioPath": "audios/jimmy-eat-world-the-middle.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "309",
+        "title": "I'm Only Happy When It Rains",
+        "subtitle": "Garbage",
+        "audioPath": "audios/garbage-im-only-happy-when-it-rains.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "310",
+        "title": "Celebrity Skin",
+        "subtitle": "Hole",
+        "audioPath": "audios/hole-celebrity-skin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "311",
+        "title": "In Too Deep",
+        "subtitle": "Sum 41",
+        "audioPath": "audios/sum-41-in-too-deep.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "312",
+        "title": "The Anthem",
+        "subtitle": "Good Charlotte",
+        "audioPath": "audios/good-charlotte-the-anthem.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "313",
+        "title": "Drive",
+        "subtitle": "Incubus",
+        "audioPath": "audios/incubus-drive.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "314",
+        "title": "I'm Just a Kid",
+        "subtitle": "Simple Plan",
+        "audioPath": "audios/simple-plan-im-just-a-kid.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "315",
+        "title": "Last Resort",
+        "subtitle": "Papa Roach",
+        "audioPath": "audios/papa-roach-last-resort.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "316",
+        "title": "Dirty Little Secret",
+        "subtitle": "The All-American Rejects",
+        "audioPath": "audios/the-all-american-rejects-dirty-little-secret.mp3",
+        "posterPath": ""
     }
 ]
