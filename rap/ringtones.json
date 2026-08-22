@@ -1804,5 +1804,271 @@
         "subtitle": "Ludacris",
         "audioPath": "audios/ludacris-move-bitch.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "251",
+        "title": "MELTDOWN",
+        "subtitle": "Travis Scott",
+        "audioPath": "audios/travis-scott-meltdown.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "252",
+        "title": "Candy Shop",
+        "subtitle": "50 Cent",
+        "audioPath": "audios/50-cent-candy-shop.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "253",
+        "title": "Godzilla",
+        "subtitle": "Eminem",
+        "audioPath": "audios/eminem-godzilla.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "254",
+        "title": "King Kunta",
+        "subtitle": "Kendrick Lamar",
+        "audioPath": "audios/kendrick-lamar-king-kunta.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "255",
+        "title": "Power",
+        "subtitle": "Kanye West",
+        "audioPath": "audios/kanye-west-power.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "256",
+        "title": "Dear Mama",
+        "subtitle": "2Pac",
+        "audioPath": "audios/2pac-dear-mama.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "257",
+        "title": "Work Out",
+        "subtitle": "J. Cole",
+        "audioPath": "audios/j.-cole-work-out.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "258",
+        "title": "Energy",
+        "subtitle": "Drake",
+        "audioPath": "audios/drake-energy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "259",
+        "title": "Loading",
+        "subtitle": "Central Cee",
+        "audioPath": "audios/central-cee-loading.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "260",
+        "title": "Lay Low",
+        "subtitle": "Snoop Dogg",
+        "audioPath": "audios/snoop-dogg-lay-low.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "261",
+        "title": "Nuthin' But A G Thang",
+        "subtitle": "Dr. Dre",
+        "audioPath": "audios/dr.-dre-nuthin-but-a-g-thang.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "262",
+        "title": "No Vaseline",
+        "subtitle": "Ice Cube",
+        "audioPath": "audios/ice-cube-no-vaseline.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "263",
+        "title": "N.Y. State of Mind",
+        "subtitle": "Nas",
+        "audioPath": "audios/nas-n.y.-state-of-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "264",
+        "title": "Ten Crack Commandments",
+        "subtitle": "The Notorious B.I.G.",
+        "audioPath": "audios/the-notorious-b.i.g.-ten-crack-commandments.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "265",
+        "title": "Dirt Off Your Shoulder",
+        "subtitle": "Jay-Z",
+        "audioPath": "audios/jay-z-dirt-off-your-shoulder.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "266",
+        "title": "Sky",
+        "subtitle": "Playboi Carti",
+        "audioPath": "audios/playboi-carti-sky.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "267",
+        "title": "Space Cadet",
+        "subtitle": "Metro Boomin",
+        "audioPath": "audios/metro-boomin-space-cadet.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "268",
+        "title": "The London",
+        "subtitle": "Young Thug",
+        "audioPath": "audios/young-thug-the-london.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "269",
+        "title": "Too Easy",
+        "subtitle": "Gunna",
+        "audioPath": "audios/gunna-too-easy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "270",
+        "title": "20 Min",
+        "subtitle": "Lil Uzi Vert",
+        "audioPath": "audios/lil-uzi-vert-20-min.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "271",
+        "title": "Jocelyn Flores",
+        "subtitle": "XXXTENTACION",
+        "audioPath": "audios/xxxtentacion-jocelyn-flores.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "272",
+        "title": "Bandit",
+        "subtitle": "Juice WRLD",
+        "audioPath": "audios/juice-wrld-bandit.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "273",
+        "title": "Got It On Me",
+        "subtitle": "Pop Smoke",
+        "audioPath": "audios/pop-smoke-got-it-on-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "274",
+        "title": "Love Sosa",
+        "subtitle": "Chief Keef",
+        "audioPath": "audios/chief-keef-love-sosa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "275",
+        "title": "Party Up (Up In Here)",
+        "subtitle": "DMX",
+        "audioPath": "audios/dmx-party-up-up-in-here.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "276",
+        "title": "Hot N*gga",
+        "subtitle": "Bobby Shmurda",
+        "audioPath": "audios/bobby-shmurda-hot-ngga.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "277",
+        "title": "Tequila Sunrise",
+        "subtitle": "Cypress Hill",
+        "audioPath": "audios/cypress-hill-tequila-sunrise.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "278",
+        "title": "Quiet Storm",
+        "subtitle": "Mobb Deep",
+        "audioPath": "audios/mobb-deep-quiet-storm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "279",
+        "title": "Method Man",
+        "subtitle": "Wu-Tang Clan",
+        "audioPath": "audios/wu-tang-clan-method-man.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "280",
+        "title": "Hey Ya!",
+        "subtitle": "Outkast",
+        "audioPath": "audios/outkast-hey-ya.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "281",
+        "title": "Fuck Tha Police",
+        "subtitle": "N.W.A.",
+        "audioPath": "audios/n.w.a.-fuck-tha-police.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "282",
+        "title": "T-Shirt",
+        "subtitle": "Migos",
+        "audioPath": "audios/migos-t-shirt.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "NEW MAGIC WAND",
+        "subtitle": "Tyler, The Creator",
+        "audioPath": "audios/tyler-the-creator-new-magic-wand.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "Dang!",
+        "subtitle": "Mac Miller",
+        "audioPath": "audios/mac-miller-dang.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "285",
+        "title": "Tyler Herro",
+        "subtitle": "Jack Harlow",
+        "audioPath": "audios/jack-harlow-tyler-herro.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "286",
+        "title": "Up",
+        "subtitle": "Cardi B",
+        "audioPath": "audios/cardi-b-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "287",
+        "title": "Circles",
+        "subtitle": "Post Malone",
+        "audioPath": "audios/post-malone-circles.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "288",
+        "title": "Body",
+        "subtitle": "Megan Thee Stallion",
+        "audioPath": "audios/megan-thee-stallion-body.mp3",
+        "posterPath": ""
     }
 ]
