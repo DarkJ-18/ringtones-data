@@ -1146,5 +1146,285 @@
         "subtitle": "Victoria Monét",
         "audioPath": "audios/victoria-mont-on-my-mama.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "170",
+        "title": "Bills, Bills, Bills",
+        "subtitle": "Destiny's Child",
+        "audioPath": "audios/destinys-child-bills-bills-bills.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "171",
+        "title": "Confessions Part II",
+        "subtitle": "Usher",
+        "audioPath": "audios/usher-confessions-part-ii.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "172",
+        "title": "U Got It Bad",
+        "subtitle": "Usher",
+        "audioPath": "audios/usher-u-got-it-bad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "173",
+        "title": "Waterfalls",
+        "subtitle": "TLC",
+        "audioPath": "audios/tlc-waterfalls.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "174",
+        "title": "Sensational",
+        "subtitle": "Chris Brown",
+        "audioPath": "audios/chris-brown-sensational.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "175",
+        "title": "Playing Games",
+        "subtitle": "Summer Walker",
+        "audioPath": "audios/summer-walker-playing-games.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "176",
+        "title": "Always Be My Baby",
+        "subtitle": "Mariah Carey",
+        "audioPath": "audios/mariah-carey-always-be-my-baby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "177",
+        "title": "Good Days",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-good-days.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "178",
+        "title": "Love",
+        "subtitle": "Keyshia Cole",
+        "audioPath": "audios/keyshia-cole-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "179",
+        "title": "Thinkin Bout You",
+        "subtitle": "Frank Ocean",
+        "audioPath": "audios/frank-ocean-thinkin-bout-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "180",
+        "title": "Nasty",
+        "subtitle": "Tinashe",
+        "audioPath": "audios/tinashe-nasty.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "181",
+        "title": "Die For You",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-die-for-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "182",
+        "title": "Made For Me",
+        "subtitle": "Muni Long",
+        "audioPath": "audios/muni-long-made-for-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "183",
+        "title": "LIKE I WANT YOU",
+        "subtitle": "Giveon",
+        "audioPath": "audios/giveon-like-i-want-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "184",
+        "title": "Trust",
+        "subtitle": "Brent Faiyaz",
+        "audioPath": "audios/brent-faiyaz-trust.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "185",
+        "title": "Exchange",
+        "subtitle": "Bryson Tiller",
+        "audioPath": "audios/bryson-tiller-exchange.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "186",
+        "title": "Brown Sugar",
+        "subtitle": "D'Angelo",
+        "audioPath": "audios/dangelo-brown-sugar.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "187",
+        "title": "Tyrone",
+        "subtitle": "Erykah Badu",
+        "audioPath": "audios/erykah-badu-tyrone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "188",
+        "title": "Ascension (Don't Ever Wonder)",
+        "subtitle": "Maxwell",
+        "audioPath": "audios/maxwell-ascension-dont-ever-wonder.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "189",
+        "title": "Ex-Factor",
+        "subtitle": "Lauryn Hill",
+        "audioPath": "audios/lauryn-hill-ex-factor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "190",
+        "title": "So Into You",
+        "subtitle": "Tamia",
+        "audioPath": "audios/tamia-so-into-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "191",
+        "title": "Weak",
+        "subtitle": "SWV",
+        "audioPath": "audios/swv-weak.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "192",
+        "title": "Differences",
+        "subtitle": "Ginuwine",
+        "audioPath": "audios/ginuwine-differences.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "193",
+        "title": "All My Life",
+        "subtitle": "K-Ci & JoJo",
+        "audioPath": "audios/k-ci-jojo-all-my-life.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "194",
+        "title": "Cupid",
+        "subtitle": "112",
+        "audioPath": "audios/112-cupid.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "195",
+        "title": "Let's Get Married",
+        "subtitle": "Jagged Edge",
+        "audioPath": "audios/jagged-edge-lets-get-married.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "196",
+        "title": "How Deep Is Your Love",
+        "subtitle": "Dru Hill",
+        "audioPath": "audios/dru-hill-how-deep-is-your-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "197",
+        "title": "How Do I Breathe",
+        "subtitle": "Mario",
+        "audioPath": "audios/mario-how-do-i-breathe.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "198",
+        "title": "Because of You",
+        "subtitle": "Ne-Yo",
+        "audioPath": "audios/ne-yo-because-of-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "199",
+        "title": "Can't Help But Wait",
+        "subtitle": "Trey Songz",
+        "audioPath": "audios/trey-songz-cant-help-but-wait.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "200",
+        "title": "Sure Thing",
+        "subtitle": "Miguel",
+        "audioPath": "audios/miguel-sure-thing.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "201",
+        "title": "Japanese Denim",
+        "subtitle": "Daniel Caesar",
+        "audioPath": "audios/daniel-caesar-japanese-denim.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "202",
+        "title": "Come and See Me",
+        "subtitle": "PARTYNEXTDOOR",
+        "audioPath": "audios/partynextdoor-come-and-see-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "203",
+        "title": "B.S.",
+        "subtitle": "Jhené Aiko",
+        "audioPath": "audios/jhene-aiko-b.s..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "204",
+        "title": "Gangsta",
+        "subtitle": "Kehlani",
+        "audioPath": "audios/kehlani-gangsta.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "205",
+        "title": "Focus",
+        "subtitle": "H.E.R.",
+        "audioPath": "audios/h.e.r.-focus.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "206",
+        "title": "Smoke",
+        "subtitle": "Victoria Monét",
+        "audioPath": "audios/victoria-monet-smoke.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "207",
+        "title": "Love T.K.O.",
+        "subtitle": "Teddy Pendergrass",
+        "audioPath": "audios/teddy-pendergrass-love-t.k.o..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "208",
+        "title": "Kiss of Life",
+        "subtitle": "Sade",
+        "audioPath": "audios/sade-kiss-of-life.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "209",
+        "title": "Let's Get It On",
+        "subtitle": "Marvin Gaye",
+        "audioPath": "audios/marvin-gaye-lets-get-it-on.mp3",
+        "posterPath": ""
     }
 ]
