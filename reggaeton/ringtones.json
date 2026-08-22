@@ -2133,5 +2133,257 @@
         "subtitle": "FloyyMenor",
         "audioPath": "audios/floyymenor-peligrosa.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "306",
+        "title": "Te He Querido, Te He Llorado",
+        "subtitle": "Ivy Queen",
+        "audioPath": "audios/ivy-queen-te-he-querido-te-he-llorado.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "307",
+        "title": "Impacto",
+        "subtitle": "Daddy Yankee",
+        "audioPath": "audios/daddy-yankee-impacto.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "308",
+        "title": "Dale Don Dale",
+        "subtitle": "Don Omar",
+        "audioPath": "audios/don-omar-dale-don-dale.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "309",
+        "title": "Pegao",
+        "subtitle": "Wisin & Yandel",
+        "audioPath": "audios/wisin-yandel-pegao.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "310",
+        "title": "Dominicana",
+        "subtitle": "Tego Calderon",
+        "audioPath": "audios/tego-calderon-dominicana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "311",
+        "title": "Fantasma",
+        "subtitle": "Zion & Lennox",
+        "audioPath": "audios/zion-lennox-fantasma.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "312",
+        "title": "Rescate",
+        "subtitle": "Alexis & Fido",
+        "audioPath": "audios/alexis-fido-rescate.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "313",
+        "title": "Calor",
+        "subtitle": "Hector El Father",
+        "audioPath": "audios/hector-el-father-calor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "314",
+        "title": "Carita de Angel",
+        "subtitle": "Angel & Khriz",
+        "audioPath": "audios/angel-khriz-carita-de-angel.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "315",
+        "title": "Un Beso",
+        "subtitle": "Baby Rasta & Gringo",
+        "audioPath": "audios/baby-rasta-gringo-un-beso.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "316",
+        "title": "Bailando Provocas",
+        "subtitle": "Trebol Clan",
+        "audioPath": "audios/trebol-clan-bailando-provocas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "317",
+        "title": "Lloraras",
+        "subtitle": "R.K.M & Ken-Y",
+        "audioPath": "audios/r.k.m-ken-y-lloraras.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "318",
+        "title": "Si Tu No Estas",
+        "subtitle": "Nejo & Dalmata",
+        "audioPath": "audios/nejo-dalmata-si-tu-no-estas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "319",
+        "title": "Nena Fichu",
+        "subtitle": "Farruko",
+        "audioPath": "audios/farruko-nena-fichu.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "320",
+        "title": "Pa Que La Pases Bien",
+        "subtitle": "Arcangel",
+        "audioPath": "audios/arcangel-pa-que-la-pases-bien.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "321",
+        "title": "Guatauba",
+        "subtitle": "Plan B",
+        "audioPath": "audios/plan-b-guatauba.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "322",
+        "title": "El Amante",
+        "subtitle": "Nicky Jam",
+        "audioPath": "audios/nicky-jam-el-amante.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "323",
+        "title": "Safari",
+        "subtitle": "J Balvin",
+        "audioPath": "audios/j-balvin-safari.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "324",
+        "title": "Sin Contrato",
+        "subtitle": "Maluma",
+        "audioPath": "audios/maluma-sin-contrato.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "325",
+        "title": "Criminal",
+        "subtitle": "Ozuna",
+        "audioPath": "audios/ozuna-criminal.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "326",
+        "title": "Hipocrita",
+        "subtitle": "Anuel AA",
+        "audioPath": "audios/anuel-aa-hipocrita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "327",
+        "title": "Vete",
+        "subtitle": "Bad Bunny",
+        "audioPath": "audios/bad-bunny-vete.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "328",
+        "title": "Cairo",
+        "subtitle": "Karol G",
+        "audioPath": "audios/karol-g-cairo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "329",
+        "title": "Castigo",
+        "subtitle": "Feid",
+        "audioPath": "audios/feid-castigo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "330",
+        "title": "Desesperados",
+        "subtitle": "Rauw Alejandro",
+        "audioPath": "audios/rauw-alejandro-desesperados.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "331",
+        "title": "Bandido",
+        "subtitle": "Myke Towers",
+        "audioPath": "audios/myke-towers-bandido.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "332",
+        "title": "Casualidad",
+        "subtitle": "Mora",
+        "audioPath": "audios/mora-casualidad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "333",
+        "title": "Tendencia Global",
+        "subtitle": "Blessd",
+        "audioPath": "audios/blessd-tendencia-global.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "334",
+        "title": "Ghetto Star",
+        "subtitle": "Ryan Castro",
+        "audioPath": "audios/ryan-castro-ghetto-star.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "335",
+        "title": "Diabólica",
+        "subtitle": "Cris Mj",
+        "audioPath": "audios/cris-mj-diabolica.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "336",
+        "title": "Chulo PT 2",
+        "subtitle": "Young Miko",
+        "audioPath": "audios/young-miko-chulo-pt-2.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "337",
+        "title": "Punto G",
+        "subtitle": "Quevedo",
+        "audioPath": "audios/quevedo-punto-g.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "338",
+        "title": "Tu Silueta",
+        "subtitle": "FloyyMenor",
+        "audioPath": "audios/floyymenor-tu-silueta.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "339",
+        "title": "Cuerpecito",
+        "subtitle": "Jhayco",
+        "audioPath": "audios/jhayco-cuerpecito.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "340",
+        "title": "La Nota",
+        "subtitle": "Manuel Turizo",
+        "audioPath": "audios/manuel-turizo-la-nota.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "341",
+        "title": "Miss Lonely",
+        "subtitle": "Sech",
+        "audioPath": "audios/sech-miss-lonely.mp3",
+        "posterPath": ""
     }
 ]
