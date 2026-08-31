@@ -537,5 +537,285 @@
         "subtitle": "Celia Cruz",
         "audioPath": "audios/celia-cruz-rie-y-llora.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "78",
+        "title": "Brujería",
+        "subtitle": "El Gran Combo de Puerto Rico",
+        "audioPath": "audios/el-gran-combo-de-puerto-rico-brujeria.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "79",
+        "title": "Talento de Televisión",
+        "subtitle": "Willie Colón",
+        "audioPath": "audios/willie-colon-talento-de-television.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "80",
+        "title": "Virgen",
+        "subtitle": "Orquesta Adolescentes",
+        "audioPath": "audios/orquesta-adolescentes-virgen.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "81",
+        "title": "Gitana",
+        "subtitle": "Willie Colón",
+        "audioPath": "audios/willie-colon-gitana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "82",
+        "title": "I Like It Like That",
+        "subtitle": "Tito Nieves",
+        "audioPath": "audios/tito-nieves-i-like-it-like-that.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "83",
+        "title": "Condéname a Tu Amor",
+        "subtitle": "Tito Rojas",
+        "audioPath": "audios/tito-rojas-condename-a-tu-amor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "84",
+        "title": "El Amor Más Bonito",
+        "subtitle": "Tito Nieves",
+        "audioPath": "audios/tito-nieves-el-amor-mas-bonito.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "85",
+        "title": "Tú No Le Amas Le Temes",
+        "subtitle": "Luis Enrique",
+        "audioPath": "audios/luis-enrique-tu-no-le-amas-le-temes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "86",
+        "title": "Mi Mayor Venganza",
+        "subtitle": "La India",
+        "audioPath": "audios/la-india-mi-mayor-venganza.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "87",
+        "title": "Vivir Lo Nuestro",
+        "subtitle": "La India",
+        "audioPath": "audios/la-india-vivir-lo-nuestro.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "88",
+        "title": "Por Favor Señora",
+        "subtitle": "Maelo Ruiz",
+        "audioPath": "audios/maelo-ruiz-por-favor-senora.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "89",
+        "title": "Detalles",
+        "subtitle": "Oscar D'León",
+        "audioPath": "audios/oscar-dleon-detalles.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "90",
+        "title": "Descontrólame",
+        "subtitle": "Luis Enrique",
+        "audioPath": "audios/luis-enrique-descontrolame.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "91",
+        "title": "Que Bueno Baila Usted",
+        "subtitle": "Oscar D'León",
+        "audioPath": "audios/oscar-dleon-que-bueno-baila-usted.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "92",
+        "title": "Todo Tiene Su Final",
+        "subtitle": "Héctor Lavoe",
+        "audioPath": "audios/hector-lavoe-todo-tiene-su-final.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "93",
+        "title": "Amor y Control",
+        "subtitle": "Rubén Blades",
+        "audioPath": "audios/ruben-blades-amor-y-control.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "94",
+        "title": "Tú Me Quemas",
+        "subtitle": "Eddie Santiago",
+        "audioPath": "audios/eddie-santiago-tu-me-quemas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "95",
+        "title": "Antídoto y Veneno",
+        "subtitle": "Eddie Santiago",
+        "audioPath": "audios/eddie-santiago-antidoto-y-veneno.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "96",
+        "title": "Cada Día Que Pasa",
+        "subtitle": "Orquesta Guayacán",
+        "audioPath": "audios/orquesta-guayacan-cada-dia-que-pasa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "97",
+        "title": "Soledad",
+        "subtitle": "La 33",
+        "audioPath": "audios/la-33-soledad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "98",
+        "title": "Volveré",
+        "subtitle": "DLG",
+        "audioPath": "audios/dlg-volvere.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "99",
+        "title": "El Incomprendido",
+        "subtitle": "Ismael Rivera",
+        "audioPath": "audios/ismael-rivera-el-incomprendido.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "100",
+        "title": "Severa",
+        "subtitle": "Ismael Rivera",
+        "audioPath": "audios/ismael-rivera-severa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "101",
+        "title": "Amiga",
+        "subtitle": "Rey Ruiz",
+        "audioPath": "audios/rey-ruiz-amiga.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "102",
+        "title": "En La Intimidad",
+        "subtitle": "Willie González",
+        "audioPath": "audios/willie-gonzalez-en-la-intimidad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "103",
+        "title": "Amada Mía",
+        "subtitle": "Cheo Feliciano",
+        "audioPath": "audios/cheo-feliciano-amada-mia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "104",
+        "title": "El Ratón",
+        "subtitle": "Cheo Feliciano",
+        "audioPath": "audios/cheo-feliciano-el-raton.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "105",
+        "title": "Cobarde Cobarde",
+        "subtitle": "Andy Montañez",
+        "audioPath": "audios/andy-montanez-cobarde-cobarde.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "106",
+        "title": "Payaso",
+        "subtitle": "Andy Montañez",
+        "audioPath": "audios/andy-montanez-payaso.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "107",
+        "title": "El Caminante",
+        "subtitle": "Fruko y sus Tesos",
+        "audioPath": "audios/fruko-y-sus-tesos-el-caminante.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "108",
+        "title": "Tania",
+        "subtitle": "Fruko y sus Tesos",
+        "audioPath": "audios/fruko-y-sus-tesos-tania.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "109",
+        "title": "Boranda",
+        "subtitle": "Sonora Ponceña",
+        "audioPath": "audios/sonora-poncena-boranda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "110",
+        "title": "El Muñeco de la Ciudad",
+        "subtitle": "Bobby Valentín",
+        "audioPath": "audios/bobby-valentin-el-muneco-de-la-ciudad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "111",
+        "title": "Libro de Amor",
+        "subtitle": "Bobby Valentín",
+        "audioPath": "audios/bobby-valentin-libro-de-amor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "112",
+        "title": "Periquito Pin Pin",
+        "subtitle": "Tommy Olivencia",
+        "audioPath": "audios/tommy-olivencia-periquito-pin-pin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "113",
+        "title": "Planté Bandera",
+        "subtitle": "Tommy Olivencia",
+        "audioPath": "audios/tommy-olivencia-plante-bandera.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "114",
+        "title": "Marejada Feliz",
+        "subtitle": "Roberto Roena",
+        "audioPath": "audios/roberto-roena-marejada-feliz.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "115",
+        "title": "Ave María Lola",
+        "subtitle": "La Sonora Carruseles",
+        "audioPath": "audios/la-sonora-carruseles-ave-maria-lola.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "116",
+        "title": "Quítate La Máscara",
+        "subtitle": "Ray Barretto",
+        "audioPath": "audios/ray-barretto-quitate-la-mascara.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "117",
+        "title": "Agúzate",
+        "subtitle": "Richie Ray & Bobby Cruz",
+        "audioPath": "audios/richie-ray-bobby-cruz-aguzate.mp3",
+        "posterPath": ""
     }
 ]
