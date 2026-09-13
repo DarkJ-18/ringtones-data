@@ -817,5 +817,285 @@
         "subtitle": "Richie Ray & Bobby Cruz",
         "audioPath": "audios/richie-ray-bobby-cruz-aguzate.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "118",
+        "title": "Que Pena",
+        "subtitle": "Lebron Brothers",
+        "audioPath": "audios/lebron-brothers-que-pena.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "119",
+        "title": "Anuncio Clasificado",
+        "subtitle": "Willie Rosario",
+        "audioPath": "audios/willie-rosario-anuncio-clasificado.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "120",
+        "title": "Ven Devórame Otra Vez",
+        "subtitle": "Lalo Rodríguez",
+        "audioPath": "audios/lalo-rodriguez-ven-devorame-otra-vez.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "121",
+        "title": "Humildad",
+        "subtitle": "Tromboranga",
+        "audioPath": "audios/tromboranga-humildad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "122",
+        "title": "Cuando Vuelvas Conmigo",
+        "subtitle": "Ray Sepulveda",
+        "audioPath": "audios/ray-sepulveda-cuando-vuelvas-conmigo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "123",
+        "title": "Me Dicen Cuba",
+        "subtitle": "Alexander Abreu y Havana D'Primera",
+        "audioPath": "audios/alexander-abreu-y-havana-dprimera-me-dicen-cuba.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "124",
+        "title": "Déjala",
+        "subtitle": "Tito Gómez",
+        "audioPath": "audios/tito-gomez-dejala.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "125",
+        "title": "Diez Lagrimas",
+        "subtitle": "Los Hermanos Lebron",
+        "audioPath": "audios/los-hermanos-lebron-diez-lagrimas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "126",
+        "title": "Enamórate Bailando",
+        "subtitle": "Septeto Acarey",
+        "audioPath": "audios/septeto-acarey-enamorate-bailando.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "127",
+        "title": "Ella Es",
+        "subtitle": "Tony Vega",
+        "audioPath": "audios/tony-vega-ella-es.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "128",
+        "title": "Mi Libertad",
+        "subtitle": "Frankie Ruiz",
+        "audioPath": "audios/frankie-ruiz-mi-libertad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "129",
+        "title": "Acuyeye",
+        "subtitle": "Johnny Pacheco",
+        "audioPath": "audios/johnny-pacheco-acuyeye.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "130",
+        "title": "Fuerza Gigante",
+        "subtitle": "Ray Barretto",
+        "audioPath": "audios/ray-barretto-fuerza-gigante.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "131",
+        "title": "Dile Que Vuelva",
+        "subtitle": "Orquesta Mulenze",
+        "audioPath": "audios/orquesta-mulenze-dile-que-vuelva.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "132",
+        "title": "Otra Oportunidad",
+        "subtitle": "Jimmy Bosch",
+        "audioPath": "audios/jimmy-bosch-otra-oportunidad.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "133",
+        "title": "Eso Que Anda",
+        "subtitle": "Los Van Van",
+        "audioPath": "audios/los-van-van-eso-que-anda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "134",
+        "title": "Plástico",
+        "subtitle": "Rubén Blades",
+        "audioPath": "audios/ruben-blades-plastico.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "135",
+        "title": "Lluvia Al Canto",
+        "subtitle": "Willie Rosario",
+        "audioPath": "audios/willie-rosario-lluvia-al-canto.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "136",
+        "title": "La Fuga",
+        "subtitle": "Luisito Carrión",
+        "audioPath": "audios/luisito-carrion-la-fuga.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "137",
+        "title": "Así Se Compone Un Son",
+        "subtitle": "Ismael Miranda",
+        "audioPath": "audios/ismael-miranda-asi-se-compone-un-son.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "138",
+        "title": "Gozadera Santa",
+        "subtitle": "Orquesta La 33",
+        "audioPath": "audios/orquesta-la-33-gozadera-santa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "139",
+        "title": "Página de Amor",
+        "subtitle": "Tito Gómez",
+        "audioPath": "audios/tito-gomez-pagina-de-amor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "140",
+        "title": "Llegó La Banda",
+        "subtitle": "Spanish Harlem Orchestra",
+        "audioPath": "audios/spanish-harlem-orchestra-llego-la-banda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "141",
+        "title": "Catalina La O",
+        "subtitle": "Pete El Conde Rodriguez",
+        "audioPath": "audios/pete-el-conde-rodriguez-catalina-la-o.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "142",
+        "title": "La Noche Más Linda",
+        "subtitle": "Adalberto Santiago",
+        "audioPath": "audios/adalberto-santiago-la-noche-mas-linda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "143",
+        "title": "Máximo Chamorro",
+        "subtitle": "Lalo Rodríguez",
+        "audioPath": "audios/lalo-rodriguez-maximo-chamorro.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "144",
+        "title": "Estamos En Salsa",
+        "subtitle": "Wayne Gorbea",
+        "audioPath": "audios/wayne-gorbea-estamos-en-salsa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "145",
+        "title": "Cinco Noches",
+        "subtitle": "Paquito Guzman",
+        "audioPath": "audios/paquito-guzman-cinco-noches.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "146",
+        "title": "La Salsa de Ahora",
+        "subtitle": "Bimbo",
+        "audioPath": "audios/bimbo-la-salsa-de-ahora.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "147",
+        "title": "Por Qué Mentir",
+        "subtitle": "Miky Woodz",
+        "audioPath": "audios/miky-woodz-por-que-mentir.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "148",
+        "title": "Señor Sereno",
+        "subtitle": "Ismael Miranda",
+        "audioPath": "audios/ismael-miranda-senor-sereno.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "149",
+        "title": "Mascarada",
+        "subtitle": "Ray Sepulveda",
+        "audioPath": "audios/ray-sepulveda-mascarada.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "150",
+        "title": "Pedro Simon",
+        "subtitle": "Orquesta Colon",
+        "audioPath": "audios/orquesta-colon-pedro-simon.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "151",
+        "title": "Botaron La Pelota",
+        "subtitle": "Willie Rosario",
+        "audioPath": "audios/willie-rosario-botaron-la-pelota.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "152",
+        "title": "Lejos de Ti",
+        "subtitle": "Chiquito Team Band",
+        "audioPath": "audios/chiquito-team-band-lejos-de-ti.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "153",
+        "title": "Corazón de Acero",
+        "subtitle": "Yiyo Sarante",
+        "audioPath": "audios/yiyo-sarante-corazon-de-acero.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "154",
+        "title": "Te Engañaste",
+        "subtitle": "Septeto Acarey",
+        "audioPath": "audios/septeto-acarey-te-enganaste.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "155",
+        "title": "Que Me Das Que Me Quitas",
+        "subtitle": "Paquito Guzman",
+        "audioPath": "audios/paquito-guzman-que-me-das-que-me-quitas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "156",
+        "title": "La Llamada de Mi Ex",
+        "subtitle": "Chiquito Team Band",
+        "audioPath": "audios/chiquito-team-band-la-llamada-de-mi-ex.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "157",
+        "title": "Sálvame",
+        "subtitle": "Yiyo Sarante",
+        "audioPath": "audios/yiyo-sarante-salvame.mp3",
+        "posterPath": ""
     }
 ]
