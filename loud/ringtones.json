@@ -56,31 +56,10 @@
         "posterPath":  ""
     },
     {
-        "id":  "18",
-        "title":  "Piercing Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/piercing-alarm.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "19",
-        "title":  "Heavy Metal Bell",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/heavy-metal-bell.mp3",
-        "posterPath":  ""
-    },
-    {
         "id":  "20",
         "title":  "Antique Rotary Phone",
         "subtitle":  "Classic",
         "audioPath":  "audios/antique-rotary-phone.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "21",
-        "title":  "Maximum Volume Buzzer",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/maximum-volume-buzzer.mp3",
         "posterPath":  ""
     },
     {
@@ -91,20 +70,6 @@
         "posterPath":  ""
     },
     {
-        "id":  "23",
-        "title":  "Cockpit Warning Alert",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/cockpit-warning-alert.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "24",
-        "title":  "Warning Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/warning-siren.mp3",
-        "posterPath":  ""
-    },
-    {
         "id":  "25",
         "title":  "Office Phone",
         "subtitle":  "Classic",
@@ -112,24 +77,10 @@
         "posterPath":  ""
     },
     {
-        "id":  "26",
-        "title":  "Double Truck Horn",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/double-truck-horn.mp3",
-        "posterPath":  ""
-    },
-    {
         "id":  "28",
         "title":  "Strobe Alarm",
         "subtitle":  "Alarms",
         "audioPath":  "audios/strobe-alarm.mp3",
-        "posterPath":  ""
-    },
-    {
-        "id":  "29",
-        "title":  "Crossing Warning",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/crossing-warning.mp3",
         "posterPath":  ""
     },
     {
