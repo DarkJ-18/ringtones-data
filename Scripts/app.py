@@ -177,7 +177,10 @@ def get_cached_audio(url, ffmpeg_path, js_runtimes, log_func=print):
         "quiet": True,
         "no_warnings": True,
         "extract_flat": False,
-        "extractor_args": {"youtube": {"player_client": ["android"]}}
+        "extractor_args": {"youtube": {"player_client": ["android"]}},
+        "socket_timeout": 30,
+        "retries": 3,
+        "fragment_retries": 3
     }
     if js_runtimes:
         ydl_opts["js_runtimes"] = js_runtimes
@@ -336,6 +339,7 @@ def process_single_task(task, folder_name, ffmpeg_path, js_runtimes, force_overw
 def process_tasks(folder_name, tasks, force_overwrite=False):
     job_status["is_processing"] = True
     job_status["abort_requested"] = False
+    start_time = time.time()
     add_log("--- INICIANDO PROCESO BATCH WEB ---")
 
     total_tasks = 0
@@ -358,6 +362,15 @@ def process_tasks(folder_name, tasks, force_overwrite=False):
             if job_status.get("abort_requested"):
                 add_log("🛑 --- PROCESAMIENTO DETENIDO ---")
                 for f in pendientes: f.cancel()
+                
+                elapsed = time.time() - start_time
+                m, s = divmod(elapsed, 60)
+                add_log("--- RESUMEN DEL PROCESO ---")
+                add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
+                add_log(f"Tiempo transcurrido: {int(m)}m {int(s)}s")
+                job_status["is_processing"] = False
+                job_status["failed_items"] = [item["task"] for item in failed_items]
+                add_log("--- FINALIZADO ---")
                 break
                 
             hechos, pendientes = concurrent.futures.wait(pendientes, timeout=1.0, return_when=concurrent.futures.FIRST_COMPLETED)
@@ -370,11 +383,15 @@ def process_tasks(folder_name, tasks, force_overwrite=False):
                     error_count += 1
                     failed_items.append({"url": res["url"], "error": res["error"], "task": res.get("task", {})})
 
-    add_log("--- RESUMEN DEL PROCESO ---")
-    add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
-    job_status["is_processing"] = False
-    job_status["failed_items"] = [item["task"] for item in failed_items]
-    add_log("--- FINALIZADO ---")
+    if not job_status.get("abort_requested"):
+        elapsed = time.time() - start_time
+        m, s = divmod(elapsed, 60)
+        add_log("--- RESUMEN DEL PROCESO ---")
+        add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
+        add_log(f"Tiempo transcurrido: {int(m)}m {int(s)}s")
+        job_status["is_processing"] = False
+        job_status["failed_items"] = [item["task"] for item in failed_items]
+        add_log("--- FINALIZADO ---")
 
 @app.route("/")
 def index():
