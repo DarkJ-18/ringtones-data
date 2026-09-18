@@ -2210,5 +2210,271 @@
         "subtitle": "The All-American Rejects",
         "audioPath": "audios/the-all-american-rejects-dirty-little-secret.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "317",
+        "title": "Trip Switch",
+        "subtitle": "Nothing But Thieves",
+        "audioPath": "audios/nothing-but-thieves-trip-switch.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "318",
+        "title": "Black Smoke Rising",
+        "subtitle": "Greta Van Fleet",
+        "audioPath": "audios/greta-van-fleet-black-smoke-rising.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "319",
+        "title": "Gold on the Ceiling",
+        "subtitle": "The Black Keys",
+        "audioPath": "audios/the-black-keys-gold-on-the-ceiling.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "320",
+        "title": "Boys in the Better Land",
+        "subtitle": "Fontaines D.C.",
+        "audioPath": "audios/fontaines-d.c.-boys-in-the-better-land.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "321",
+        "title": "Hell You Call A Dream",
+        "subtitle": "The Warning",
+        "audioPath": "audios/the-warning-hell-you-call-a-dream.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "322",
+        "title": "It Won't Always Be Like This",
+        "subtitle": "Inhaler",
+        "audioPath": "audios/inhaler-it-wont-always-be-like-this.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "323",
+        "title": "Seventeen Going Under",
+        "subtitle": "Sam Fender",
+        "audioPath": "audios/sam-fender-seventeen-going-under.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "324",
+        "title": "parents",
+        "subtitle": "YUNGBLUD",
+        "audioPath": "audios/yungblud-parents.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "325",
+        "title": "Like A Villain",
+        "subtitle": "Bad Omens",
+        "audioPath": "audios/bad-omens-like-a-villain.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "326",
+        "title": "Granite",
+        "subtitle": "Sleep Token",
+        "audioPath": "audios/sleep-token-granite.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "327",
+        "title": "Dancer",
+        "subtitle": "IDLES",
+        "audioPath": "audios/idles-dancer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "328",
+        "title": "BLACKOUT",
+        "subtitle": "Turnstile",
+        "audioPath": "audios/turnstile-blackout.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "329",
+        "title": "Voices In My Head",
+        "subtitle": "Falling In Reverse",
+        "audioPath": "audios/falling-in-reverse-voices-in-my-head.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "330",
+        "title": "Spillways",
+        "subtitle": "Ghost",
+        "audioPath": "audios/ghost-spillways.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "331",
+        "title": "Could Have Been Me",
+        "subtitle": "The Struts",
+        "audioPath": "audios/the-struts-could-have-been-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "332",
+        "title": "Way Down We Go",
+        "subtitle": "Kaleo",
+        "audioPath": "audios/kaleo-way-down-we-go.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "333",
+        "title": "Are You Bored Yet",
+        "subtitle": "Wallows",
+        "audioPath": "audios/wallows-are-you-bored-yet.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "334",
+        "title": "Kilby Girl",
+        "subtitle": "The Backseat Lovers",
+        "audioPath": "audios/the-backseat-lovers-kilby-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "335",
+        "title": "Immigrant Song",
+        "subtitle": "Led Zeppelin",
+        "audioPath": "audios/led-zeppelin-immigrant-song.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "336",
+        "title": "Break On Through",
+        "subtitle": "The Doors",
+        "audioPath": "audios/the-doors-break-on-through.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "337",
+        "title": "Won't Get Fooled Again",
+        "subtitle": "The Who",
+        "audioPath": "audios/the-who-wont-get-fooled-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "338",
+        "title": "Foxy Lady",
+        "subtitle": "Jimi Hendrix",
+        "audioPath": "audios/jimi-hendrix-foxy-lady.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "339",
+        "title": "White Room",
+        "subtitle": "Cream",
+        "audioPath": "audios/cream-white-room.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "340",
+        "title": "All Day and All of the Night",
+        "subtitle": "The Kinks",
+        "audioPath": "audios/the-kinks-all-day-and-all-of-the-night.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "341",
+        "title": "Go Your Own Way",
+        "subtitle": "Fleetwood Mac",
+        "audioPath": "audios/fleetwood-mac-go-your-own-way.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "342",
+        "title": "Peace of Mind",
+        "subtitle": "Boston",
+        "audioPath": "audios/boston-peace-of-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "343",
+        "title": "Burnin' for You",
+        "subtitle": "Blue Oyster Cult",
+        "audioPath": "audios/blue-oyster-cult-burnin-for-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "344",
+        "title": "Sharp Dressed Man",
+        "subtitle": "ZZ Top",
+        "audioPath": "audios/zz-top-sharp-dressed-man.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "345",
+        "title": "Crazy On You",
+        "subtitle": "Heart",
+        "audioPath": "audios/heart-crazy-on-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "346",
+        "title": "School's Out",
+        "subtitle": "Alice Cooper",
+        "audioPath": "audios/alice-cooper-schools-out.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "347",
+        "title": "Painkiller",
+        "subtitle": "Judas Priest",
+        "audioPath": "audios/judas-priest-painkiller.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "348",
+        "title": "Spoonman",
+        "subtitle": "Soundgarden",
+        "audioPath": "audios/soundgarden-spoonman.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "349",
+        "title": "Would?",
+        "subtitle": "Alice In Chains",
+        "audioPath": "audios/alice-in-chains-would.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "350",
+        "title": "Cherub Rock",
+        "subtitle": "The Smashing Pumpkins",
+        "audioPath": "audios/the-smashing-pumpkins-cherub-rock.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "351",
+        "title": "Linger",
+        "subtitle": "The Cranberries",
+        "audioPath": "audios/the-cranberries-linger.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "352",
+        "title": "Champagne Supernova",
+        "subtitle": "Oasis",
+        "audioPath": "audios/oasis-champagne-supernova.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "353",
+        "title": "Girls & Boys",
+        "subtitle": "Blur",
+        "audioPath": "audios/blur-girls-boys.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "354",
+        "title": "Fire Woman",
+        "subtitle": "The Cult",
+        "audioPath": "audios/the-cult-fire-woman.mp3",
+        "posterPath": ""
     }
 ]
