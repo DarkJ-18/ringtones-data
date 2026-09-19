@@ -6,3 +6,4 @@ temp_previews/
 raw_cache/
 profiles.json
 Scripts/config.py
+.agents/
