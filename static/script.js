@@ -327,7 +327,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const ytConsole = document.getElementById('ytConsole');
     
     function updateQueueCount() {
-        document.getElementById('queueTitle').textContent = `Cola de Tareas (${tasksList.querySelectorAll('.task-card').length})`;
+        const count = tasksList.querySelectorAll('.task-card').length;
+        document.getElementById('queueTitle').textContent = `Cola de Tareas (${count})`;
+        
+        const emptyState = document.getElementById('emptyTasksState');
+        if (emptyState) {
+            if (count === 0) {
+                emptyState.style.display = 'block';
+                tasksList.style.display = 'none';
+            } else {
+                emptyState.style.display = 'none';
+                tasksList.style.display = 'block';
+            }
+        }
     }
 
     function addTask(data = {}) {
@@ -367,6 +379,23 @@ document.addEventListener('DOMContentLoaded', () => {
             card.remove();
             updateQueueCount();
         });
+
+        // Advanced Settings Toggle
+        const toggleBtn = card.querySelector('.toggle-advanced-btn');
+        if (toggleBtn) {
+            const advancedContent = card.querySelector('.advanced-settings-content');
+            const toggleIcon = card.querySelector('.toggle-icon');
+            
+            toggleBtn.addEventListener('click', () => {
+                if (advancedContent.style.display === 'none') {
+                    advancedContent.style.display = 'block';
+                    toggleIcon.style.transform = 'rotate(-180deg)';
+                } else {
+                    advancedContent.style.display = 'none';
+                    toggleIcon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
 
         // Preview Logic
         const prevBtn = card.querySelector('.preview-btn');
@@ -564,4 +593,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     addTask(); // Init first empty task
+    // Inicializar estado visual
+    updateQueueCount();
 });
