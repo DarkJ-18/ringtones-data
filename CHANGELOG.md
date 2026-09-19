@@ -9,3 +9,4 @@ Todas las modificaciones notables de este proyecto serán documentadas en este a
 - **Interfaz (index.html):** La pestaña de herramientas ahora solo contiene la "Sincronización en la Nube (GitHub)" y la "Consola de Herramientas".
 - **Servidor (app.py):** Se activó el modo `debug=True` y la variable `TEMPLATES_AUTO_RELOAD = True` en Flask para permitir ver cambios en HTML al instante solo recargando el navegador (sin reiniciar el servidor).
 - **Funcionalidad Nueva:** Se agregó una nueva tarjeta en Herramientas llamada "Explorador de Archivos", que lista automáticamente las carpetas del proyecto ('base', 'loud', etc) y permite abrirlas directamente en el explorador de Windows con un click.
+- **Commit `f3e6cce`:** Se guardaron formalmente todos estos cambios en el repositorio local bajo el mensaje *"Mejora de interfaz: limpieza de herramientas y nueva función de Explorador de Archivos"*.
