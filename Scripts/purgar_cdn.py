@@ -24,7 +24,7 @@ def get_github_repo():
             return repo
     except Exception:
         pass
-    return "DarkJ-18/ringtones-data"
+    return None
 
 def purge_cdn():
     print_out("=================================================")
@@ -58,6 +58,11 @@ def purge_cdn():
     exitos = 0
     fallos = 0
     repo_path = get_github_repo()
+    
+    if not repo_path:
+        print_out("[ERROR] No se pudo determinar el repositorio de GitHub de origen.")
+        print_out("La purga se canceló porque el proyecto no tiene configurado un origin de Git.")
+        return
         
     for folder in carpetas_validas:
         url = f"https://purge.jsdelivr.net/gh/{repo_path}@main/{folder}/ringtones.json"
