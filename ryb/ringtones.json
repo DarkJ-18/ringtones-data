@@ -1426,5 +1426,285 @@
         "subtitle": "Marvin Gaye",
         "audioPath": "audios/marvin-gaye-lets-get-it-on.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "210",
+        "title": "Treat Me",
+        "subtitle": "Chlöe",
+        "audioPath": "audios/chloe-treat-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "211",
+        "title": "telepatía",
+        "subtitle": "Kali Uchis",
+        "audioPath": "audios/kali-uchis-telepatia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "212",
+        "title": "Lose Control",
+        "subtitle": "Teddy Swims",
+        "audioPath": "audios/teddy-swims-lose-control.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "213",
+        "title": "Truth or Dare",
+        "subtitle": "Tyla",
+        "audioPath": "audios/tyla-truth-or-dare.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "214",
+        "title": "Escapism",
+        "subtitle": "Raye",
+        "audioPath": "audios/raye-escapism.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "215",
+        "title": "Don't Give Up On Me",
+        "subtitle": "Fridayy",
+        "audioPath": "audios/fridayy-dont-give-up-on-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "216",
+        "title": "Double Back",
+        "subtitle": "Coco Jones",
+        "audioPath": "audios/coco-jones-double-back.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "217",
+        "title": "Dying 4 Your Love",
+        "subtitle": "Snoh Aalegra",
+        "audioPath": "audios/snoh-aalegra-dying-4-your-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "218",
+        "title": "Alright",
+        "subtitle": "Victoria Monét",
+        "audioPath": "audios/victoria-monet-alright.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "219",
+        "title": "Crash & Burn",
+        "subtitle": "Leon Thomas",
+        "audioPath": "audios/leon-thomas-crash-burn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "220",
+        "title": "Rush",
+        "subtitle": "Ayra Starr",
+        "audioPath": "audios/ayra-starr-rush.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "221",
+        "title": "Me & U",
+        "subtitle": "Tems",
+        "audioPath": "audios/tems-me-u.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "222",
+        "title": "Can I",
+        "subtitle": "Kiana Ledé",
+        "audioPath": "audios/kiana-lede-can-i.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "223",
+        "title": "Bust Your Windows",
+        "subtitle": "Jazmine Sullivan",
+        "audioPath": "audios/jazmine-sullivan-bust-your-windows.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "224",
+        "title": "Roll Some Mo",
+        "subtitle": "Lucky Daye",
+        "audioPath": "audios/lucky-daye-roll-some-mo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "225",
+        "title": "Overrated",
+        "subtitle": "Blxst",
+        "audioPath": "audios/blxst-overrated.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "226",
+        "title": "2 On",
+        "subtitle": "Tinashe",
+        "audioPath": "audios/tinashe-2-on.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "227",
+        "title": "Fantasy",
+        "subtitle": "Mariah Carey",
+        "audioPath": "audios/mariah-carey-fantasy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "228",
+        "title": "He Wasn't Man Enough",
+        "subtitle": "Toni Braxton",
+        "audioPath": "audios/toni-braxton-he-wasnt-man-enough.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "229",
+        "title": "The Boy Is Mine",
+        "subtitle": "Brandy",
+        "audioPath": "audios/brandy-the-boy-is-mine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "230",
+        "title": "So Gone",
+        "subtitle": "Monica",
+        "audioPath": "audios/monica-so-gone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "231",
+        "title": "Try Again",
+        "subtitle": "Aaliyah",
+        "audioPath": "audios/aaliyah-try-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "232",
+        "title": "Promise",
+        "subtitle": "Ciara",
+        "audioPath": "audios/ciara-promise.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "233",
+        "title": "Baby",
+        "subtitle": "Ashanti",
+        "audioPath": "audios/ashanti-baby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "234",
+        "title": "Rock the Boat",
+        "subtitle": "Aaliyah",
+        "audioPath": "audios/aaliyah-rock-the-boat.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "235",
+        "title": "Right Here",
+        "subtitle": "SWV",
+        "audioPath": "audios/swv-right-here.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "236",
+        "title": "I Should Have Cheated",
+        "subtitle": "Keyshia Cole",
+        "audioPath": "audios/keyshia-cole-i-should-have-cheated.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "237",
+        "title": "Pretty Wings",
+        "subtitle": "Maxwell",
+        "audioPath": "audios/maxwell-pretty-wings.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "238",
+        "title": "Tell Me It's Real",
+        "subtitle": "K-Ci & JoJo",
+        "audioPath": "audios/k-ci-jojo-tell-me-its-real.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "239",
+        "title": "Caught Up in the Rapture",
+        "subtitle": "Anita Baker",
+        "audioPath": "audios/anita-baker-caught-up-in-the-rapture.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "240",
+        "title": "Where I Wanna Be",
+        "subtitle": "Donell Jones",
+        "audioPath": "audios/donell-jones-where-i-wanna-be.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "241",
+        "title": "Here and Now",
+        "subtitle": "Luther Vandross",
+        "audioPath": "audios/luther-vandross-here-and-now.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "242",
+        "title": "Isn't She Lovely",
+        "subtitle": "Stevie Wonder",
+        "audioPath": "audios/stevie-wonder-isnt-she-lovely.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "243",
+        "title": "Love and Happiness",
+        "subtitle": "Al Green",
+        "audioPath": "audios/al-green-love-and-happiness.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "244",
+        "title": "Lean on Me",
+        "subtitle": "Bill Withers",
+        "audioPath": "audios/bill-withers-lean-on-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "245",
+        "title": "All The Things Your Man Won't Do",
+        "subtitle": "Joe",
+        "audioPath": "audios/joe-all-the-things-your-man-wont-do.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "246",
+        "title": "Footsteps in the Dark",
+        "subtitle": "The Isley Brothers",
+        "audioPath": "audios/the-isley-brothers-footsteps-in-the-dark.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "247",
+        "title": "Through the Fire",
+        "subtitle": "Chaka Khan",
+        "audioPath": "audios/chaka-khan-through-the-fire.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "248",
+        "title": "Officially Missing You",
+        "subtitle": "Tamia",
+        "audioPath": "audios/tamia-officially-missing-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "249",
+        "title": "Natural Woman",
+        "subtitle": "Aretha Franklin",
+        "audioPath": "audios/aretha-franklin-natural-woman.mp3",
+        "posterPath": ""
     }
 ]
