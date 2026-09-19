@@ -186,36 +186,6 @@
 
             <!-- TAB 3: HERRAMIENTAS -->
             <div id="tools-tab" class="tab-content">
-                <h2>Herramientas de Mantenimiento</h2>
-                <p style="color: var(--text-muted); margin-bottom: 20px;">Utilidades para reparar y exportar tu catálogo local.</p>
-
-                <div class="grid-3">
-                    <div class="glass-panel">
-                        <h3>Exportar Catálogo</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Genera un archivo .txt con la lista de todas las canciones de un género específico para poder copiarlas fácilmente.</p>
-                        <div class="input-group">
-                            <label>Nombre del Género (Ej. salsa)</label>
-                            <input type="text" id="exportGenre" placeholder="salsa">
-                        </div>
-                        <button id="runExportBtn" class="btn btn-primary" style="width: 100%;">📄 Exportar</button>
-                    </div>
-
-                    <div class="glass-panel">
-                        <h3>Purgar Caché CDN</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Fuerza a los servidores a descargar tu catálogo más reciente. (Se ejecuta automáticamente al subir a GitHub).</p>
-                        <div class="input-group">
-                            <label>Carpeta (Déjalo vacío para purgar todas)</label>
-                            <input type="text" id="purgeFolder" placeholder="ej. salsa, pop, etc.">
-                        </div>
-                        <button id="runPurgeBtn" class="btn btn-primary" style="width: 100%; background: var(--accent-purple);">⚡ Purgar jsDelivr</button>
-                    </div>
-
-                    <div class="glass-panel">
-                        <h3>Limpiar Caché</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Borra todos los archivos temporales (previas, audios residuales, etc) liberando espacio en el disco duro de inmediato.</p>
-                        <button id="clearCacheBtn" class="btn btn-danger" style="width: 100%; margin-top: 4.5rem;">🧹 Vaciar Caché</button>
-                    </div>
-                </div>
 
                 <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent);">
                     <h3>🌐 Sincronización en la Nube (GitHub)</h3>

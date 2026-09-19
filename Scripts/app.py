@@ -579,5 +579,6 @@ def cancel_script(task_id):
 
 if __name__ == "__main__":
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     threading.Timer(1.0, lambda: webbrowser.open(APP_URL)).start()
-    app.run(host="127.0.0.1", port=5000, debug=False, use_reloader=False)
+    app.run(host="127.0.0.1", port=5000, debug=True, use_reloader=True)
