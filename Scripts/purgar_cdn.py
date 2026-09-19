@@ -1,10 +1,30 @@
 import os
 import requests
 import sys
+import subprocess
+import re
 
 def print_out(msg):
     print(msg)
     sys.stdout.flush()
+
+def get_github_repo():
+    try:
+        if sys.platform == "win32":
+            result = subprocess.run("git config --get remote.origin.url", capture_output=True, text=True, shell=True)
+        else:
+            result = subprocess.run(["git", "config", "--get", "remote.origin.url"], capture_output=True, text=True)
+        
+        url = result.stdout.strip()
+        match = re.search(r'github\.com[:/](.+?/.+?)(\.git)?$', url)
+        if match:
+            repo = match.group(1)
+            if repo.endswith('.git'):
+                repo = repo[:-4]
+            return repo
+    except Exception:
+        pass
+    return "DarkJ-18/ringtones-data"
 
 def purge_cdn():
     print_out("=================================================")
@@ -37,9 +57,10 @@ def purge_cdn():
         
     exitos = 0
     fallos = 0
+    repo_path = get_github_repo()
         
     for folder in carpetas_validas:
-        url = f"https://purge.jsdelivr.net/gh/DarkJ-18/ringtones-data@main/{folder}/ringtones.json"
+        url = f"https://purge.jsdelivr.net/gh/{repo_path}@main/{folder}/ringtones.json"
         print_out(f"\n---> Purgando cache para: {folder}")
         print_out(f"URL: {url}")
         
