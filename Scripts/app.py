@@ -177,10 +177,7 @@ def get_cached_audio(url, ffmpeg_path, js_runtimes, log_func=print):
         "quiet": True,
         "no_warnings": True,
         "extract_flat": False,
-        "extractor_args": {"youtube": {"player_client": ["android"]}},
-        "socket_timeout": 30,
-        "retries": 3,
-        "fragment_retries": 3
+        "extractor_args": {"youtube": {"player_client": ["android"]}}
     }
     if js_runtimes:
         ydl_opts["js_runtimes"] = js_runtimes
@@ -339,7 +336,6 @@ def process_single_task(task, folder_name, ffmpeg_path, js_runtimes, force_overw
 def process_tasks(folder_name, tasks, force_overwrite=False):
     job_status["is_processing"] = True
     job_status["abort_requested"] = False
-    start_time = time.time()
     add_log("--- INICIANDO PROCESO BATCH WEB ---")
 
     total_tasks = 0
@@ -362,15 +358,6 @@ def process_tasks(folder_name, tasks, force_overwrite=False):
             if job_status.get("abort_requested"):
                 add_log("🛑 --- PROCESAMIENTO DETENIDO ---")
                 for f in pendientes: f.cancel()
-                
-                elapsed = time.time() - start_time
-                m, s = divmod(elapsed, 60)
-                add_log("--- RESUMEN DEL PROCESO ---")
-                add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
-                add_log(f"Tiempo transcurrido: {int(m)}m {int(s)}s")
-                job_status["is_processing"] = False
-                job_status["failed_items"] = [item["task"] for item in failed_items]
-                add_log("--- FINALIZADO ---")
                 break
                 
             hechos, pendientes = concurrent.futures.wait(pendientes, timeout=1.0, return_when=concurrent.futures.FIRST_COMPLETED)
@@ -383,15 +370,11 @@ def process_tasks(folder_name, tasks, force_overwrite=False):
                     error_count += 1
                     failed_items.append({"url": res["url"], "error": res["error"], "task": res.get("task", {})})
 
-    if not job_status.get("abort_requested"):
-        elapsed = time.time() - start_time
-        m, s = divmod(elapsed, 60)
-        add_log("--- RESUMEN DEL PROCESO ---")
-        add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
-        add_log(f"Tiempo transcurrido: {int(m)}m {int(s)}s")
-        job_status["is_processing"] = False
-        job_status["failed_items"] = [item["task"] for item in failed_items]
-        add_log("--- FINALIZADO ---")
+    add_log("--- RESUMEN DEL PROCESO ---")
+    add_log(f"Total: {total_tasks} | Correctas: {success_count} | Errores: {error_count} | Existentes omitidas: {skipped_existing_count}")
+    job_status["is_processing"] = False
+    job_status["failed_items"] = [item["task"] for item in failed_items]
+    add_log("--- FINALIZADO ---")
 
 @app.route("/")
 def index():
@@ -593,8 +576,37 @@ def cancel_script(task_id):
     script_runner.cancel_script(task_id)
     return jsonify({"status": "cancelled"})
 
+@app.route("/api/folders", methods=["GET"])
+def get_folders():
+    folders = []
+    ignored = {".git", ".venv", ".cache", "Scripts", "static", "templates"}
+    for name in os.listdir(base_dir):
+        if name in ignored or name.startswith("."): continue
+        path = os.path.join(base_dir, name)
+        if os.path.isdir(path):
+            folders.append(name)
+    return jsonify({"folders": folders})
+
+@app.route("/api/open_folder", methods=["POST"])
+def open_folder():
+    data = request.json
+    folder_name = data.get("folder", "").strip()
+    if not folder_name:
+        return jsonify({"error": "Carpeta no especificada"}), 400
+        
+    safe_folder = "".join([c for c in folder_name if c.isalpha() or c.isdigit() or c in ' -_']).strip()
+    folder_path = os.path.join(base_dir, safe_folder)
+    
+    if os.path.exists(folder_path) and os.path.isdir(folder_path):
+        import subprocess
+        subprocess.run(["explorer", os.path.normpath(folder_path)])
+        return jsonify({"status": "Opened"})
+    else:
+        return jsonify({"error": "Carpeta no encontrada"}), 404
+
 
 if __name__ == "__main__":
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     threading.Timer(1.0, lambda: webbrowser.open(APP_URL)).start()
-    app.run(host="127.0.0.1", port=5000, debug=False, use_reloader=False)
+    app.run(host="127.0.0.1", port=5000, debug=True, use_reloader=True)

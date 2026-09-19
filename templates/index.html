@@ -31,9 +31,7 @@
                         <h2>YouTube Downloader</h2>
                         <p style="color: var(--text-muted);">Procesa audio de YT, aplica efectos anti-copyright y actualiza el DB.</p>
                     </div>
-                    <div style="display: flex; gap: 10px;">
-                        <button id="gitSyncBtn" class="btn btn-secondary">☁️ Push a GitHub</button>
-                    </div>
+
                 </div>
 
                 <div class="glass-panel">
@@ -64,7 +62,13 @@
                     </div>
                 </div>
 
-                <div id="tasksList" style="max-height: 55vh; overflow-y: auto; padding-right: 10px; margin-bottom: 20px;"></div>
+                <div id="emptyTasksState" style="text-align: center; padding: 3rem 1rem; color: var(--text-muted); border: 2px dashed rgba(255,255,255,0.1); border-radius: 12px; margin-bottom: 20px; transition: all 200ms ease-out;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.5;">🎵</div>
+                    <h3 style="color: var(--text-main); margin-bottom: 0.5rem;">No hay tareas pendientes</h3>
+                    <p style="font-size: 0.95rem;">Añade una canción o carga un archivo JSON para comenzar.</p>
+                </div>
+
+                <div id="tasksList" style="max-height: 55vh; overflow-y: auto; padding-right: 10px; margin-bottom: 20px; display: none;"></div>
 
                 <div class="glass-panel" style="display: flex; gap: 15px; align-items: center; background: rgba(56, 189, 248, 0.05); border-color: rgba(56, 189, 248, 0.2);">
                     <button id="startProcessBtn" class="btn btn-primary" style="flex: 3; font-size: 1.1rem; padding: 1rem;">▶️ Iniciar Procesamiento</button>
@@ -186,41 +190,24 @@
 
             <!-- TAB 3: HERRAMIENTAS -->
             <div id="tools-tab" class="tab-content">
-                <h2>Herramientas de Mantenimiento</h2>
-                <p style="color: var(--text-muted); margin-bottom: 20px;">Utilidades para reparar y exportar tu catálogo local.</p>
 
-                <div class="grid-3">
-                    <div class="glass-panel">
-                        <h3>Exportar Catálogo</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Genera un archivo .txt con la lista de todas las canciones de un género específico para poder copiarlas fácilmente.</p>
-                        <div class="input-group">
-                            <label>Nombre del Género (Ej. salsa)</label>
-                            <input type="text" id="exportGenre" placeholder="salsa">
+                <div class="grid-2">
+                    <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent);">
+                        <h3>🌐 Sincronización en la Nube (GitHub)</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Sube automáticamente todas tus carpetas con canciones nuevas y el archivo JSON actualizado directamente a tu repositorio de GitHub para que la aplicación móvil las detecte.</p>
+                        <button id="runGithubBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px;">🚀 Sincronizar y Subir Cambios a GitHub</button>
+                    </div>
+
+                    <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent-purple);">
+                        <h3>📁 Explorador de Archivos</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Abre directamente la carpeta en tu explorador de Windows para ver el archivo JSON de tu base de datos o manipular su contenido localmente.</p>
+                        <div class="input-group" style="text-align: left; margin-bottom: 15px;">
+                            <select id="folderSelectExp" style="width: 100%; padding: 10px; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 8px;">
+                                <option value="">Cargando carpetas...</option>
+                            </select>
                         </div>
-                        <button id="runExportBtn" class="btn btn-primary" style="width: 100%;">📄 Exportar</button>
+                        <button id="openFolderBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px; background: var(--accent-purple);">📂 Abrir Ubicación</button>
                     </div>
-
-                    <div class="glass-panel">
-                        <h3>Purgar Caché CDN</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Fuerza a los servidores a descargar tu catálogo más reciente. (Se ejecuta automáticamente al subir a GitHub).</p>
-                        <div class="input-group">
-                            <label>Carpeta (Déjalo vacío para purgar todas)</label>
-                            <input type="text" id="purgeFolder" placeholder="ej. salsa, pop, etc.">
-                        </div>
-                        <button id="runPurgeBtn" class="btn btn-primary" style="width: 100%; background: var(--accent-purple);">⚡ Purgar jsDelivr</button>
-                    </div>
-
-                    <div class="glass-panel">
-                        <h3>Limpiar Caché</h3>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">Borra todos los archivos temporales (previas, audios residuales, etc) liberando espacio en el disco duro de inmediato.</p>
-                        <button id="clearCacheBtn" class="btn btn-danger" style="width: 100%; margin-top: 4.5rem;">🧹 Vaciar Caché</button>
-                    </div>
-                </div>
-
-                <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent);">
-                    <h3>🌐 Sincronización en la Nube (GitHub)</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Sube automáticamente todas tus carpetas con canciones nuevas y el archivo JSON actualizado directamente a tu repositorio de GitHub para que la aplicación móvil las detecte.</p>
-                    <button id="runGithubBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px;">🚀 Sincronizar y Subir Cambios a GitHub</button>
                 </div>
 
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
@@ -283,31 +270,36 @@
                 </div>
             </div>
 
-            <div style="background: rgba(56, 189, 248, 0.05); padding: 15px; border-radius: 8px; border: 1px solid rgba(56, 189, 248, 0.1);">
-                <div style="font-size: 0.85rem; color: var(--accent-cyan); margin-bottom: 10px; display: flex; justify-content: space-between;">
-                    <strong>🛡️ Modificadores Anti-Copyright</strong>
-                    <label style="cursor: pointer; display: flex; align-items: center; gap: 8px; color: #fff;">
-                        <input type="checkbox" class="task-pan-dinamico"> Activar Audio 8D
-                    </label>
-                </div>
-                <div class="grid-3">
-                    <div class="input-group">
-                        <label>Tono <span class="val-pitch" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
-                        <input type="range" class="task-pitch" step="0.5" min="-12" max="12" value="0" />
+            <div style="background: rgba(56, 189, 248, 0.05); border-radius: 8px; border: 1px solid rgba(56, 189, 248, 0.1);">
+                <button type="button" class="toggle-advanced-btn" style="width: 100%; background: transparent; border: none; padding: 12px 15px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; color: var(--accent-cyan); font-weight: bold; font-family: 'Inter', sans-serif;">
+                    <span>🛡️ Ajustes Avanzados (Anti-Copyright)</span>
+                    <span class="toggle-icon" style="transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1); font-size: 0.8rem;">▼</span>
+                </button>
+                <div class="advanced-settings-content" style="padding: 0 15px 15px 15px; display: none; animation: fadeIn 200ms cubic-bezier(0.23, 1, 0.32, 1) forwards;">
+                    <div style="font-size: 0.85rem; color: var(--accent-cyan); margin-bottom: 10px; display: flex; justify-content: flex-end;">
+                        <label style="cursor: pointer; display: flex; align-items: center; gap: 8px; color: #fff;">
+                            <input type="checkbox" class="task-pan-dinamico"> Activar Audio 8D
+                        </label>
                     </div>
-                    <div class="input-group">
-                        <label>Bass <span class="val-bass" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
-                        <input type="range" class="task-bass" step="1" min="0" max="15" value="0" />
-                    </div>
-                    <div class="input-group">
-                        <label>Paneo <span class="val-pan" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
-                        <input type="range" class="task-pan" step="0.1" min="-1.0" max="1.0" value="0" />
+                    <div class="grid-3">
+                        <div class="input-group">
+                            <label>Tono <span class="val-pitch" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
+                            <input type="range" class="task-pitch" step="0.5" min="-12" max="12" value="0" />
+                        </div>
+                        <div class="input-group">
+                            <label>Bass <span class="val-bass" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
+                            <input type="range" class="task-bass" step="1" min="0" max="15" value="0" />
+                        </div>
+                        <div class="input-group">
+                            <label>Paneo <span class="val-pan" style="color:var(--accent-cyan); margin-left: auto;">0</span></label>
+                            <input type="range" class="task-pan" step="0.1" min="-1.0" max="1.0" value="0" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </template>
 
-    <script src="/static/script.js?v=3.0"></script>
+    <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
 </body>
 </html>
