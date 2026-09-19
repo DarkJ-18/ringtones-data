@@ -576,6 +576,34 @@ def cancel_script(task_id):
     script_runner.cancel_script(task_id)
     return jsonify({"status": "cancelled"})
 
+@app.route("/api/folders", methods=["GET"])
+def get_folders():
+    folders = []
+    ignored = {".git", ".venv", ".cache", "Scripts", "static", "templates"}
+    for name in os.listdir(base_dir):
+        if name in ignored or name.startswith("."): continue
+        path = os.path.join(base_dir, name)
+        if os.path.isdir(path):
+            folders.append(name)
+    return jsonify({"folders": folders})
+
+@app.route("/api/open_folder", methods=["POST"])
+def open_folder():
+    data = request.json
+    folder_name = data.get("folder", "").strip()
+    if not folder_name:
+        return jsonify({"error": "Carpeta no especificada"}), 400
+        
+    safe_folder = "".join([c for c in folder_name if c.isalpha() or c.isdigit() or c in ' -_']).strip()
+    folder_path = os.path.join(base_dir, safe_folder)
+    
+    if os.path.exists(folder_path) and os.path.isdir(folder_path):
+        import subprocess
+        subprocess.run(["explorer", os.path.normpath(folder_path)])
+        return jsonify({"status": "Opened"})
+    else:
+        return jsonify({"error": "Carpeta no encontrada"}), 404
+
 
 if __name__ == "__main__":
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0

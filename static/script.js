@@ -273,39 +273,53 @@ document.addEventListener('DOMContentLoaded', () => {
         executeScript("baserow", "syncConsole");
     });
 
-    document.getElementById('runExportBtn').addEventListener('click', () => {
-        const genre = document.getElementById('exportGenre').value.trim();
-        if (!genre) {
-            showToast("Debes introducir un género.", "warning");
-            return;
-        }
-        executeScript("exportar", "toolsConsole", { genero: genre });
-    });
 
-    document.getElementById('runPurgeBtn').addEventListener('click', () => {
-        const folder = document.getElementById('purgeFolder').value.trim();
-        executeScript("purgar_cdn", "toolsConsole", { target: folder });
-    });
     document.getElementById('runGithubBtn').addEventListener('click', () => {
         executeScript("subir_github", "toolsConsole");
     });
 
-    document.getElementById('clearCacheBtn').addEventListener('click', () => {
-        const consoleEl = document.getElementById("toolsConsole");
-        consoleEl.textContent = "Limpiando caché...\n";
-        fetch('/api/clear_cache', { method: 'POST' })
+
+
+    // --- FILE EXPLORER LOGIC ---
+    function loadFolders() {
+        const folderSelect = document.getElementById('folderSelectExp');
+        if (!folderSelect) return;
+        fetch('/api/folders')
             .then(r => r.json())
             .then(data => {
-                if (data.error) throw new Error(data.error);
-                showToast(data.status, "success");
-                consoleEl.textContent += "Caché limpiada correctamente (Previas y Archivos Temporales).\n";
+                if(data.folders) {
+                    folderSelect.innerHTML = '<option value="">-- Selecciona la Carpeta --</option>';
+                    data.folders.forEach(f => {
+                        const opt = document.createElement('option');
+                        opt.value = f;
+                        opt.textContent = f;
+                        folderSelect.appendChild(opt);
+                    });
+                }
             })
-            .catch(e => {
-                showToast("Error limpiando caché: " + e.message, "error");
-                consoleEl.textContent += "Error: " + e.message + "\n";
-            });
-    });
+            .catch(e => showToast("Error cargando carpetas: " + e, 'error'));
+    }
+    loadFolders();
 
+    const openFolderBtn = document.getElementById('openFolderBtn');
+    if (openFolderBtn) {
+        openFolderBtn.addEventListener('click', () => {
+            const folder = document.getElementById('folderSelectExp').value;
+            if (!folder) return showToast("Selecciona una carpeta primero.", "warning");
+            
+            fetch('/api/open_folder', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ folder: folder })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.error) showToast(data.error, "error");
+                else showToast("Carpeta abierta en el explorador.", "success");
+            })
+            .catch(e => showToast("Error al abrir la carpeta: " + e, "error"));
+        });
+    }
 
     // --- YOUTUBE DOWNLOADER LOGIC ---
     const tasksList = document.getElementById('tasksList');

@@ -187,10 +187,23 @@
             <!-- TAB 3: HERRAMIENTAS -->
             <div id="tools-tab" class="tab-content">
 
-                <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent);">
-                    <h3>🌐 Sincronización en la Nube (GitHub)</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Sube automáticamente todas tus carpetas con canciones nuevas y el archivo JSON actualizado directamente a tu repositorio de GitHub para que la aplicación móvil las detecte.</p>
-                    <button id="runGithubBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px;">🚀 Sincronizar y Subir Cambios a GitHub</button>
+                <div class="grid-2">
+                    <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent);">
+                        <h3>🌐 Sincronización en la Nube (GitHub)</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Sube automáticamente todas tus carpetas con canciones nuevas y el archivo JSON actualizado directamente a tu repositorio de GitHub para que la aplicación móvil las detecte.</p>
+                        <button id="runGithubBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px;">🚀 Sincronizar y Subir Cambios a GitHub</button>
+                    </div>
+
+                    <div class="glass-panel" style="margin-top: 20px; margin-bottom: 20px; text-align: center; border-color: var(--accent-purple);">
+                        <h3>📁 Explorador de Archivos</h3>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 15px;">Abre directamente la carpeta en tu explorador de Windows para ver el archivo JSON de tu base de datos o manipular su contenido localmente.</p>
+                        <div class="input-group" style="text-align: left; margin-bottom: 15px;">
+                            <select id="folderSelectExp" style="width: 100%; padding: 10px; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 8px;">
+                                <option value="">Cargando carpetas...</option>
+                            </select>
+                        </div>
+                        <button id="openFolderBtn" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 30px; background: var(--accent-purple);">📂 Abrir Ubicación</button>
+                    </div>
                 </div>
 
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
@@ -278,6 +291,6 @@
         </div>
     </template>
 
-    <script src="/static/script.js?v=3.0"></script>
+    <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
 </body>
 </html>
