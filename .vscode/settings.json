@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2bee72",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#2bee72",
+        "titleBar.inactiveForeground": "#00000090",
+        "activityBar.background": "#2bee72",
+        "activityBar.foreground": "#000000",
+        "activityBar.activeBorder": "#000000",
+        "activityBar.inactiveForeground": "#00000090",
+        "activityBarBadge.foreground": "#ffffff",
+        "activityBarBadge.background": "#002f00"
+    },
+    "window.title": "ringtones-data"
+}
