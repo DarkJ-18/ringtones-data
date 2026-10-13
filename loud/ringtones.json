@@ -1,100 +1,142 @@
-﻿[
+[
     {
-        "id":  "1",
-        "title":  "Loud Classic Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/loud-classic-phone.mp3",
-        "posterPath":  ""
+        "id": "1",
+        "title": "Loud Classic Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/loud-classic-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "2",
-        "title":  "Loud Air Horn",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/loud-air-horn.mp3",
-        "posterPath":  ""
+        "id": "2",
+        "title": "Loud Air Horn",
+        "subtitle": "Effects",
+        "audioPath": "audios/loud-air-horn.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "3",
-        "title":  "Loud Police Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/loud-police-siren.mp3",
-        "posterPath":  ""
+        "id": "3",
+        "title": "Loud Police Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/loud-police-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "5",
-        "title":  "Fire Truck Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/fire-truck-siren.mp3",
-        "posterPath":  ""
+        "id": "5",
+        "title": "Fire Truck Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/fire-truck-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "7",
-        "title":  "Factory Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/factory-alarm.mp3",
-        "posterPath":  ""
+        "id": "7",
+        "title": "Factory Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/factory-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "10",
-        "title":  "Loud Train Horn",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/loud-train-horn.mp3",
-        "posterPath":  ""
+        "id": "10",
+        "title": "Loud Train Horn",
+        "subtitle": "Effects",
+        "audioPath": "audios/loud-train-horn.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "13",
-        "title":  "Modern Marimba Remix",
-        "subtitle":  "Modern",
-        "audioPath":  "audios/modern-marimba-remix.mp3",
-        "posterPath":  ""
+        "id": "13",
+        "title": "Modern Marimba Remix",
+        "subtitle": "Modern",
+        "audioPath": "audios/modern-marimba-remix.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "17",
-        "title":  "Tactical Red Alert",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/tactical-red-alert.mp3",
-        "posterPath":  ""
+        "id": "17",
+        "title": "Tactical Red Alert",
+        "subtitle": "Alarms",
+        "audioPath": "audios/tactical-red-alert.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "20",
-        "title":  "Antique Rotary Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/antique-rotary-phone.mp3",
-        "posterPath":  ""
+        "id": "20",
+        "title": "Antique Rotary Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/antique-rotary-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "22",
-        "title":  "Ambulance Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/ambulance-siren.mp3",
-        "posterPath":  ""
+        "id": "22",
+        "title": "Ambulance Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/ambulance-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "25",
-        "title":  "Office Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/office-phone.mp3",
-        "posterPath":  ""
+        "id": "25",
+        "title": "Office Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/office-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "28",
-        "title":  "Strobe Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/strobe-alarm.mp3",
-        "posterPath":  ""
+        "id": "28",
+        "title": "Strobe Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/strobe-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "34",
-        "title":  "Evacuation Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/evacuation-alarm.mp3",
-        "posterPath":  ""
+        "id": "34",
+        "title": "Evacuation Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/evacuation-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "37",
-        "title":  "High Pitch Police Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/high-pitch-police-siren.mp3",
-        "posterPath":  ""
+        "id": "37",
+        "title": "High Pitch Police Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/high-pitch-police-siren.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "38",
+        "title": "Ringtone",
+        "subtitle": "Alarm",
+        "audioPath": "audios/alarm---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "39",
+        "title": "distorsionada",
+        "subtitle": "Alarma",
+        "audioPath": "audios/alarma---distorsionada.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "40",
+        "title": "alarm",
+        "subtitle": "Loud",
+        "audioPath": "audios/loud---alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "41",
+        "title": "Ringtone",
+        "subtitle": "Loud alarm",
+        "audioPath": "audios/loud-alarm---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "42",
+        "title": "Ringtone",
+        "subtitle": "Ringtone",
+        "audioPath": "audios/ringtone---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "43",
+        "title": "Ringtone",
+        "subtitle": "Militar",
+        "audioPath": "audios/militar---ringtone.mp3",
+        "posterPath": ""
     }
 ]
