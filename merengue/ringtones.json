@@ -278,5 +278,12 @@
         "subtitle": "Sandy & Papo",
         "audioPath": "audios/sandy-papo-la-hora-de-bailar.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "41",
+        "title": "Cómo Duele",
+        "subtitle": "Manny Manuel",
+        "audioPath": "audios/como-duele---manny-manuel.mp3",
+        "posterPath": ""
     }
 ]
