@@ -1,100 +1,366 @@
-﻿[
+[
     {
-        "id":  "1",
-        "title":  "Loud Classic Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/loud-classic-phone.mp3",
-        "posterPath":  ""
+        "id": "1",
+        "title": "Loud Classic Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/loud-classic-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "2",
-        "title":  "Loud Air Horn",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/loud-air-horn.mp3",
-        "posterPath":  ""
+        "id": "2",
+        "title": "Loud Air Horn",
+        "subtitle": "Effects",
+        "audioPath": "audios/loud-air-horn.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "3",
-        "title":  "Loud Police Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/loud-police-siren.mp3",
-        "posterPath":  ""
+        "id": "3",
+        "title": "Loud Police Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/loud-police-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "5",
-        "title":  "Fire Truck Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/fire-truck-siren.mp3",
-        "posterPath":  ""
+        "id": "5",
+        "title": "Fire Truck Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/fire-truck-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "7",
-        "title":  "Factory Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/factory-alarm.mp3",
-        "posterPath":  ""
+        "id": "7",
+        "title": "Factory Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/factory-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "10",
-        "title":  "Loud Train Horn",
-        "subtitle":  "Effects",
-        "audioPath":  "audios/loud-train-horn.mp3",
-        "posterPath":  ""
+        "id": "10",
+        "title": "Loud Train Horn",
+        "subtitle": "Effects",
+        "audioPath": "audios/loud-train-horn.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "13",
-        "title":  "Modern Marimba Remix",
-        "subtitle":  "Modern",
-        "audioPath":  "audios/modern-marimba-remix.mp3",
-        "posterPath":  ""
+        "id": "13",
+        "title": "Modern Marimba Remix",
+        "subtitle": "Modern",
+        "audioPath": "audios/modern-marimba-remix.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "17",
-        "title":  "Tactical Red Alert",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/tactical-red-alert.mp3",
-        "posterPath":  ""
+        "id": "17",
+        "title": "Tactical Red Alert",
+        "subtitle": "Alarms",
+        "audioPath": "audios/tactical-red-alert.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "20",
-        "title":  "Antique Rotary Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/antique-rotary-phone.mp3",
-        "posterPath":  ""
+        "id": "20",
+        "title": "Antique Rotary Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/antique-rotary-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "22",
-        "title":  "Ambulance Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/ambulance-siren.mp3",
-        "posterPath":  ""
+        "id": "22",
+        "title": "Ambulance Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/ambulance-siren.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "25",
-        "title":  "Office Phone",
-        "subtitle":  "Classic",
-        "audioPath":  "audios/office-phone.mp3",
-        "posterPath":  ""
+        "id": "25",
+        "title": "Office Phone",
+        "subtitle": "Classic",
+        "audioPath": "audios/office-phone.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "28",
-        "title":  "Strobe Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/strobe-alarm.mp3",
-        "posterPath":  ""
+        "id": "28",
+        "title": "Strobe Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/strobe-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "34",
-        "title":  "Evacuation Alarm",
-        "subtitle":  "Alarms",
-        "audioPath":  "audios/evacuation-alarm.mp3",
-        "posterPath":  ""
+        "id": "34",
+        "title": "Evacuation Alarm",
+        "subtitle": "Alarms",
+        "audioPath": "audios/evacuation-alarm.mp3",
+        "posterPath": ""
     },
     {
-        "id":  "37",
-        "title":  "High Pitch Police Siren",
-        "subtitle":  "Sirens",
-        "audioPath":  "audios/high-pitch-police-siren.mp3",
-        "posterPath":  ""
+        "id": "37",
+        "title": "High Pitch Police Siren",
+        "subtitle": "Sirens",
+        "audioPath": "audios/high-pitch-police-siren.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "38",
+        "title": "Mega Horn Maximum Volume",
+        "subtitle": "Super Loud FX",
+        "audioPath": "audios/super-loud-fx-mega-horn-maximum-volume.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "39",
+        "title": "Extreme Police Siren Loud",
+        "subtitle": "Alarm Master",
+        "audioPath": "audios/alarm-master-extreme-police-siren-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "40",
+        "title": "Extreme Train Horn Loud",
+        "subtitle": "Loud Effects",
+        "audioPath": "audios/loud-effects-extreme-train-horn-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "41",
+        "title": "Most Annoying Loud Alarm",
+        "subtitle": "Ringtone World",
+        "audioPath": "audios/ringtone-world-most-annoying-loud-alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "42",
+        "title": "Tornado Siren High Volume",
+        "subtitle": "Emergency Tones",
+        "audioPath": "audios/emergency-tones-tornado-siren-high-volume.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "43",
+        "title": "Ear Piercing Ringtone",
+        "subtitle": "Mega Volume",
+        "audioPath": "audios/mega-volume-ear-piercing-ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "44",
+        "title": "Ambulance European Siren Loud",
+        "subtitle": "Siren FX",
+        "audioPath": "audios/siren-fx-ambulance-european-siren-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "45",
+        "title": "Red Alert Sci Fi Loud",
+        "subtitle": "Alert Sounds",
+        "audioPath": "audios/alert-sounds-red-alert-sci-fi-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "46",
+        "title": "Maximum Volume Whistle",
+        "subtitle": "Maximum Audio",
+        "audioPath": "audios/maximum-audio-maximum-volume-whistle.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "47",
+        "title": "Super Loud Digital Buzzer",
+        "subtitle": "Super Buzzer",
+        "audioPath": "audios/super-buzzer-super-loud-digital-buzzer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "48",
+        "title": "Industrial Alarm Clock Loud",
+        "subtitle": "Heavy Alarm",
+        "audioPath": "audios/heavy-alarm-industrial-alarm-clock-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "49",
+        "title": "Mega Foghorn Loud Ringtone",
+        "subtitle": "Extreme Soundz",
+        "audioPath": "audios/extreme-soundz-mega-foghorn-loud-ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "50",
+        "title": "Army Bugle Wake Up Loud",
+        "subtitle": "Wake Up Pro",
+        "audioPath": "audios/wake-up-pro-army-bugle-wake-up-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "51",
+        "title": "Submarine Dive Siren Loud",
+        "subtitle": "Alarm Effects",
+        "audioPath": "audios/alarm-effects-submarine-dive-siren-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "52",
+        "title": "Ultra Loud Buzzer Ringtone",
+        "subtitle": "Sonic Blast",
+        "audioPath": "audios/sonic-blast-ultra-loud-buzzer-ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "53",
+        "title": "Fire Bell Ringtone Loud",
+        "subtitle": "Loud Alert Pro",
+        "audioPath": "audios/loud-alert-pro-fire-bell-ringtone-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "54",
+        "title": "Impossible to Sleep Alarm",
+        "subtitle": "Wake Up Loud",
+        "audioPath": "audios/wake-up-loud-impossible-to-sleep-alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "55",
+        "title": "Super Loud Police Megaphone",
+        "subtitle": "Extreme Ringtones",
+        "audioPath": "audios/extreme-ringtones-super-loud-police-megaphone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "56",
+        "title": "Super Loud Megaphone Alert",
+        "subtitle": "High Volume FX",
+        "audioPath": "audios/high-volume-fx-super-loud-megaphone-alert.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "57",
+        "title": "Extreme Clock Bell Loud",
+        "subtitle": "Alarm Soundz",
+        "audioPath": "audios/alarm-soundz-extreme-clock-bell-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "58",
+        "title": "Ultra Loud Air Horn Remix",
+        "subtitle": "Noise FX",
+        "audioPath": "audios/noise-fx-ultra-loud-air-horn-remix.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "59",
+        "title": "Mega City Riot Siren Loud",
+        "subtitle": "Siren Master",
+        "audioPath": "audios/siren-master-mega-city-riot-siren-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "60",
+        "title": "Extreme Bell Tower Chime",
+        "subtitle": "Loud Master",
+        "audioPath": "audios/loud-master-extreme-bell-tower-chime.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "61",
+        "title": "Heavy Metal Guitar Alarm Loud",
+        "subtitle": "Heavy Siren",
+        "audioPath": "audios/heavy-siren-heavy-metal-guitar-alarm-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "62",
+        "title": "Mega Shockwave Alarm Loud",
+        "subtitle": "Sonic FX",
+        "audioPath": "audios/sonic-fx-mega-shockwave-alarm-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "63",
+        "title": "Super Loud Laser Alarm",
+        "subtitle": "Volume Boost",
+        "audioPath": "audios/volume-boost-super-loud-laser-alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "64",
+        "title": "Extreme Stadium Horn Loud",
+        "subtitle": "Loud Effects Pro",
+        "audioPath": "audios/loud-effects-pro-extreme-stadium-horn-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "65",
+        "title": "Mega Heavy Siren Ringtone",
+        "subtitle": "Extreme Sound",
+        "audioPath": "audios/extreme-sound-mega-heavy-siren-ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "66",
+        "title": "Super Loud Reactor Warning",
+        "subtitle": "Alarm FX",
+        "audioPath": "audios/alarm-fx-super-loud-reactor-warning.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "67",
+        "title": "Super Loud Radar Beep",
+        "subtitle": "High Volume Pro",
+        "audioPath": "audios/high-volume-pro-super-loud-radar-beep.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "68",
+        "title": "Super Loud Error Buzzer",
+        "subtitle": "Loud Buzzer",
+        "audioPath": "audios/loud-buzzer-super-loud-error-buzzer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "69",
+        "title": "Extreme Digital Clock Loud",
+        "subtitle": "Alarm World",
+        "audioPath": "audios/alarm-world-extreme-digital-clock-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "70",
+        "title": "Ultra Loud Metallic Gong",
+        "subtitle": "Mega Soundz",
+        "audioPath": "audios/mega-soundz-ultra-loud-metallic-gong.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "71",
+        "title": "Super Loud Alert Chime",
+        "subtitle": "Extreme Volume",
+        "audioPath": "audios/extreme-volume-super-loud-alert-chime.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "72",
+        "title": "Maximum Volume Final Alarm",
+        "subtitle": "Ultimate Loud",
+        "audioPath": "audios/ultimate-loud-maximum-volume-final-alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "73",
+        "title": "Extreme Countdown Beep Loud",
+        "subtitle": "Max Alarm",
+        "audioPath": "audios/max-alarm-extreme-countdown-beep-loud.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "74",
+        "title": "Extreme Fire Engine Siren",
+        "subtitle": "Siren World",
+        "audioPath": "audios/siren-world-extreme-fire-engine-siren.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "75",
+        "title": "Super Loud Whistle Blare",
+        "subtitle": "Alert Master",
+        "audioPath": "audios/alert-master-super-loud-whistle-blare.mp3",
+        "posterPath": ""
     }
 ]
