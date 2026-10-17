@@ -264,5 +264,47 @@
         "subtitle": "Alarms",
         "audioPath": "audios/alert-master-super-loud-whistle-blare.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "39",
+        "title": "Loud Alarm 39",
+        "subtitle": "Alarms",
+        "audioPath": "audios/alarm---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "40",
+        "title": "Loud Alarm 40",
+        "subtitle": "Alarms",
+        "audioPath": "audios/alarma---distorsionada.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "41",
+        "title": "Loud Alarm 41",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud---alarm.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "42",
+        "title": "Loud Alarm 42",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "43",
+        "title": "Loud Alarm 43",
+        "subtitle": "Alarms",
+        "audioPath": "audios/ringtone---ringtone.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "44",
+        "title": "Loud Alarm 44",
+        "subtitle": "Alarms",
+        "audioPath": "audios/militar---ringtone.mp3",
+        "posterPath": ""
     }
 ]
