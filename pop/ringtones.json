@@ -1888,5 +1888,278 @@
         "subtitle": "Stephen Sanchez",
         "audioPath": "audios/stephen-sanchez-be-more.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "271",
+        "title": "Juno",
+        "subtitle": "Sabrina Carpenter",
+        "audioPath": "audios/sabrina-carpenter-juno.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "272",
+        "title": "New Rules",
+        "subtitle": "Dua Lipa",
+        "audioPath": "audios/dua-lipa-new-rules.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "273",
+        "title": "Die With A Smile",
+        "subtitle": "Lady Gaga & Bruno Mars",
+        "audioPath": "audios/lady-gaga-bruno-mars-die-with-a-smile.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "274",
+        "title": "The Hills",
+        "subtitle": "The Weeknd",
+        "audioPath": "audios/the-weeknd-the-hills.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "275",
+        "title": "Look What You Made Me Do",
+        "subtitle": "Taylor Swift",
+        "audioPath": "audios/taylor-swift-look-what-you-made-me-do.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "276",
+        "title": "Side to Side",
+        "subtitle": "Ariana Grande",
+        "audioPath": "audios/ariana-grande-side-to-side.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "277",
+        "title": "Happier Than Ever",
+        "subtitle": "Billie Eilish",
+        "audioPath": "audios/billie-eilish-happier-than-ever.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "278",
+        "title": "Don't Stop The Music",
+        "subtitle": "Rihanna",
+        "audioPath": "audios/rihanna-dont-stop-the-music.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "279",
+        "title": "Oops!...I Did It Again",
+        "subtitle": "Britney Spears",
+        "audioPath": "audios/britney-spears-oops...i-did-it-again.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "280",
+        "title": "Hot N Cold",
+        "subtitle": "Katy Perry",
+        "audioPath": "audios/katy-perry-hot-n-cold.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "281",
+        "title": "Prisoner",
+        "subtitle": "Miley Cyrus",
+        "audioPath": "audios/miley-cyrus-prisoner.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "282",
+        "title": "4 Minutes",
+        "subtitle": "Madonna",
+        "audioPath": "audios/madonna-4-minutes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "Shivers",
+        "subtitle": "Ed Sheeran",
+        "audioPath": "audios/ed-sheeran-shivers.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "Adventure of a Lifetime",
+        "subtitle": "Coldplay",
+        "audioPath": "audios/coldplay-adventure-of-a-lifetime.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "285",
+        "title": "Night Changes",
+        "subtitle": "One Direction",
+        "audioPath": "audios/one-direction-night-changes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "286",
+        "title": "Adore You",
+        "subtitle": "Harry Styles",
+        "audioPath": "audios/harry-styles-adore-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "287",
+        "title": "There's Nothing Holdin' Me Back",
+        "subtitle": "Shawn Mendes",
+        "audioPath": "audios/shawn-mendes-theres-nothing-holdin-me-back.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "288",
+        "title": "I LUV IT",
+        "subtitle": "Camila Cabello",
+        "audioPath": "audios/camila-cabello-i-luv-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "289",
+        "title": "Titanium",
+        "subtitle": "Sia",
+        "audioPath": "audios/sia-titanium.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "290",
+        "title": "Timber",
+        "subtitle": "Kesha",
+        "audioPath": "audios/kesha-timber.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "291",
+        "title": "Just Give Me a Reason",
+        "subtitle": "P!nk",
+        "audioPath": "audios/pnk-just-give-me-a-reason.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "292",
+        "title": "Ain't No Other Man",
+        "subtitle": "Christina Aguilera",
+        "audioPath": "audios/christina-aguilera-aint-no-other-man.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "293",
+        "title": "Girlfriend",
+        "subtitle": "Avril Lavigne",
+        "audioPath": "audios/avril-lavigne-girlfriend.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "294",
+        "title": "Because of You",
+        "subtitle": "Kelly Clarkson",
+        "audioPath": "audios/kelly-clarkson-because-of-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "295",
+        "title": "Rich Girl",
+        "subtitle": "Gwen Stefani",
+        "audioPath": "audios/gwen-stefani-rich-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "296",
+        "title": "Say It Right",
+        "subtitle": "Nelly Furtado",
+        "audioPath": "audios/nelly-furtado-say-it-right.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "297",
+        "title": "Pump It",
+        "subtitle": "The Black Eyed Peas",
+        "audioPath": "audios/the-black-eyed-peas-pump-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "298",
+        "title": "Hips Don't Lie",
+        "subtitle": "Shakira",
+        "audioPath": "audios/shakira-hips-dont-lie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "299",
+        "title": "Whenever, Wherever",
+        "subtitle": "Shakira",
+        "audioPath": "audios/shakira-whenever-wherever.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "300",
+        "title": "Say You'll Be There",
+        "subtitle": "Spice Girls",
+        "audioPath": "audios/spice-girls-say-youll-be-there.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "301",
+        "title": "As Long as You Love Me",
+        "subtitle": "Backstreet Boys",
+        "audioPath": "audios/backstreet-boys-as-long-as-you-love-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "302",
+        "title": "Bye Bye Bye",
+        "subtitle": "*NSYNC",
+        "audioPath": "audios/nsync-bye-bye-bye.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "303",
+        "title": "It's Gonna Be Me",
+        "subtitle": "*NSYNC",
+        "audioPath": "audios/nsync-its-gonna-be-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "304",
+        "title": "I Really Like You",
+        "subtitle": "Carly Rae Jepsen",
+        "audioPath": "audios/carly-rae-jepsen-i-really-like-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "305",
+        "title": "All About That Bass",
+        "subtitle": "Meghan Trainor",
+        "audioPath": "audios/meghan-trainor-all-about-that-bass.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "306",
+        "title": "If I Could Turn Back Time",
+        "subtitle": "Cher",
+        "audioPath": "audios/cher-if-i-could-turn-back-time.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "307",
+        "title": "Spinning Around",
+        "subtitle": "Kylie Minogue",
+        "audioPath": "audios/kylie-minogue-spinning-around.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "308",
+        "title": "Careless Whisper",
+        "subtitle": "George Michael",
+        "audioPath": "audios/george-michael-careless-whisper.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "309",
+        "title": "I Have Nothing",
+        "subtitle": "Whitney Houston",
+        "audioPath": "audios/whitney-houston-i-have-nothing.mp3",
+        "posterPath": ""
     }
 ]
