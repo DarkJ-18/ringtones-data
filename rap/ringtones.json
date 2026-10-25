@@ -2070,5 +2070,285 @@
         "subtitle": "Megan Thee Stallion",
         "audioPath": "audios/megan-thee-stallion-body.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "289",
+        "title": "Type Shit",
+        "subtitle": "Future & Metro Boomin",
+        "audioPath": "audios/future-metro-boomin-type-shit.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "290",
+        "title": "TELEKINESIS",
+        "subtitle": "Travis Scott",
+        "audioPath": "audios/travis-scott-telekinesis.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "291",
+        "title": "euphoria",
+        "subtitle": "Kendrick Lamar",
+        "audioPath": "audios/kendrick-lamar-euphoria.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "292",
+        "title": "All Red",
+        "subtitle": "Playboi Carti",
+        "audioPath": "audios/playboi-carti-all-red.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "293",
+        "title": "Bound 2",
+        "subtitle": "Kanye West",
+        "audioPath": "audios/kanye-west-bound-2.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "294",
+        "title": "Family Matters",
+        "subtitle": "Drake",
+        "audioPath": "audios/drake-family-matters.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "295",
+        "title": "A Cold Sunday",
+        "subtitle": "Lil Yachty",
+        "audioPath": "audios/lil-yachty-a-cold-sunday.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "296",
+        "title": "Houdini",
+        "subtitle": "Eminem",
+        "audioPath": "audios/eminem-houdini.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "297",
+        "title": "Fighting My Demons",
+        "subtitle": "Ken Carson",
+        "audioPath": "audios/ken-carson-fighting-my-demons.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "298",
+        "title": "one of wun",
+        "subtitle": "Gunna",
+        "audioPath": "audios/gunna-one-of-wun.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "299",
+        "title": "TORE UP",
+        "subtitle": "Don Toliver",
+        "audioPath": "audios/don-toliver-tore-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "300",
+        "title": "Disco Inferno",
+        "subtitle": "50 Cent",
+        "audioPath": "audios/50-cent-disco-inferno.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "301",
+        "title": "Keep Their Heads Ringin'",
+        "subtitle": "Dr. Dre",
+        "audioPath": "audios/dr.-dre-keep-their-heads-ringin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "302",
+        "title": "Tha Shiznit",
+        "subtitle": "Snoop Dogg",
+        "audioPath": "audios/snoop-dogg-tha-shiznit.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "303",
+        "title": "Warning",
+        "subtitle": "The Notorious B.I.G.",
+        "audioPath": "audios/the-notorious-b.i.g.-warning.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "304",
+        "title": "Halftime",
+        "subtitle": "Nas",
+        "audioPath": "audios/nas-halftime.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "305",
+        "title": "Big Pimpin'",
+        "subtitle": "JAY-Z",
+        "audioPath": "audios/jay-z-big-pimpin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "306",
+        "title": "Steady Mobbin",
+        "subtitle": "Ice Cube",
+        "audioPath": "audios/ice-cube-steady-mobbin.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "307",
+        "title": "Stand Up",
+        "subtitle": "Ludacris",
+        "audioPath": "audios/ludacris-stand-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "308",
+        "title": "Where The Hood At",
+        "subtitle": "DMX",
+        "audioPath": "audios/dmx-where-the-hood-at.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "309",
+        "title": "What's Luv?",
+        "subtitle": "Fat Joe",
+        "audioPath": "audios/fat-joe-whats-luv.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "310",
+        "title": "Livin' It Up",
+        "subtitle": "Ja Rule",
+        "audioPath": "audios/ja-rule-livin-it-up.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "311",
+        "title": "Ride Wit Me",
+        "subtitle": "Nelly",
+        "audioPath": "audios/nelly-ride-wit-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "312",
+        "title": "Pass The Courvoisier Part II",
+        "subtitle": "Busta Rhymes",
+        "audioPath": "audios/busta-rhymes-pass-the-courvoisier-part-ii.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "313",
+        "title": "1st of tha Month",
+        "subtitle": "Bone Thugs-N-Harmony",
+        "audioPath": "audios/bone-thugs-n-harmony-1st-of-tha-month.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "314",
+        "title": "Gravel Pit",
+        "subtitle": "Wu-Tang Clan",
+        "audioPath": "audios/wu-tang-clan-gravel-pit.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "315",
+        "title": "Scenario",
+        "subtitle": "A Tribe Called Quest",
+        "audioPath": "audios/a-tribe-called-quest-scenario.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "316",
+        "title": "Hits from the Bong",
+        "subtitle": "Cypress Hill",
+        "audioPath": "audios/cypress-hill-hits-from-the-bong.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "317",
+        "title": "Express Yourself",
+        "subtitle": "N.W.A.",
+        "audioPath": "audios/n.w.a.-express-yourself.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "318",
+        "title": "Walk This Way",
+        "subtitle": "Run DMC",
+        "audioPath": "audios/run-dmc-walk-this-way.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "319",
+        "title": "Don't Believe The Hype",
+        "subtitle": "Public Enemy",
+        "audioPath": "audios/public-enemy-dont-believe-the-hype.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "320",
+        "title": "Follow the Leader",
+        "subtitle": "Eric B. & Rakim",
+        "audioPath": "audios/eric-b.-rakim-follow-the-leader.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "321",
+        "title": "White Lines (Don't Don't Do It)",
+        "subtitle": "Grandmaster Flash",
+        "audioPath": "audios/grandmaster-flash-white-lines-dont-dont-do-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "322",
+        "title": "Doin' It",
+        "subtitle": "LL Cool J",
+        "audioPath": "audios/ll-cool-j-doin-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "323",
+        "title": "Flamboyant",
+        "subtitle": "Big L",
+        "audioPath": "audios/big-l-flamboyant.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "324",
+        "title": "Mr Beat The Road",
+        "subtitle": "BossMan Dlow",
+        "audioPath": "audios/bossman-dlow-mr-beat-the-road.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "325",
+        "title": "Breathe",
+        "subtitle": "Yeat",
+        "audioPath": "audios/yeat-breathe.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "326",
+        "title": "Hate Bein' Sober",
+        "subtitle": "Chief Keef",
+        "audioPath": "audios/chief-keef-hate-bein-sober.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "327",
+        "title": "Bow Bow Bow (F Beat)",
+        "subtitle": "Sexyy Red",
+        "audioPath": "audios/sexyy-red-bow-bow-bow-f-beat.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "328",
+        "title": "nee-nah",
+        "subtitle": "21 Savage",
+        "audioPath": "audios/21-savage-nee-nah.mp3",
+        "posterPath": ""
     }
 ]
