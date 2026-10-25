@@ -2385,5 +2385,257 @@
         "subtitle": "Sech",
         "audioPath": "audios/sech-miss-lonely.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "342",
+        "title": "Déficit de Atención",
+        "subtitle": "De La Ghetto",
+        "audioPath": "audios/de-la-ghetto-deficit-de-atencion.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "343",
+        "title": "APA",
+        "subtitle": "Mora",
+        "audioPath": "audios/mora-apa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "344",
+        "title": "LUCES DE COLORES",
+        "subtitle": "Omar Courtz",
+        "audioPath": "audios/omar-courtz-luces-de-colores.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "345",
+        "title": "Teléfono Nuevo",
+        "subtitle": "Luar La L",
+        "audioPath": "audios/luar-la-l-telefono-nuevo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "346",
+        "title": "Fumeteo",
+        "subtitle": "Feid",
+        "audioPath": "audios/feid-fumeteo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "347",
+        "title": "Narcotics",
+        "subtitle": "Dei V",
+        "audioPath": "audios/dei-v-narcotics.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "348",
+        "title": "SUPERNOVA",
+        "subtitle": "Saiko",
+        "audioPath": "audios/saiko-supernova.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "349",
+        "title": "WANDA",
+        "subtitle": "Quevedo",
+        "audioPath": "audios/quevedo-wanda.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "350",
+        "title": "Dákiti Solo",
+        "subtitle": "Jhayco",
+        "audioPath": "audios/jhayco-dakiti-solo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "351",
+        "title": "Condenado al Éxito",
+        "subtitle": "Blessd",
+        "audioPath": "audios/blessd-condenado-al-exito.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "352",
+        "title": "Ohnana",
+        "subtitle": "Kapo",
+        "audioPath": "audios/kapo-ohnana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "353",
+        "title": "UWAIE",
+        "subtitle": "Kapo",
+        "audioPath": "audios/kapo-uwaie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "354",
+        "title": "ULTRA SOLO",
+        "subtitle": "Polimá Westcoast",
+        "audioPath": "audios/polima-westcoast-ultra-solo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "355",
+        "title": "Pégate",
+        "subtitle": "Standly",
+        "audioPath": "audios/standly-pegate.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "356",
+        "title": "No Ponga Excusas",
+        "subtitle": "Cris Mj",
+        "audioPath": "audios/cris-mj-no-ponga-excusas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "357",
+        "title": "FRIKI",
+        "subtitle": "Gonzy",
+        "audioPath": "audios/gonzy-friki.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "358",
+        "title": "Tu Príncipe",
+        "subtitle": "Daddy Yankee",
+        "audioPath": "audios/daddy-yankee-tu-principe.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "359",
+        "title": "Reggaeton Latino",
+        "subtitle": "Don Omar",
+        "audioPath": "audios/don-omar-reggaeton-latino.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "360",
+        "title": "Llamé Pa' Verte",
+        "subtitle": "Wisin & Yandel",
+        "audioPath": "audios/wisin-yandel-llame-pa-verte.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "361",
+        "title": "Dos Palgas",
+        "subtitle": "Jowell & Randy",
+        "audioPath": "audios/jowell-randy-dos-palgas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "362",
+        "title": "Me Pones Mal",
+        "subtitle": "Zion & Lennox",
+        "audioPath": "audios/zion-lennox-me-pones-mal.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "363",
+        "title": "Agárrala",
+        "subtitle": "Trebol Clan",
+        "audioPath": "audios/trebol-clan-agarrala.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "364",
+        "title": "Mi Mayor Venganza",
+        "subtitle": "Tony Dize",
+        "audioPath": "audios/tony-dize-mi-mayor-venganza.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "365",
+        "title": "Fua",
+        "subtitle": "Angel & Khriz",
+        "audioPath": "audios/angel-khriz-fua.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "366",
+        "title": "Gata Salvaje",
+        "subtitle": "Hector & Tito",
+        "audioPath": "audios/hector-tito-gata-salvaje.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "367",
+        "title": "Mayor Que Yo 2",
+        "subtitle": "Baby Ranks",
+        "audioPath": "audios/baby-ranks-mayor-que-yo-2.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "368",
+        "title": "Gata Celosa",
+        "subtitle": "Magnate & Valentino",
+        "audioPath": "audios/magnate-valentino-gata-celosa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "369",
+        "title": "Menor Que Yo",
+        "subtitle": "Ivy Queen",
+        "audioPath": "audios/ivy-queen-menor-que-yo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "370",
+        "title": "Mambo",
+        "subtitle": "Tego Calderón",
+        "audioPath": "audios/tego-calderon-mambo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "371",
+        "title": "Maldades",
+        "subtitle": "Hector El Father",
+        "audioPath": "audios/hector-el-father-maldades.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "372",
+        "title": "Tra Tra Tra",
+        "subtitle": "Don Chezina",
+        "audioPath": "audios/don-chezina-tra-tra-tra.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "373",
+        "title": "Amor con la Ropa",
+        "subtitle": "Speedy",
+        "audioPath": "audios/speedy-amor-con-la-ropa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "374",
+        "title": "No Hay Ley",
+        "subtitle": "Maicol & Manuel",
+        "audioPath": "audios/maicol-manuel-no-hay-ley.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "375",
+        "title": "Anaranjado",
+        "subtitle": "Jowell & Randy",
+        "audioPath": "audios/jowell-randy-anaranjado.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "376",
+        "title": "Balbi El Chamako - Ponle",
+        "subtitle": "Kazzabe Agrupacion",
+        "audioPath": "audios/kazzabe-agrupacion-balbi-el-chamako-ponle.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "377",
+        "title": "Daga Adicta",
+        "subtitle": "Luigi 21 Plus",
+        "audioPath": "audios/luigi-21-plus-daga-adicta.mp3",
+        "posterPath": ""
     }
 ]
