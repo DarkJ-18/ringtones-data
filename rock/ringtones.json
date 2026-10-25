@@ -2476,5 +2476,278 @@
         "subtitle": "The Cult",
         "audioPath": "audios/the-cult-fire-woman.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "355",
+        "title": "Molly's Chambers",
+        "subtitle": "Kings of Leon",
+        "audioPath": "audios/kings-of-leon-mollys-chambers.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "356",
+        "title": "Last Nite",
+        "subtitle": "The Strokes",
+        "audioPath": "audios/the-strokes-last-nite.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "357",
+        "title": "Evil",
+        "subtitle": "Interpol",
+        "audioPath": "audios/interpol-evil.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "358",
+        "title": "Do You Want To",
+        "subtitle": "Franz Ferdinand",
+        "audioPath": "audios/franz-ferdinand-do-you-want-to.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "359",
+        "title": "Slow Hands",
+        "subtitle": "Interpol",
+        "audioPath": "audios/interpol-slow-hands.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "360",
+        "title": "Heads Will Roll",
+        "subtitle": "Yeah Yeah Yeahs",
+        "audioPath": "audios/yeah-yeah-yeahs-heads-will-roll.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "361",
+        "title": "Maps",
+        "subtitle": "Yeah Yeah Yeahs",
+        "audioPath": "audios/yeah-yeah-yeahs-maps.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "362",
+        "title": "Hate To Say I Told You So",
+        "subtitle": "The Hives",
+        "audioPath": "audios/the-hives-hate-to-say-i-told-you-so.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "363",
+        "title": "Tick Tick Boom",
+        "subtitle": "The Hives",
+        "audioPath": "audios/the-hives-tick-tick-boom.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "364",
+        "title": "Get Free",
+        "subtitle": "The Vines",
+        "audioPath": "audios/the-vines-get-free.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "365",
+        "title": "Are You Gonna Be My Girl",
+        "subtitle": "Jet",
+        "audioPath": "audios/jet-are-you-gonna-be-my-girl.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "366",
+        "title": "Joker And The Thief",
+        "subtitle": "Wolfmother",
+        "audioPath": "audios/wolfmother-joker-and-the-thief.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "367",
+        "title": "Woman",
+        "subtitle": "Wolfmother",
+        "audioPath": "audios/wolfmother-woman.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "368",
+        "title": "Club Foot",
+        "subtitle": "Kasabian",
+        "audioPath": "audios/kasabian-club-foot.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "369",
+        "title": "Fire",
+        "subtitle": "Kasabian",
+        "audioPath": "audios/kasabian-fire.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "370",
+        "title": "Naïve",
+        "subtitle": "The Kooks",
+        "audioPath": "audios/the-kooks-naive.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "371",
+        "title": "Chelsea Dagger",
+        "subtitle": "The Fratellis",
+        "audioPath": "audios/the-fratellis-chelsea-dagger.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "372",
+        "title": "Can't Stand Me Now",
+        "subtitle": "The Libertines",
+        "audioPath": "audios/the-libertines-cant-stand-me-now.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "373",
+        "title": "Banquet",
+        "subtitle": "Bloc Party",
+        "audioPath": "audios/bloc-party-banquet.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "374",
+        "title": "Helicopter",
+        "subtitle": "Bloc Party",
+        "audioPath": "audios/bloc-party-helicopter.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "375",
+        "title": "Ruby",
+        "subtitle": "Kaiser Chiefs",
+        "audioPath": "audios/kaiser-chiefs-ruby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "376",
+        "title": "I Predict A Riot",
+        "subtitle": "Kaiser Chiefs",
+        "audioPath": "audios/kaiser-chiefs-i-predict-a-riot.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "377",
+        "title": "Rock & Roll Queen",
+        "subtitle": "The Subways",
+        "audioPath": "audios/the-subways-rock-roll-queen.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "378",
+        "title": "Let's Dance to Joy Division",
+        "subtitle": "The Wombats",
+        "audioPath": "audios/the-wombats-lets-dance-to-joy-division.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "379",
+        "title": "Apply Some Pressure",
+        "subtitle": "Maxïmo Park",
+        "audioPath": "audios/maximo-park-apply-some-pressure.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "380",
+        "title": "Golden Touch",
+        "subtitle": "Razorlight",
+        "audioPath": "audios/razorlight-golden-touch.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "381",
+        "title": "That's Not My Name",
+        "subtitle": "The Ting Tings",
+        "audioPath": "audios/the-ting-tings-thats-not-my-name.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "382",
+        "title": "Shut Up and Let Me Go",
+        "subtitle": "The Ting Tings",
+        "audioPath": "audios/the-ting-tings-shut-up-and-let-me-go.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "383",
+        "title": "My Number",
+        "subtitle": "Foals",
+        "audioPath": "audios/foals-my-number.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "384",
+        "title": "Mountain at My Gates",
+        "subtitle": "Foals",
+        "audioPath": "audios/foals-mountain-at-my-gates.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "385",
+        "title": "What You Know",
+        "subtitle": "Two Door Cinema Club",
+        "audioPath": "audios/two-door-cinema-club-what-you-know.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "386",
+        "title": "Undercover Martyn",
+        "subtitle": "Two Door Cinema Club",
+        "audioPath": "audios/two-door-cinema-club-undercover-martyn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "387",
+        "title": "1901",
+        "subtitle": "Phoenix",
+        "audioPath": "audios/phoenix-1901.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "388",
+        "title": "Lisztomania",
+        "subtitle": "Phoenix",
+        "audioPath": "audios/phoenix-lisztomania.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "389",
+        "title": "If You Wanna",
+        "subtitle": "The Vaccines",
+        "audioPath": "audios/the-vaccines-if-you-wanna.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "390",
+        "title": "Post Break-Up Sex",
+        "subtitle": "The Vaccines",
+        "audioPath": "audios/the-vaccines-post-break-up-sex.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "391",
+        "title": "Kathleen",
+        "subtitle": "Catfish and the Bottlemen",
+        "audioPath": "audios/catfish-and-the-bottlemen-kathleen.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "392",
+        "title": "Cocoon",
+        "subtitle": "Catfish and the Bottlemen",
+        "audioPath": "audios/catfish-and-the-bottlemen-cocoon.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "393",
+        "title": "T-Shirt Weather",
+        "subtitle": "Circa Waves",
+        "audioPath": "audios/circa-waves-t-shirt-weather.mp3",
+        "posterPath": ""
     }
 ]
