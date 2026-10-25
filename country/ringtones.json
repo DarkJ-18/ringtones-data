@@ -2245,5 +2245,285 @@
         "subtitle": "Blaze Foley",
         "audioPath": "audios/blaze-foley-picture-cards.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "322",
+        "title": "Need a Favor",
+        "subtitle": "Jelly Roll",
+        "audioPath": "audios/jelly-roll-need-a-favor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "323",
+        "title": "Buy Dirt",
+        "subtitle": "Jordan Davis",
+        "audioPath": "audios/jordan-davis-buy-dirt.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "324",
+        "title": "TEXAS HOLD 'EM",
+        "subtitle": "Beyonce",
+        "audioPath": "audios/beyonce-texas-hold-em.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "325",
+        "title": "Whiskey On You",
+        "subtitle": "Nate Smith",
+        "audioPath": "audios/nate-smith-whiskey-on-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "326",
+        "title": "Burn It Down",
+        "subtitle": "Parker McCollum",
+        "audioPath": "audios/parker-mccollum-burn-it-down.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "327",
+        "title": "Fall in Love",
+        "subtitle": "Bailey Zimmerman",
+        "audioPath": "audios/bailey-zimmerman-fall-in-love.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "328",
+        "title": "Wasted on You",
+        "subtitle": "Morgan Wallen",
+        "audioPath": "audios/morgan-wallen-wasted-on-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "329",
+        "title": "Guy For That",
+        "subtitle": "Post Malone",
+        "audioPath": "audios/post-malone-guy-for-that.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "330",
+        "title": "Oklahoma Smokeshow",
+        "subtitle": "Zach Bryan",
+        "audioPath": "audios/zach-bryan-oklahoma-smokeshow.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "331",
+        "title": "Drink Don't Need No Mix",
+        "subtitle": "Shaboozey",
+        "audioPath": "audios/shaboozey-drink-dont-need-no-mix.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "332",
+        "title": "Wine Into Whiskey",
+        "subtitle": "Tucker Wetmore",
+        "audioPath": "audios/tucker-wetmore-wine-into-whiskey.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "333",
+        "title": "You Look Like You Love Me",
+        "subtitle": "Ella Langley",
+        "audioPath": "audios/ella-langley-you-look-like-you-love-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "334",
+        "title": "Relapse",
+        "subtitle": "Warren Zeiders",
+        "audioPath": "audios/warren-zeiders-relapse.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "335",
+        "title": "Beer Money",
+        "subtitle": "Kip Moore",
+        "audioPath": "audios/kip-moore-beer-money.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "336",
+        "title": "Sweet Dreams",
+        "subtitle": "Koe Wetzel",
+        "audioPath": "audios/koe-wetzel-sweet-dreams.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "337",
+        "title": "I'm Not Pretty",
+        "subtitle": "Megan Moroney",
+        "audioPath": "audios/megan-moroney-im-not-pretty.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "338",
+        "title": "Any Man of Mine",
+        "subtitle": "Shania Twain",
+        "audioPath": "audios/shania-twain-any-man-of-mine.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "339",
+        "title": "Something Like That",
+        "subtitle": "Tim McGraw",
+        "audioPath": "audios/tim-mcgraw-something-like-that.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "340",
+        "title": "Write This Down",
+        "subtitle": "George Strait",
+        "audioPath": "audios/george-strait-write-this-down.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "341",
+        "title": "My Maria",
+        "subtitle": "Brooks & Dunn",
+        "audioPath": "audios/brooks-dunn-my-maria.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "342",
+        "title": "Rodeo",
+        "subtitle": "Garth Brooks",
+        "audioPath": "audios/garth-brooks-rodeo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "343",
+        "title": "No Shoes, No Shirt, No Problems",
+        "subtitle": "Kenny Chesney",
+        "audioPath": "audios/kenny-chesney-no-shoes-no-shirt-no-problems.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "344",
+        "title": "Blue Ain't Your Color",
+        "subtitle": "Keith Urban",
+        "audioPath": "audios/keith-urban-blue-aint-your-color.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "345",
+        "title": "She's Country",
+        "subtitle": "Jason Aldean",
+        "audioPath": "audios/jason-aldean-shes-country.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "346",
+        "title": "Blown Away",
+        "subtitle": "Carrie Underwood",
+        "audioPath": "audios/carrie-underwood-blown-away.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "347",
+        "title": "5-1-5-0",
+        "subtitle": "Dierks Bentley",
+        "audioPath": "audios/dierks-bentley-5-1-5-0.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "348",
+        "title": "Mud on the Tires",
+        "subtitle": "Brad Paisley",
+        "audioPath": "audios/brad-paisley-mud-on-the-tires.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "349",
+        "title": "Honey Bee",
+        "subtitle": "Blake Shelton",
+        "audioPath": "audios/blake-shelton-honey-bee.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "350",
+        "title": "Sing Me Back Home",
+        "subtitle": "Merle Haggard",
+        "audioPath": "audios/merle-haggard-sing-me-back-home.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "351",
+        "title": "Tennessee Whiskey",
+        "subtitle": "George Jones",
+        "audioPath": "audios/george-jones-tennessee-whiskey.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "352",
+        "title": "Jambalaya (On the Bayou)",
+        "subtitle": "Hank Williams",
+        "audioPath": "audios/hank-williams-jambalaya-on-the-bayou.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "353",
+        "title": "Fist City",
+        "subtitle": "Loretta Lynn",
+        "audioPath": "audios/loretta-lynn-fist-city.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "354",
+        "title": "She's Got You",
+        "subtitle": "Patsy Cline",
+        "audioPath": "audios/patsy-cline-shes-got-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "355",
+        "title": "Slow Hand",
+        "subtitle": "Conway Twitty",
+        "audioPath": "audios/conway-twitty-slow-hand.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "356",
+        "title": "Diggin' Up Bones",
+        "subtitle": "Randy Travis",
+        "audioPath": "audios/randy-travis-diggin-up-bones.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "357",
+        "title": "Song of the South",
+        "subtitle": "Alabama",
+        "audioPath": "audios/alabama-song-of-the-south.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "358",
+        "title": "S.O.B.",
+        "subtitle": "Sam Barber",
+        "audioPath": "audios/sam-barber-s.o.b..mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "359",
+        "title": "Tattooed Roses",
+        "subtitle": "Treaty Oak Revival",
+        "audioPath": "audios/treaty-oak-revival-tattooed-roses.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "360",
+        "title": "West of Tulsa",
+        "subtitle": "Wyatt Flores",
+        "audioPath": "audios/wyatt-flores-west-of-tulsa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "361",
+        "title": "Country Star",
+        "subtitle": "Flatland Cavalry",
+        "audioPath": "audios/flatland-cavalry-country-star.mp3",
+        "posterPath": ""
     }
 ]
