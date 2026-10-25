@@ -1,30 +1,33 @@
 import os
-import requests
-import sys
-import subprocess
 import re
+import requests
+import subprocess
+import sys
 
 def print_out(msg):
     print(msg)
     sys.stdout.flush()
 
-def get_github_repo():
+def get_repo_info(base_dir):
+    """Detecta dinámicamente el usuario/repositorio y la rama desde la configuración de Git"""
+    repo_slug = "DeliaDevS2/ringtones-data"
+    branch = "main"
     try:
-        if sys.platform == "win32":
-            result = subprocess.run("git config --get remote.origin.url", capture_output=True, text=True, shell=True)
-        else:
-            result = subprocess.run(["git", "config", "--get", "remote.origin.url"], capture_output=True, text=True)
-        
-        url = result.stdout.strip()
-        match = re.search(r'github\.com[:/](.+?/.+?)(\.git)?$', url)
-        if match:
-            repo = match.group(1)
-            if repo.endswith('.git'):
-                repo = repo[:-4]
-            return repo
+        url = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], cwd=base_dir, text=True).strip()
+        m = re.search(r"github\.com[:/]([^/]+)/([^/\.]+)", url)
+        if m:
+            repo_slug = f"{m.group(1)}/{m.group(2)}"
     except Exception:
         pass
-    return None
+
+    try:
+        b = subprocess.check_output(["git", "branch", "--show-current"], cwd=base_dir, text=True).strip()
+        if b:
+            branch = b
+    except Exception:
+        pass
+
+    return repo_slug, branch
 
 def purge_cdn():
     print_out("=================================================")
@@ -32,6 +35,8 @@ def purge_cdn():
     print_out("=================================================")
     
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo_slug, branch = get_repo_info(base_dir)
+    print_out(f"[INFO] Repositorio detectado: {repo_slug} (rama: {branch})")
     carpetas_validas = []
     
     # Descubrir carpetas
@@ -57,15 +62,9 @@ def purge_cdn():
         
     exitos = 0
     fallos = 0
-    repo_path = get_github_repo()
-    
-    if not repo_path:
-        print_out("[ERROR] No se pudo determinar el repositorio de GitHub de origen.")
-        print_out("La purga se canceló porque el proyecto no tiene configurado un origin de Git.")
-        return
         
     for folder in carpetas_validas:
-        url = f"https://purge.jsdelivr.net/gh/{repo_path}@main/{folder}/ringtones.json"
+        url = f"https://purge.jsdelivr.net/gh/{repo_slug}@{branch}/{folder}/ringtones.json"
         print_out(f"\n---> Purgando cache para: {folder}")
         print_out(f"URL: {url}")
         

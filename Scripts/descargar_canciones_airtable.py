@@ -12,6 +12,7 @@ COL_ARTIST = os.environ.get("COL_ARTIST", "Subtitle")
 COL_TITLE = os.environ.get("COL_TITLE", "Title")
 COL_AUDIO = os.environ.get("COL_AUDIO", "Ringtone")
 COL_ICON = os.environ.get("COL_ICON", "Icon")
+FILENAME_FORMAT = os.environ.get("FILENAME_FORMAT", "artista_titulo")
 
 # 2. Si faltan datos, intentar leer desde config.py (Legacy mode)
 if not AIRTABLE_TOKEN or not AIRTABLE_BASE_ID or not AIRTABLE_TABLE_ID:
@@ -122,7 +123,10 @@ def main():
                 
                 # Armar el nombre del archivo si es posible
                 if title and subtitle and subtitle != "Desconocido" and subtitle != "Unknown":
-                    nombre_base = f"{subtitle} - {title}"
+                    if FILENAME_FORMAT == "titulo_artista":
+                        nombre_base = f"{title} - {subtitle}"
+                    else:
+                        nombre_base = f"{subtitle} - {title}"
                 elif title:
                     nombre_base = title
                 else:

@@ -17,6 +17,7 @@ class Profile:
     col_icon: str = "Icon"
     download_folder_airtable: str = "Descargas/desde_airtable"
     download_folder_baserow: str = "Descargas/desde_baserow"
+    filename_format: str = "artista_titulo"
 
     def to_dict(self):
         return asdict(self)

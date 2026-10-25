@@ -1,4 +1,5 @@
 import os
+import re
 import subprocess
 import sys
 import time
@@ -24,6 +25,18 @@ def run_command(cmd, cwd=None, hide_output=False):
         print_out(f"[ERROR EXCEPCION] {str(e)}")
         return 1, str(e)
 
+def get_repo_info(base_dir):
+    """Detecta dinámicamente el usuario/repositorio desde la configuración de Git"""
+    repo_slug = "este repositorio"
+    try:
+        code, url = run_command("git config --get remote.origin.url", cwd=base_dir, hide_output=True)
+        m = re.search(r"github\.com[:/]([^/]+)/([^/\.]+)", (url or "").strip())
+        if m:
+            repo_slug = f"{m.group(1)}/{m.group(2)}"
+    except Exception:
+        pass
+    return repo_slug
+
 def main():
     print_out("=================================================")
     print_out(" INICIANDO SUBIDA AUTOMATICA A GITHUB POR LOTES")
@@ -35,13 +48,37 @@ def main():
     
     # 2. Verificacion global rapida
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo_slug = get_repo_info(base_dir)
+    print_out(f"[INFO] Repositorio destino detectado: {repo_slug}")
+
     _, out_global = run_command("git status --porcelain", cwd=base_dir, hide_output=True)
     if not out_global or not out_global.strip():
-        print_out("\n[OK] El repositorio esta completamente al dia. No hay ningun cambio para subir.")
-        print_out("\n=================================================")
-        print_out(" PROCESO FINALIZADO SIN CAMBIOS")
-        print_out("=================================================")
-        sys.exit(0)
+        # Verificar si hay commits locales pendientes por subir
+        code_ahead, out_ahead = run_command("git log @{u}..HEAD --oneline", cwd=base_dir, hide_output=True)
+        if not out_ahead or not out_ahead.strip():
+            print_out("\n[OK] El repositorio esta completamente al dia. No hay ningun cambio ni commit para subir.")
+            print_out("\n=================================================")
+            print_out(" PROCESO FINALIZADO SIN CAMBIOS")
+            print_out("=================================================")
+            sys.exit(0)
+        else:
+            print_out(f"\n[INFO] No hay archivos sin guardar, pero hay commits pendientes de subir a GitHub:\n{out_ahead.strip()}")
+            print_out("  -> Enviando commits pendientes a GitHub (git push)...")
+            push_code, push_out = run_command("git push", cwd=base_dir, hide_output=False)
+            if push_code == 0:
+                print_out("  [OK] Commits subidos con éxito.")
+                try:
+                    import purgar_cdn
+                    print_out("\n>>> DISPARANDO PURGA AUTOMATICA DE CACHE CDN >>>\n")
+                    purgar_cdn.purge_cdn()
+                except Exception as e:
+                    print_out(f"[AVISO] No se pudo purgar la CDN: {e}")
+                sys.exit(0)
+            else:
+                if "403" in str(push_out) or "denied" in str(push_out):
+                    print_out("\n[ERROR DE PERMISOS EN GITHUB]")
+                    print_out(f"El usuario de Git actual no tiene permisos de escritura en {repo_slug}.")
+                sys.exit(1)
     
     # 3. Descubrir carpetas que tienen un subdirectorio "audios"
     carpetas_validas = []

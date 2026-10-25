@@ -113,14 +113,14 @@ body {
 /* Tabs */
 .tab-content {
     display: none;
-    animation: fadeIn 200ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    animation: fadeIn 0.4s ease forwards;
 }
 .tab-content.active {
     display: block;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
+    from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
@@ -194,12 +194,9 @@ input:focus, select:focus, textarea:focus {
     font-weight: 600;
     font-size: 0.95rem;
     cursor: pointer;
-    transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1), background 160ms cubic-bezier(0.23, 1, 0.32, 1), box-shadow 160ms cubic-bezier(0.23, 1, 0.32, 1), color 160ms cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all var(--transition-speed);
     border: none;
     font-family: 'Inter', sans-serif;
-}
-.btn:active {
-    transform: scale(0.97);
 }
 .btn-primary {
     background: var(--accent-cyan);
@@ -243,77 +240,118 @@ input:focus, select:focus, textarea:focus {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.12);
     color: var(--text-muted);
     font-size: 10px;
     cursor: help;
     position: relative;
-}
-.help-icon::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 150%;
-    left: 50%;
-    transform: translateX(-50%) scale(0.95);
-    background: var(--bg-base);
-    color: #fff;
-    padding: 0.5rem 0.8rem;
-    border-radius: 6px;
-    font-size: 0.8rem;
-    white-space: pre-wrap;
-    width: max-content;
-    max-width: 250px;
-    border: 1px solid var(--accent-cyan);
-    z-index: 100;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 150ms cubic-bezier(0.23, 1, 0.32, 1), transform 150ms cubic-bezier(0.23, 1, 0.32, 1), visibility 150ms;
-    pointer-events: none;
+    vertical-align: middle;
 }
 .help-icon:hover::after {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) scale(1);
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 0;
+    transform: none;
+    background: #0b1329;
+    color: #f1f5f9;
+    padding: 0.6rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: normal;
+    line-height: 1.4;
+    white-space: normal;
+    width: 250px;
+    border: 1px solid var(--accent-cyan);
+    z-index: 99999;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.85);
+    pointer-events: none;
+}
+.help-icon:hover::before {
+    content: '';
+    position: absolute;
+    bottom: calc(100% + 2px);
+    left: 4px;
+    border: 5px solid transparent;
+    border-top-color: var(--accent-cyan);
+    z-index: 100000;
 }
 
-/* Toast Notifications */
+/* Toast Notifications - Top Center Prominent */
 #toast-container {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    z-index: 9999;
-}
-.toast {
-    background: var(--bg-glass);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--border-glass);
-    color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    display: flex;
     align-items: center;
     gap: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-    animation: slideIn 250ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-    max-width: 350px;
+    z-index: 999999;
+    width: 90%;
+    max-width: 580px;
+    pointer-events: none;
 }
-.toast.success { border-left: 4px solid var(--accent-green); }
-.toast.error { border-left: 4px solid var(--accent-red); }
-.toast.warning { border-left: 4px solid #eab308; }
-.toast.info { border-left: 4px solid var(--accent-cyan); }
+.toast {
+    background: #0b1329;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #f8fafc;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 15px rgba(0,0,0,0.5);
+    animation: slideDownIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    width: 100%;
+    pointer-events: auto;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.45;
+    font-size: 0.92rem;
+}
+.toast.success { border-left: 5px solid var(--accent-green); box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 20px rgba(74, 222, 128, 0.25); }
+.toast.error { border-left: 5px solid var(--accent-red); box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 20px rgba(239, 68, 68, 0.25); }
+.toast.warning { border-left: 5px solid #fbbf24; box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 20px rgba(251, 191, 36, 0.25); }
+.toast.info { border-left: 5px solid var(--accent-cyan); box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 20px rgba(56, 189, 248, 0.25); }
 
-@keyframes slideIn {
-    from { transform: translateX(100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
+.toast-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    transform-origin: left;
+}
+.toast.success .toast-progress-bar { background: var(--accent-green); }
+.toast.error .toast-progress-bar { background: var(--accent-red); }
+.toast.warning .toast-progress-bar { background: #fbbf24; }
+.toast.info .toast-progress-bar { background: var(--accent-cyan); }
+
+.toast-close-btn {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 4px;
+    margin-left: 8px;
+    transition: color 0.2s;
+}
+.toast-close-btn:hover {
+    color: #fff;
 }
 
-@keyframes slideOut {
-    from { transform: translateX(0); opacity: 1; }
-    to { transform: translateX(100%); opacity: 0; }
+@keyframes slideDownIn {
+    from { transform: translateY(-40px) scale(0.95); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+@keyframes slideUpOut {
+    from { transform: translateY(0) scale(1); opacity: 1; }
+    to { transform: translateY(-30px) scale(0.95); opacity: 0; }
 }
 
 /* Specific UI Elements */
@@ -401,4 +439,167 @@ input[type=range]::-webkit-slider-runnable-track {
     cursor: pointer;
     background: rgba(255,255,255,0.1);
     border-radius: 2px;
+}
+
+/* Modales Emergentes */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.78);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    animation: modalFadeIn 0.2s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    animation: modalScaleIn 0.2s ease-out;
+}
+
+@keyframes modalScaleIn {
+    from { transform: scale(0.96); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Tarjeta / Item de Canción en Catálogo */
+.catalog-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.2s ease;
+}
+
+.catalog-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(56, 189, 248, 0.3);
+    transform: translateY(-1px);
+}
+
+.catalog-badge {
+    font-size: 0.72rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.catalog-badge.success {
+    background: rgba(74, 222, 128, 0.12);
+    color: #4ade80;
+    border: 1px solid rgba(74, 222, 128, 0.3);
+}
+.catalog-badge.warning {
+    background: rgba(251, 191, 36, 0.12);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}
+.catalog-badge.danger {
+    background: rgba(239, 68, 68, 0.12);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Animaciones de salida y estado para tareas */
+.task-card.task-fade-out {
+    animation: taskFadeOut 0.4s ease forwards;
+    pointer-events: none;
+}
+
+@keyframes taskFadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        max-height: 400px;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(-40px) scale(0.95);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-60px) scale(0.9);
+        max-height: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        border: none;
+    }
+}
+
+.task-card.task-has-error {
+    border-color: rgba(239, 68, 68, 0.6) !important;
+    background: rgba(239, 68, 68, 0.04) !important;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.2);
+}
+
+.task-card.task-has-warning {
+    border-color: rgba(251, 191, 36, 0.6) !important;
+    background: rgba(251, 191, 36, 0.04) !important;
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.2);
+}
+
+.task-status-banner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.task-status-banner.error {
+    background: rgba(239, 68, 68, 0.15);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.35);
+}
+.task-status-banner.warning {
+    background: rgba(251, 191, 36, 0.15);
+    color: #fde047;
+    border: 1px solid rgba(251, 191, 36, 0.35);
+}
+
+/* Badge Cronómetro en Header de Consola */
+.console-timer-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-family: monospace;
+    font-weight: 600;
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    transition: all 0.3s;
+}
+.console-timer-badge.active {
+    background: rgba(56, 189, 248, 0.18);
+    color: #38bdf8;
+    border-color: #38bdf8;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+.console-timer-badge.finished {
+    background: rgba(74, 222, 128, 0.18);
+    color: #4ade80;
+    border-color: #4ade80;
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.3);
 }
