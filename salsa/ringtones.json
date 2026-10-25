@@ -1097,5 +1097,278 @@
         "subtitle": "Yiyo Sarante",
         "audioPath": "audios/yiyo-sarante-salvame.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "158",
+        "title": "Y Le Dije No",
+        "subtitle": "Yahaira Plasencia",
+        "audioPath": "audios/yahaira-plasencia-y-le-dije-no.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "159",
+        "title": "Amor Vuelve",
+        "subtitle": "Christian Yaipén & Grupo 5",
+        "audioPath": "audios/christian-yaipen-grupo-5-amor-vuelve.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "160",
+        "title": "Señor Mentira",
+        "subtitle": "Daniela Darcourt",
+        "audioPath": "audios/daniela-darcourt-senor-mentira.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "161",
+        "title": "Probablemente",
+        "subtitle": "Daniela Darcourt",
+        "audioPath": "audios/daniela-darcourt-probablemente.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "162",
+        "title": "Así Soy Yo",
+        "subtitle": "Combinacion de la Habana",
+        "audioPath": "audios/combinacion-de-la-habana-asi-soy-yo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "163",
+        "title": "En Peligro de Extinción",
+        "subtitle": "Bembé Orquesta",
+        "audioPath": "audios/bembe-orquesta-en-peligro-de-extincion.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "164",
+        "title": "Amigos No Por Favor",
+        "subtitle": "Bembé Orquesta",
+        "audioPath": "audios/bembe-orquesta-amigos-no-por-favor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "165",
+        "title": "Me Vas a Extrañar",
+        "subtitle": "Yiyo Sarante",
+        "audioPath": "audios/yiyo-sarante-me-vas-a-extranar.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "166",
+        "title": "Punto y Aparte",
+        "subtitle": "Chiquito Team Band",
+        "audioPath": "audios/chiquito-team-band-punto-y-aparte.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "167",
+        "title": "Hablando Con Juana",
+        "subtitle": "Alain Pérez",
+        "audioPath": "audios/alain-perez-hablando-con-juana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "168",
+        "title": "Pasaporte",
+        "subtitle": "Havana D'Primera",
+        "audioPath": "audios/havana-dprimera-pasaporte.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "169",
+        "title": "Al Final de la Vida",
+        "subtitle": "Havana D'Primera",
+        "audioPath": "audios/havana-dprimera-al-final-de-la-vida.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "170",
+        "title": "Palo Pa' La Campana",
+        "subtitle": "Tromboranga",
+        "audioPath": "audios/tromboranga-palo-pa-la-campana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "171",
+        "title": "Amigo el Ratón",
+        "subtitle": "Tromboranga",
+        "audioPath": "audios/tromboranga-amigo-el-raton.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "172",
+        "title": "La Salsa y el Guaguancó",
+        "subtitle": "La Excelencia",
+        "audioPath": "audios/la-excelencia-la-salsa-y-el-guaguanco.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "173",
+        "title": "Dime Si Llegué a Tiempo",
+        "subtitle": "Bio Ritmo",
+        "audioPath": "audios/bio-ritmo-dime-si-llegue-a-tiempo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "174",
+        "title": "Perla Morena",
+        "subtitle": "Spanish Harlem Orchestra",
+        "audioPath": "audios/spanish-harlem-orchestra-perla-morena.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "175",
+        "title": "Me Mantengo",
+        "subtitle": "Los Van Van",
+        "audioPath": "audios/los-van-van-me-mantengo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "176",
+        "title": "Llegó la Música Cubana",
+        "subtitle": "Manolito y su Trabuco",
+        "audioPath": "audios/manolito-y-su-trabuco-llego-la-musica-cubana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "177",
+        "title": "Ya Se Acabó",
+        "subtitle": "Maykel Blanco y su Salsa Mayor",
+        "audioPath": "audios/maykel-blanco-y-su-salsa-mayor-ya-se-acabo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "178",
+        "title": "Torero",
+        "subtitle": "Orquesta Guayacán",
+        "audioPath": "audios/orquesta-guayacan-torero.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "179",
+        "title": "Buscando Aventuras",
+        "subtitle": "Orquesta Mulenze",
+        "audioPath": "audios/orquesta-mulenze-buscando-aventuras.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "180",
+        "title": "Santa Palabra",
+        "subtitle": "NG La Banda",
+        "audioPath": "audios/ng-la-banda-santa-palabra.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "181",
+        "title": "Sin Negro No Hay Guaguancó",
+        "subtitle": "Lebron Brothers",
+        "audioPath": "audios/lebron-brothers-sin-negro-no-hay-guaguanco.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "182",
+        "title": "No Te Vayas Todavía",
+        "subtitle": "Orquesta Mulenze",
+        "audioPath": "audios/orquesta-mulenze-no-te-vayas-todavia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "183",
+        "title": "Maina",
+        "subtitle": "Willie Rosario",
+        "audioPath": "audios/willie-rosario-maina.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "184",
+        "title": "25 Rosas",
+        "subtitle": "Paquito Guzman",
+        "audioPath": "audios/paquito-guzman-25-rosas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "185",
+        "title": "Quisiera Contarle",
+        "subtitle": "Pedro Arroyo",
+        "audioPath": "audios/pedro-arroyo-quisiera-contarle.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "186",
+        "title": "Entre la Espada y la Pared",
+        "subtitle": "Nino Segarra",
+        "audioPath": "audios/nino-segarra-entre-la-espada-y-la-pared.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "187",
+        "title": "Caradura",
+        "subtitle": "David Pabón",
+        "audioPath": "audios/david-pabon-caradura.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "188",
+        "title": "Nadie Se Salva de la Rumba",
+        "subtitle": "Adalberto Santiago",
+        "audioPath": "audios/adalberto-santiago-nadie-se-salva-de-la-rumba.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "189",
+        "title": "Convergen",
+        "subtitle": "Pete El Conde Rodriguez",
+        "audioPath": "audios/pete-el-conde-rodriguez-convergen.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "190",
+        "title": "Primoroso Cantar",
+        "subtitle": "Johnny Pacheco",
+        "audioPath": "audios/johnny-pacheco-primoroso-cantar.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "191",
+        "title": "Pa' Bravo Yo",
+        "subtitle": "Justo Betancourt",
+        "audioPath": "audios/justo-betancourt-pa-bravo-yo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "192",
+        "title": "Sigo Bravo",
+        "subtitle": "Justo Betancourt",
+        "audioPath": "audios/justo-betancourt-sigo-bravo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "193",
+        "title": "Plante Bandera",
+        "subtitle": "Chamaco Ramírez",
+        "audioPath": "audios/chamaco-ramirez-plante-bandera.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "194",
+        "title": "Fuego a la Jicotea",
+        "subtitle": "Marvin Santiago",
+        "audioPath": "audios/marvin-santiago-fuego-a-la-jicotea.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "195",
+        "title": "El Hombre Increíble",
+        "subtitle": "Marvin Santiago",
+        "audioPath": "audios/marvin-santiago-el-hombre-increible.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "196",
+        "title": "La Boda de Ella",
+        "subtitle": "Cano Estremera",
+        "audioPath": "audios/cano-estremera-la-boda-de-ella.mp3",
+        "posterPath": ""
     }
 ]
