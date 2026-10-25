@@ -285,5 +285,313 @@
         "subtitle": "Manny Manuel",
         "audioPath": "audios/como-duele---manny-manuel.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "42",
+        "title": "Después de la Playa",
+        "subtitle": "Bad Bunny",
+        "audioPath": "audios/bad-bunny-despues-de-la-playa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "43",
+        "title": "Despechá",
+        "subtitle": "Rosalía",
+        "audioPath": "audios/rosalia-despecha.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "44",
+        "title": "Si Antes Te Hubiera Conocido",
+        "subtitle": "Karol G",
+        "audioPath": "audios/karol-g-si-antes-te-hubiera-conocido.mp3",
+        "posterPath": "images/karol-g-si-antes-te-hubiera-conocido.png"
+    },
+    {
+        "id": "45",
+        "title": "El Merengue",
+        "subtitle": "Manuel Turizo",
+        "audioPath": "audios/manuel-turizo-el-merengue.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "46",
+        "title": "Amor Narcótico",
+        "subtitle": "Chichi Peralta",
+        "audioPath": "audios/chichi-peralta-amor-narcotico.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "47",
+        "title": "Procura",
+        "subtitle": "Chichi Peralta",
+        "audioPath": "audios/chichi-peralta-procura.mp3",
+        "posterPath": "images/chichi-peralta-procura.png"
+    },
+    {
+        "id": "48",
+        "title": "El Tiburón",
+        "subtitle": "Proyecto Uno",
+        "audioPath": "audios/proyecto-uno-el-tiburon.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "49",
+        "title": "Está Pegao",
+        "subtitle": "Proyecto Uno",
+        "audioPath": "audios/proyecto-uno-esta-pegao.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "50",
+        "title": "La Morena",
+        "subtitle": "Ilegales",
+        "audioPath": "audios/ilegales-la-morena.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "51",
+        "title": "El Taqui Taqui",
+        "subtitle": "Ilegales",
+        "audioPath": "audios/ilegales-el-taqui-taqui.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "52",
+        "title": "Me Miras y Te Miro",
+        "subtitle": "Grupo Manía",
+        "audioPath": "audios/grupo-mania-me-miras-y-te-miro.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "53",
+        "title": "Niña Bonita",
+        "subtitle": "Grupo Manía",
+        "audioPath": "audios/grupo-mania-nina-bonita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "54",
+        "title": "El Caballito de Palo",
+        "subtitle": "Joseph Fonseca",
+        "audioPath": "audios/joseph-fonseca-el-caballito-de-palo.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "55",
+        "title": "Noche de Fantasía",
+        "subtitle": "Joseph Fonseca",
+        "audioPath": "audios/joseph-fonseca-noche-de-fantasia.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "56",
+        "title": "Que Levante la Mano",
+        "subtitle": "Joseph Fonseca",
+        "audioPath": "audios/joseph-fonseca-que-levante-la-mano.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "57",
+        "title": "Juana la Cubana",
+        "subtitle": "Las Chicas del Can",
+        "audioPath": "audios/las-chicas-del-can-juana-la-cubana.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "58",
+        "title": "Las Pequeñas Cosas",
+        "subtitle": "Las Chicas del Can",
+        "audioPath": "audios/las-chicas-del-can-las-pequenas-cosas.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "59",
+        "title": "Volveré",
+        "subtitle": "Rubby Pérez",
+        "audioPath": "audios/rubby-perez-volvere.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "60",
+        "title": "Enamorado de Ella",
+        "subtitle": "Rubby Pérez",
+        "audioPath": "audios/rubby-perez-enamorado-de-ella.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "61",
+        "title": "Quizás Sí, Quizás No",
+        "subtitle": "Los Toros Band",
+        "audioPath": "audios/los-toros-band-quizas-si-quizas-no.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "62",
+        "title": "Si Tú Estuvieras",
+        "subtitle": "Los Toros Band",
+        "audioPath": "audios/los-toros-band-si-tu-estuvieras.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "63",
+        "title": "El Cantinero",
+        "subtitle": "Jossie Esteban y la Patrulla 15",
+        "audioPath": "audios/jossie-esteban-y-la-patrulla-15-el-cantinero.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "64",
+        "title": "El Moreno",
+        "subtitle": "Jossie Esteban y la Patrulla 15",
+        "audioPath": "audios/jossie-esteban-y-la-patrulla-15-el-moreno.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "65",
+        "title": "Volvió Juanita",
+        "subtitle": "Milly Quezada",
+        "audioPath": "audios/milly-quezada-volvio-juanita.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "66",
+        "title": "Porque Me Amaste",
+        "subtitle": "Milly Quezada",
+        "audioPath": "audios/milly-quezada-porque-me-amaste.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "67",
+        "title": "Si Tú Eres Mi Hombre",
+        "subtitle": "The New York Band",
+        "audioPath": "audios/the-new-york-band-si-tu-eres-mi-hombre.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "68",
+        "title": "Colé",
+        "subtitle": "The New York Band",
+        "audioPath": "audios/the-new-york-band-cole.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "69",
+        "title": "El Venao",
+        "subtitle": "Los Cantantes",
+        "audioPath": "audios/los-cantantes-el-venao.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "70",
+        "title": "La Vaca",
+        "subtitle": "Mala Fe",
+        "audioPath": "audios/mala-fe-la-vaca.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "71",
+        "title": "Cepillao",
+        "subtitle": "Fulanito",
+        "audioPath": "audios/fulanito-cepillao.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "72",
+        "title": "La Novela",
+        "subtitle": "Fulanito",
+        "audioPath": "audios/fulanito-la-novela.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "73",
+        "title": "Colegiala",
+        "subtitle": "Alex Bueno",
+        "audioPath": "audios/alex-bueno-colegiala.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "74",
+        "title": "El Chofer",
+        "subtitle": "Alex Bueno",
+        "audioPath": "audios/alex-bueno-el-chofer.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "75",
+        "title": "La Quiero a Morir",
+        "subtitle": "Sergio Vargas",
+        "audioPath": "audios/sergio-vargas-la-quiero-a-morir.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "76",
+        "title": "Tu Sonrisa",
+        "subtitle": "Elvis Crespo",
+        "audioPath": "audios/elvis-crespo-tu-sonrisa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "77",
+        "title": "Bandolero",
+        "subtitle": "Olga Tañón",
+        "audioPath": "audios/olga-tanon-bandolero.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "78",
+        "title": "Mueve Mueve",
+        "subtitle": "Sandy & Papo",
+        "audioPath": "audios/sandy-papo-mueve-mueve.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "79",
+        "title": "Si Una Vez",
+        "subtitle": "Manny Manuel",
+        "audioPath": "audios/manny-manuel-si-una-vez.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "80",
+        "title": "Loca",
+        "subtitle": "Shakira",
+        "audioPath": "audios/shakira-loca.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "81",
+        "title": "A Tan Solo Una Hora",
+        "subtitle": "Gabriel Pagan",
+        "audioPath": "audios/gabriel-pagan-a-tan-solo-una-hora.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "82",
+        "title": "El Motor",
+        "subtitle": "Aramis Camilo",
+        "audioPath": "audios/aramis-camilo-el-motor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "83",
+        "title": "Ay Amor",
+        "subtitle": "Los Melódicos",
+        "audioPath": "audios/los-melodicos-ay-amor.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "84",
+        "title": "Carrito Rojo de Carrera",
+        "subtitle": "Silvio Mora",
+        "audioPath": "audios/silvio-mora-carrito-rojo-de-carrera.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "85",
+        "title": "La Cabaña",
+        "subtitle": "Julian Oro Duro",
+        "audioPath": "audios/julian-oro-duro-la-cabana.mp3",
+        "posterPath": ""
     }
 ]
