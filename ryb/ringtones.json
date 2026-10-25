@@ -1706,5 +1706,285 @@
         "subtitle": "Aretha Franklin",
         "audioPath": "audios/aretha-franklin-natural-woman.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "250",
+        "title": "DEVIL IS A LIE",
+        "subtitle": "Tommy Richman",
+        "audioPath": "audios/tommy-richman-devil-is-a-lie.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "251",
+        "title": "Lose My Mind",
+        "subtitle": "PARTYNEXTDOOR",
+        "audioPath": "audios/partynextdoor-lose-my-mind.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "252",
+        "title": "Saturn",
+        "subtitle": "SZA",
+        "audioPath": "audios/sza-saturn.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "253",
+        "title": "Folded",
+        "subtitle": "Kehlani",
+        "audioPath": "audios/kehlani-folded.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "254",
+        "title": "Bad Dreams",
+        "subtitle": "Teddy Swims",
+        "audioPath": "audios/teddy-swims-bad-dreams.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "255",
+        "title": "Jump",
+        "subtitle": "Tyla",
+        "audioPath": "audios/tyla-jump.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "256",
+        "title": "No Broke Boys",
+        "subtitle": "Tinashe",
+        "audioPath": "audios/tinashe-no-broke-boys.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "257",
+        "title": "Calypso",
+        "subtitle": "Bryson Tiller",
+        "audioPath": "audios/bryson-tiller-calypso.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "258",
+        "title": "On It",
+        "subtitle": "Jazmine Sullivan",
+        "audioPath": "audios/jazmine-sullivan-on-it.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "259",
+        "title": "MUTT",
+        "subtitle": "Leon Thomas",
+        "audioPath": "audios/leon-thomas-mutt.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "260",
+        "title": "Pressure",
+        "subtitle": "Ari Lennox",
+        "audioPath": "audios/ari-lennox-pressure.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "261",
+        "title": "Shea Butter Baby",
+        "subtitle": "Ari Lennox",
+        "audioPath": "audios/ari-lennox-shea-butter-baby.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "262",
+        "title": "Clouded",
+        "subtitle": "Brent Faiyaz",
+        "audioPath": "audios/brent-faiyaz-clouded.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "263",
+        "title": "CPR",
+        "subtitle": "Summer Walker",
+        "audioPath": "audios/summer-walker-cpr.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "264",
+        "title": "HERICANE",
+        "subtitle": "Lucky Daye",
+        "audioPath": "audios/lucky-daye-hericane.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "265",
+        "title": "Stuck On You",
+        "subtitle": "Giveon",
+        "audioPath": "audios/giveon-stuck-on-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "266",
+        "title": "Moonlight",
+        "subtitle": "Kali Uchis",
+        "audioPath": "audios/kali-uchis-moonlight.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "267",
+        "title": "I Wish You Roses",
+        "subtitle": "Kali Uchis",
+        "audioPath": "audios/kali-uchis-i-wish-you-roses.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "268",
+        "title": "Whoa",
+        "subtitle": "Snoh Aalegra",
+        "audioPath": "audios/snoh-aalegra-whoa.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "269",
+        "title": "Static",
+        "subtitle": "Steve Lacy",
+        "audioPath": "audios/steve-lacy-static.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "270",
+        "title": "Easy",
+        "subtitle": "Mac Ayres",
+        "audioPath": "audios/mac-ayres-easy.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "271",
+        "title": "Them Changes",
+        "subtitle": "Thundercat",
+        "audioPath": "audios/thundercat-them-changes.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "272",
+        "title": "Sticky",
+        "subtitle": "Ravyn Lenae",
+        "audioPath": "audios/ravyn-lenae-sticky.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "273",
+        "title": "When I'm in Your Arms",
+        "subtitle": "Cleo Sol",
+        "audioPath": "audios/cleo-sol-when-im-in-your-arms.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "274",
+        "title": "Can We Talk",
+        "subtitle": "Tevin Campbell",
+        "audioPath": "audios/tevin-campbell-can-we-talk.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "275",
+        "title": "I'm Ready",
+        "subtitle": "Tevin Campbell",
+        "audioPath": "audios/tevin-campbell-im-ready.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "276",
+        "title": "Back at One",
+        "subtitle": "Brian McKnight",
+        "audioPath": "audios/brian-mcknight-back-at-one.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "277",
+        "title": "Anytime",
+        "subtitle": "Brian McKnight",
+        "audioPath": "audios/brian-mcknight-anytime.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "278",
+        "title": "It's Over Now",
+        "subtitle": "112",
+        "audioPath": "audios/112-its-over-now.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "279",
+        "title": "I'm So into You",
+        "subtitle": "SWV",
+        "audioPath": "audios/swv-im-so-into-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "280",
+        "title": "Kissin' You",
+        "subtitle": "Total",
+        "audioPath": "audios/total-kissin-you.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "281",
+        "title": "Can't You See",
+        "subtitle": "Total",
+        "audioPath": "audios/total-cant-you-see.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "282",
+        "title": "Soon as I Get Home",
+        "subtitle": "Faith Evans",
+        "audioPath": "audios/faith-evans-soon-as-i-get-home.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "283",
+        "title": "Love Like This",
+        "subtitle": "Faith Evans",
+        "audioPath": "audios/faith-evans-love-like-this.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "284",
+        "title": "They Don't Know",
+        "subtitle": "Jon B.",
+        "audioPath": "audios/jon-b.-they-dont-know.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "285",
+        "title": "Are U Still Down",
+        "subtitle": "Jon B.",
+        "audioPath": "audios/jon-b.-are-u-still-down.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "286",
+        "title": "Candy Rain",
+        "subtitle": "Soul for Real",
+        "audioPath": "audios/soul-for-real-candy-rain.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "287",
+        "title": "Every Little Thing I Do",
+        "subtitle": "Soul for Real",
+        "audioPath": "audios/soul-for-real-every-little-thing-i-do.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "288",
+        "title": "Tell Me",
+        "subtitle": "Groove Theory",
+        "audioPath": "audios/groove-theory-tell-me.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "289",
+        "title": "Hey Mr. D.J.",
+        "subtitle": "Zhané",
+        "audioPath": "audios/zhane-hey-mr.-d.j..mp3",
+        "posterPath": ""
     }
 ]
