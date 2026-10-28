@@ -299,5 +299,82 @@
         "subtitle": "Alarms",
         "audioPath": "audios/militar---ringtone.mp3",
         "posterPath": ""
+    },
+    {
+        "id": "44",
+        "title": "Loud Alarm 44",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-44.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "45",
+        "title": "Loud Alarm 45",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-45.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "46",
+        "title": "Loud Alarm 46",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-46.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "47",
+        "title": "Loud Alarm 47",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-47.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "48",
+        "title": "Loud Alarm 48",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-48.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "49",
+        "title": "Loud Alarm 49",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-49.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "50",
+        "title": "Loud Alarm 50",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-50.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "51",
+        "title": "Loud Alarm 51",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-51.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "52",
+        "title": "Loud Alarm 52",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-52.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "53",
+        "title": "Loud Alarm 53",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-53.mp3",
+        "posterPath": ""
+    },
+    {
+        "id": "54",
+        "title": "Loud Alarm 54",
+        "subtitle": "Alarms",
+        "audioPath": "audios/loud-alarm-54.mp3",
+        "posterPath": ""
     }
 ]
