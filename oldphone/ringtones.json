@@ -1,247 +1,107 @@
 [
     {
         "id": "1",
-        "title": "Classic Rotary Office Bell",
-        "subtitle": "Bell System",
-        "audioPath": "audios/bell-system-classic-rotary-office-bell.mp3",
+        "title": "Old Phone 01",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-01.mp3",
         "posterPath": ""
     },
     {
         "id": "2",
-        "title": "Model 302 Vintage Metal Ring",
-        "subtitle": "Western Electric",
-        "audioPath": "audios/western-electric-model-302-vintage-metal-ring.mp3",
+        "title": "Old Phone 02",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-02.mp3",
         "posterPath": ""
     },
     {
         "id": "3",
-        "title": "Model 500 Classic Double Bell",
-        "subtitle": "Western Electric",
-        "audioPath": "audios/western-electric-model-500-classic-double-bell.mp3",
+        "title": "Old Phone 03",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-03.mp3",
         "posterPath": ""
     },
     {
         "id": "4",
-        "title": "Model 2500 Vintage Dual Chime",
-        "subtitle": "Western Electric",
-        "audioPath": "audios/western-electric-model-2500-vintage-dual-chime.mp3",
+        "title": "Old Phone 04",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-04.mp3",
         "posterPath": ""
     },
     {
         "id": "5",
-        "title": "Antique Twin Gong Ring",
-        "subtitle": "Bell System",
-        "audioPath": "audios/bell-system-antique-twin-gong-ring.mp3",
+        "title": "Old Phone 05",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-05.mp3",
         "posterPath": ""
     },
     {
         "id": "6",
-        "title": "GPO 746 Double Cadence Ring",
-        "subtitle": "British Telecom",
-        "audioPath": "audios/british-telecom-gpo-746-double-cadence-ring.mp3",
+        "title": "Old Phone 06",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-06.mp3",
         "posterPath": ""
     },
     {
         "id": "7",
-        "title": "1940s Vintage Brass Bell Ring",
-        "subtitle": "Bell System",
-        "audioPath": "audios/bell-system-1940s-vintage-brass-bell-ring.mp3",
+        "title": "Old Phone 07",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-07.mp3",
         "posterPath": ""
     },
     {
         "id": "8",
-        "title": "Bakelite 300 Series Bell",
-        "subtitle": "British Telecom",
-        "audioPath": "audios/british-telecom-bakelite-300-series-bell.mp3",
+        "title": "Old Phone 08",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-08.mp3",
         "posterPath": ""
     },
     {
         "id": "9",
-        "title": "Model 36 Bakelite Ring",
-        "subtitle": "Siemens",
-        "audioPath": "audios/siemens-model-36-bakelite-ring.mp3",
+        "title": "Old Phone 09",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-09.mp3",
         "posterPath": ""
     },
     {
         "id": "10",
-        "title": "FeTAP 611 Rotary Bell Ring",
-        "subtitle": "Siemens",
-        "audioPath": "audios/siemens-fetap-611-rotary-bell-ring.mp3",
+        "title": "Old Phone 10",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-10.mp3",
         "posterPath": ""
     },
     {
         "id": "11",
-        "title": "W48 Vintage Desk Bell",
-        "subtitle": "Siemens",
-        "audioPath": "audios/siemens-w48-vintage-desk-bell.mp3",
+        "title": "Old Phone 11",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-11.mp3",
         "posterPath": ""
     },
     {
         "id": "12",
-        "title": "Dialog 1960s Classic Bell",
-        "subtitle": "Ericsson",
-        "audioPath": "audios/ericsson-dialog-1960s-classic-bell.mp3",
+        "title": "Old Phone 12",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-12.mp3",
         "posterPath": ""
     },
     {
         "id": "13",
-        "title": "Ericofon Cobra Buzzer Ring",
-        "subtitle": "Ericsson",
-        "audioPath": "audios/ericsson-ericofon-cobra-buzzer-ring.mp3",
+        "title": "Old Phone 13",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-13.mp3",
         "posterPath": ""
     },
     {
         "id": "14",
-        "title": "Skeletal 1892 Antique Bell",
-        "subtitle": "Ericsson",
-        "audioPath": "audios/ericsson-skeletal-1892-antique-bell.mp3",
+        "title": "Old Phone 14",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-14.mp3",
         "posterPath": ""
     },
     {
         "id": "15",
-        "title": "AE Type 40 Monophone Bell",
-        "subtitle": "Automatic Electric",
-        "audioPath": "audios/automatic-electric-ae-type-40-monophone-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "16",
-        "title": "AE Type 80 Strowger Ring",
-        "subtitle": "Automatic Electric",
-        "audioPath": "audios/automatic-electric-ae-type-80-strowger-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "17",
-        "title": "Redbar 1000 Dual Bell",
-        "subtitle": "Kellogg",
-        "audioPath": "audios/kellogg-redbar-1000-dual-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "18",
-        "title": "Oak Box Magneto Bell",
-        "subtitle": "Kellogg",
-        "audioPath": "audios/kellogg-oak-box-magneto-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "19",
-        "title": "Antique Wall Crank Ringer",
-        "subtitle": "Automatic Electric",
-        "audioPath": "audios/automatic-electric-antique-wall-crank-ringer.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "20",
-        "title": "Vintage Candlestick Desk Bell",
-        "subtitle": "Stromberg-Carlson",
-        "audioPath": "audios/stromberg-carlson-vintage-candlestick-desk-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "21",
-        "title": "Model 1243 Fat Boy Ringer",
-        "subtitle": "Stromberg-Carlson",
-        "audioPath": "audios/stromberg-carlson-model-1243-fat-boy-ringer.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "22",
-        "title": "Socotel S63 Rotary Classic Ring",
-        "subtitle": "PTT France",
-        "audioPath": "audios/ptt-france-socotel-s63-rotary-classic-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "23",
-        "title": "U43 Bakelite Double Ring",
-        "subtitle": "PTT France",
-        "audioPath": "audios/ptt-france-u43-bakelite-double-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "24",
-        "title": "PTT 24 Martinet Vintage Bell",
-        "subtitle": "PTT France",
-        "audioPath": "audios/ptt-france-ptt-24-martinet-vintage-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "25",
-        "title": "Antique Public Payphone Bell",
-        "subtitle": "Nippon Telegraph",
-        "audioPath": "audios/nippon-telegraph-antique-public-payphone-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "26",
-        "title": "Model 1543 Bakelite Chime",
-        "subtitle": "Stromberg-Carlson",
-        "audioPath": "audios/stromberg-carlson-model-1543-bakelite-chime.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "27",
-        "title": "Alpha Vintage GDR Rotary Ring",
-        "subtitle": "VEB Stern-Radio",
-        "audioPath": "audios/veb-stern-radio-alpha-vintage-gdr-rotary-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "28",
-        "title": "Variant Vintage Dual Tone Bell",
-        "subtitle": "VEB Stern-Radio",
-        "audioPath": "audios/veb-stern-radio-variant-vintage-dual-tone-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "29",
-        "title": "Vintage Office Switchboard Ring",
-        "subtitle": "Standard Elektrik Lorenz",
-        "audioPath": "audios/standard-elektrik-lorenz-vintage-office-switchboard-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "30",
-        "title": "TA-68 Classic Soviet Rotary Bell",
-        "subtitle": "Soviet VEF",
-        "audioPath": "audios/soviet-vef-ta-68-classic-soviet-rotary-bell.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "31",
-        "title": "BAGTA-50 Vintage Bakelite Ring",
-        "subtitle": "Soviet VEF",
-        "audioPath": "audios/soviet-vef-bagta-50-vintage-bakelite-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "32",
-        "title": "SEL Assistent Vintage Ringer",
-        "subtitle": "Standard Elektrik Lorenz",
-        "audioPath": "audios/standard-elektrik-lorenz-sel-assistent-vintage-ringer.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "33",
-        "title": "Stella 1970s Kremlin Desk Ring",
-        "subtitle": "Soviet VEF",
-        "audioPath": "audios/soviet-vef-stella-1970s-kremlin-desk-ring.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "34",
-        "title": "Grillo Folding Vintage Chime",
-        "subtitle": "Italtel",
-        "audioPath": "audios/italtel-grillo-folding-vintage-chime.mp3",
-        "posterPath": ""
-    },
-    {
-        "id": "35",
-        "title": "1950s Metal Gong Bell",
-        "subtitle": "Standard Elektrik Lorenz",
-        "audioPath": "audios/standard-elektrik-lorenz-1950s-metal-gong-bell.mp3",
+        "title": "Old Phone 15",
+        "subtitle": "Old Phone",
+        "audioPath": "audios/old-phone-15.mp3",
         "posterPath": ""
     }
 ]
